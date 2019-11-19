@@ -1,0 +1,21 @@
+D0 dataset 10001 is ready for fitting
+CDF dataset 10002 is ready for fitting
+STAR MB dataset 10003 is ready for fitting
+STAR HT dataset 10004 is ready for fitting
+
+dataset 19999 is a test set of 10002 with no correlation treatment
+
+dataset 10001 has mu set to be pt
+dataset 10002 has mu set to be 0.5 pt
+dataset 10003 has mu set to be pt
+
+unit conversion indicator has to be the same for the whole file, because the numeric unit conversion factor is read in only based on the first entry
+
+dataset 10002 and 10003 uses cteq6
+in dataset 10002, unfolding uncertainty is named as "%_defold_c" in order not to be confused with correlation and uncorrelation labels
+
+under key 'obs', '<' and '>' can only be used as pairs to represent averaging
+
+'_c' means correlated uncertainty, '_u' means uncorrelated uncertainty, what precedes them does not matter to the code
+
+when either the systematic or statistical uncertainties have a positive and negative that are different in magnitude, only the one with a larger magnitude is written into the data file
