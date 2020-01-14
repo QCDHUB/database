@@ -9,10 +9,15 @@ dataset 10001 has mu set to be pt
 dataset 10002 has mu set to be 0.5 pt
 dataset 10003 has mu set to be pt
 
+dataset 10001 does not have norm
+dataset 10002 has norm but is fixed
+dataset 10003 does not have norm
+dataset 10004 does not have norm
+
 unit conversion indicator has to be the same for the whole file, because the numeric unit conversion factor is read in only based on the first entry
 
 dataset 10002 and 10003 uses cteq6
-in dataset 10002, unfolding uncertainty is named as "%_defold_c" in order not to be confused with correlation and uncorrelation labels
+in dataset 10002, unfolding uncertainty is named as "%_defold_c" in order not to be confused with uncorrelation labels
 
 under key 'obs', '<' and '>' can only be used as pairs to represent averaging
 
