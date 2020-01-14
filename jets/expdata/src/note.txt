@@ -17,10 +17,14 @@ dataset 10004 does not have norm
 unit conversion indicator has to be the same for the whole file, because the numeric unit conversion factor is read in only based on the first entry
 
 dataset 10002 and 10003 uses cteq6
-in dataset 10002, unfolding uncertainty is named as "%_defold_c" in order not to be confused with uncorrelation labels
 
 under key 'obs', '<' and '>' can only be used as pairs to represent averaging
 
-'_c' means correlated uncertainty, '_u' means uncorrelated uncertainty, what precedes them does not matter to the code
+'_c' and '_u' means correlated and uncorrelated uncertainties respectively
+'%' means this uncertainty is a percentage
+other parts are names for human reading
+
+parton to hadron level correction will be multiplied to the data directly
+so make sure values are of form one plus relavtive corrections
 
 when either the systematic or statistical uncertainties have a positive and negative that are different in magnitude, only the one with a larger magnitude is written into the data file
