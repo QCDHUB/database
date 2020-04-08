@@ -1,33 +1,60 @@
-# pp and pd (per nucleon) Drell-Yan cross sections from E866 experiment at FNAL.
+# unpolarized Jet data from Tevatron and RHIC
 
-## Data collections and reviews:
-* http://p25ext.lanl.gov/e866/papers/e866dyabs/E866_Drell-Yan_Cross_Sections/E866_Drell-Yan_Cross_Sections.html
+## data tables
 
-## JAM database (converted into xlsx from ASCII files in CJ database)
+| index | ref                    | normalization | collision | year                                   | collaboration    | status |
+| ----- | -----                  | -----         | -----     | -----                                  | -----            | -----  |
+| 20001 | [drupal][link.20001]   | no            | `pp`      | 2006 paper on 2003 and 2004 data       | STAR             | ready  |
+| 20002 | [drupal][link.20002]   | yes           | `pp`      | 2012 paper on 2005 data                | STAR             | ready  |
+| 20003 | [drupal][link.20003]   | yes           | `pp`      | 2012 paper on 2006 data                | STAR             | ready  |
+| 20004 | [drupal][link.20004]   | yes           | `pp`      | 2015 paper on 2009 data                | STAR             | ready  |
+| 20005 | [phenix][link.20005]   | no            | `pp`      | 2011 paper on 2005 data                | PHENIX           | ready  |
+| 20006 | [drupal][link.20006]   | yes           | `pp`      | 2019 paper on 2012 data                | STAR             | ready  |
 
-The table below indexes and summarizes the E866 pp and pd Drell-Yan cross sections.
+[link.20001]: https://drupal.star.bnl.gov/STAR/files/starpublications/68/data.html
+[link.20002]: https://drupal.star.bnl.gov/STAR/files/starpublications/188/data.html
+[link.20003]: https://drupal.star.bnl.gov/STAR/files/starpublications/188/data.html
+[link.20004]: https://drupal.star.bnl.gov/STAR/files/starpublications/217/data.html
+[link.20005]: https://www.phenix.bnl.gov/phenix/WWW/info/data/ppg093_data.html
+[link.20006]: https://drupal.star.bnl.gov/STAR/files/starpublications/310/data.html
 
-### Observables
+## observables
 
-* M^3 dsig/dM dxF
+- $A_{L L}$
 
-### Columns:
+## headers
 
-- RS    = root(s) [GeV]
-- Rtau  = root(tau) [GeV]
-- xF    = x1 - x2
-- obs   = M^3 dsig/dM dxF
-- units = nb GeV^2
-- value = cross section
-- stat  = statistical uncertainty
-- syst  = systematic uncertainty
+- `idx`: indices
+- `col`: collaboration
+- `particles-in`: `pp` for proton proton collision and `ppb` for proton anti proton collision
+- `RS`: $\sqrt{s}$ in GeV
+- `pt-min`: minimum $p_T$ in GeV
+- `pt-max`: maximum $p_T$ in GeV
+- `pT`: average $p_T$ in GeV
+- `tau`: $\frac{2 p_t}{\sqrt{s}}$
+- `eta-abs-min`: minimum $\left| \eta \right|$
+- `eta-abs-max`: maximum $\left| \eta \right|$
+- `eta-min`: minimum $\eta$
+- `eta-max`: maximum $\eta$
+- `cone-radius`: radius used in Jet algorithm
+- `obs`: observable[observable]
+- `units`: `pb` for pico barn and `nb` for nano barn[unit]
+- `value`: experimental values of observable
 
-## Data table
+[observable]: `<` and `>` can only be used in pairs to represent averaging.
+[unit]: Values of `units` have to be the same for the whole dataset, because the numeric unit conversion factor is read in only based on the first entry.
 
-| index | ref              | process | target | obs             | experiment    | status |
-| :--:  | :--:             | :--:    | :--:   | :--:            | :--:          | :--:   |
-| 10001 | [link][ref10001] | DY      | pp     | M^3 dsig/dM dxF | Fermilab E866 | FINAL  |
-| 10002 | [link][ref10001] | DIS     | pd     | M^3 dsig/dM dxF | Fermilab E866 | FINAL  |
+## uncertainties and corrections
 
-[ref10001]: https://inspirehep.net/record/554316
-[ref10001]: https://inspirehep.net/record/554316
+When either the systematic or statistical uncertainties have a positive and negative and are different in magnitude, only the one with a larger magnitude is written in the data file.
+
+- `_c` means correlated and and `_u` means uncorrelated
+
+- `%` means the uncertainty or normalization or other types of corrections is a percentage
+
+- `norm` is reserved for normalization
+
+- `parton-to-hadron` is the correction from parton level calculation to hadron level, it is 1 plus the relative correction
+
+## STAR 2019 paper on 2012 data
+According to the paper, part of the systematic uncertainties in STAR 2019 paper on 2012 data are uncorrelated.
