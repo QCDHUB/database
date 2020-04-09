@@ -11,7 +11,12 @@
 
 <br/>
 
-dataset 19999 is a test dataset
+1. dataset 10092 is a copy of dataset 10002
+
+    - it adds all systematic uncertainties in 10002 in quadrature to give one single overall systematic uncertainty
+    - it treats this one single systematic uncertainty as uncorrelated
+
+2. dataset 19999 is a test dataset
 
 [link.10001]: https://www.hepdata.net/record/ins779574
 [link.10002]: https://www.hepdata.net/record/ins790693
@@ -60,5 +65,11 @@ When either the systematic or statistical uncertainties have a positive and nega
 
 ## CDF
 - We have examined carefully CJ15, the correlated systematic uncertainties are added in quadrature.
+    - `./fitpack/theory/altpfit15.f`
+        1. subroutine `fildat` instance in line 1857
+        2. special treatment for CDF data in line 1947
+    - `./fitpack/util/minim15.f`
+        1. subroutine `DATSCN` in line 250
+        2. special treatment for CDF data in line 312
 - CJ15 has a covariance matrix for CDF (such covariance matrix does not exist in the literature).
 - [Joseph Owens](mailto:owens@hep.fsu.edu) claims that using the covariance matrix or adding everything in quadrature give same low $\chi ^2$.
