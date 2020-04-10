@@ -71,5 +71,5 @@ When either the systematic or statistical uncertainties have a positive and nega
     - `./fitpack/util/minim15.f`
         1. subroutine `DATSCN` in line 250
         2. special treatment for CDF data in line 312
-- CJ15 has a covariance matrix for CDF (such covariance matrix does not exist in the literature).
+- CJ15 has a covariance matrix for CDF run I data (such covariance matrix does not exist in the literature?).
 - [Joseph Owens](mailto:owens@hep.fsu.edu) claims that using the covariance matrix or adding everything in quadrature give same low $\chi ^2$.
