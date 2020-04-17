@@ -11,12 +11,16 @@
 
 <br/>
 
-1. dataset 10092 is a copy of dataset 10002
+1. dataset 10082 is a copy of dataset 10002
+
+    - it treats systematic uncertainties that are only correlated over single $\left| \eta \right|$ bin as fully correlated over all bins
+
+2. dataset 10092 is a copy of dataset 10002
 
     - it adds all systematic uncertainties in 10002 in quadrature to give one single overall systematic uncertainty
     - it treats this one single systematic uncertainty as uncorrelated
 
-2. dataset 19999 is a test dataset
+3. dataset 19999 is a test dataset
 
 [link.10001]: https://www.hepdata.net/record/ins779574
 [link.10002]: https://www.hepdata.net/record/ins790693
@@ -71,5 +75,6 @@ When either the systematic or statistical uncertainties have a positive and nega
     - `./fitpack/util/minim15.f`
         1. subroutine `DATSCN` in line 250
         2. special treatment for CDF data in line 312
-- CJ15 has a covariance matrix for CDF run I data (such covariance matrix does not exist in the literature?).
+- CJ15 has a covariance matrix for CDF run I data.
 - [Joseph Owens](mailto:owens@hep.fsu.edu) claims that using the covariance matrix or adding everything in quadrature give same low $\chi ^2$.
+- [Joseph Owens](mailto:owens@hep.fsu.edu) that for CDF run II data, CJ used the errors added in quadrature and the covariance matrix is for CDF run I data.
