@@ -11,21 +11,24 @@
 
 <br/>
 
-1. dataset 10082 is a copy of dataset 10002
+1. dataset [10099][link.10099] is the cone algorithm version of dataset 10002
+
+2. dataset 10082 is a copy of dataset 10099 except
 
     - it treats systematic uncertainties that are only correlated over single $\left| \eta \right|$ bin as fully correlated over all bins
 
-2. dataset 10092 is a copy of dataset 10002
+3. dataset 10092 is a copy of dataset 10099 except
 
     - it adds all systematic uncertainties in 10002 in quadrature to give one single overall systematic uncertainty
     - it treats this one single systematic uncertainty as uncorrelated
 
-3. dataset 19999 is a test dataset
+4. dataset 19999 is a test dataset
 
 [link.10001]: https://www.hepdata.net/record/ins779574
-[link.10002]: https://www.hepdata.net/record/ins790693
+[link.10002]: https://www.hepdata.net/record/ins743342
 [link.10003]: https://drupal.star.bnl.gov/STAR/files/starpublications/68/data.html
 [link.10004]: https://drupal.star.bnl.gov/STAR/files/starpublications/68/data.html
+[link.10099]: https://www.hepdata.net/record/ins790693
 
 ## observables
 
