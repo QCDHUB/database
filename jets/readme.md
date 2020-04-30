@@ -5,7 +5,7 @@
 | index | ref                    | normalization | collision | year                                   | collaboration    | status |
 | ----- | -----                  | -----         | -----     | -----                                  | -----            | -----  |
 | 10001 | [HEP Data][link.10001] | no            | `ppb`     | 2004 to 2005 run II data               | D0               | ready  |
-| 10002 | [HEP Data][link.10002] | yes           | `ppb`     | 2008 paper on 2002 to 2006 run II data | CDF              | ready  |
+| 10002 | [HEP Data][link.10002] | yes           | `ppb`     | 2007 paper on 2002 to 2006 run II data | CDF              | ready  |
 | 10003 | [drupal][link.10003]   | no            | `pp`      | 2006 paper on 2003 to 2004 data        | STAR MB          | ready  |
 | 10004 | [drupal][link.10004]   | no            | `pp`      | 2006 paper on 2003 to 2004 data        | STAR HT          | ready  |
 
@@ -15,7 +15,7 @@
 
 2. dataset 10082 is a copy of dataset 10099 except
 
-    - it treats systematic uncertainties that are only correlated over single $\left| \eta \right|$ bin as fully correlated over all bins
+    - it treats systematic uncertainties that are only correlated within single $\left| \eta \right|$ bin as fully correlated over all bins
 
 3. dataset 10092 is a copy of dataset 10099 except
 
