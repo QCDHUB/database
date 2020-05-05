@@ -19,6 +19,11 @@
 
 3. dataset 10092 is a copy of dataset 10099 except
 
+    - it adds all systematic uncertainties in 10099 in quadrature to give one single overall systematic uncertainty
+    - it treats this one single systematic uncertainty as uncorrelated
+
+3. dataset 10072 is a copy of dataset 10002 except
+
     - it adds all systematic uncertainties in 10002 in quadrature to give one single overall systematic uncertainty
     - it treats this one single systematic uncertainty as uncorrelated
 
