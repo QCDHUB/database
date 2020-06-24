@@ -24,8 +24,8 @@
 
 3. dataset 10072 is a copy of dataset 10002 except
 
-    - it separates the total systematic uncertainty into components
-    - it treats the systematic uncertainties correlated as described in the paper
+    - it adds all systematic uncertainties in 10002 in quadrature to give one single overall systematic uncertainty
+    - it treats this one single systematic uncertainty as uncorrelated
 
 4. dataset 19999 is a test dataset
 
