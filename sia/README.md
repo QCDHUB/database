@@ -70,6 +70,14 @@
 | 4005  |      | SIA     | hadron | 91.2  | OPAL(b)     |              |
 | 4006  |      | SIA     | hadron | 91.2  | OPAL(c)     |              |
 | 4007  |      | SIA     | hadron | 91.2  | OPAL        |              |
+| 4008  |      | SIA     | hadron | 14    | TASSO       |              |
+| 4009  |      | SIA     | hadron | 22    | TASSO       |              |
+| 4010  |      | SIA     | hadron | 30    | TASSO       |              |
+| 4011  |      | SIA     | hadron | 35    | TASSO       |              |
+| 4012  |      | SIA     | hadron | 44    | TASSO       |              |
+| 4013  |      | SIA     | hadron | 91.2  | DELPHI(b)   |              |
+| 4014  |      | SIA     | hadron | 91.28 | SLD(c)      |              |
+| 4015  |      | SIA     | hadron | 91.28 | SLD(b)      |              |
 
 30XX: pythia
 
