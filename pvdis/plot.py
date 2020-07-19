@@ -47,19 +47,19 @@ def plot():
       
 
     ax11.set_xlabel(r'$x$',size=20)      
-    ax11.set_ylabel(r'$|A_{PV}|$',size=20)      
+    ax11.set_ylabel(r'$-A_{PV}$',size=20)      
     ax11.set_ylim(1e-4,1)
 
     ax11.text(0.03,0.07,r'$Q^2=%s$'%np.round(Q2[0],1),transform=ax11.transAxes,size=12)
-    ax11.text(0.03,0.17,r'$Q^2=%s$'%np.round(Q2[1],1),transform=ax11.transAxes,size=12)
-    ax11.text(0.03,0.25,r'$Q^2=%s$'%np.round(Q2[2],1),transform=ax11.transAxes,size=12)
-    ax11.text(0.03,0.38,r'$Q^2=%s$'%np.round(Q2[3],1),transform=ax11.transAxes,size=12)
-    ax11.text(0.03,0.48,r'$Q^2=%s$'%np.round(Q2[4],1),transform=ax11.transAxes,size=12)
-    ax11.text(0.03,0.58,r'$Q^2=%s$'%np.round(Q2[5],1),transform=ax11.transAxes,size=12)
-    ax11.text(0.03,0.68,r'$Q^2=%s$'%np.round(Q2[6],1),transform=ax11.transAxes,size=12)
-    ax11.text(0.03,0.78,r'$Q^2=%s$'%np.round(Q2[7],1),transform=ax11.transAxes,size=12)
-    ax11.text(0.03,0.85,r'$Q^2=%s$'%np.round(Q2[8],1),transform=ax11.transAxes,size=12)
-    ax11.text(0.03,0.93,r'$Q^2=%s$'%np.round(Q2[9],1),transform=ax11.transAxes,size=12)
+    ax11.text(0.15,0.17,r'$Q^2=%s$'%np.round(Q2[1],1),transform=ax11.transAxes,size=12)
+    ax11.text(0.22,0.25,r'$Q^2=%s$'%np.round(Q2[2],1),transform=ax11.transAxes,size=12)
+    ax11.text(0.25,0.38,r'$Q^2=%s$'%np.round(Q2[3],1),transform=ax11.transAxes,size=12)
+    ax11.text(0.35,0.48,r'$Q^2=%s$'%np.round(Q2[4],1),transform=ax11.transAxes,size=12)
+    ax11.text(0.40,0.58,r'$Q^2=%s$'%np.round(Q2[5],1),transform=ax11.transAxes,size=12)
+    ax11.text(0.50,0.68,r'$Q^2=%s$'%np.round(Q2[6],1),transform=ax11.transAxes,size=12)
+    ax11.text(0.55,0.78,r'$Q^2=%s$'%np.round(Q2[7],1),transform=ax11.transAxes,size=12)
+    ax11.text(0.60,0.85,r'$Q^2=%s$'%np.round(Q2[8],1),transform=ax11.transAxes,size=12)
+    ax11.text(0.70,0.93,r'$Q^2=%s$'%np.round(Q2[9],1),transform=ax11.transAxes,size=12)
 
 
     py.tight_layout()
