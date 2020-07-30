@@ -60,8 +60,8 @@
 ## simulation tables
 | index | ref                    | process | target   | obs              | experiment            | notes             |
 | :--:  | :--:                   | :--:    | :--      | :--:             | :--:                  | :--:              |
-| 90001 |                        | PVDIS   | proton   | A_PV             | JAM4EIC               |                   |
-| 90001 |                        | PVDIS   | deuteron | A_PV             | JAM4EIC               |                   |
+| 90001 |                        | PVDIS   | proton   | A_PV_e           | JAM4EIC               |                   |
+| 90002 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               |                   |
 
 
 
