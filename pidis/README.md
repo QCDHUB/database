@@ -56,6 +56,11 @@
 | 20002 |  pdis    | deuteron | Apa    | Jlab12HB(EG1b) | E=11 GeV  90 days |
 | 20003 |  pvdis   | helium   | Apvdis | Jlab12PVDIS    | E=11 GeV          |
 
+# EIC simulation
+| index |  process | target   | obs    | experiment     | comments          |
+| :--:  |  :--:    | :--:     | :--:   | :--:           | :--:              |
+| 90001 |  pvpdis  | proton   | A_PV   | JAM4EIC        |                   |
+
 
 [ref10033]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D60,072004
 [ref10034]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D58,112001
