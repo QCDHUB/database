@@ -59,7 +59,9 @@
 # EIC simulation
 | index |  process | target   | obs    | experiment     | comments          |
 | :--:  |  :--:    | :--:     | :--:   | :--:           | :--:              |
-| 90001 |  pvpdis  | proton   | A_PV   | JAM4EIC        |                   |
+| 90001 |  pvpdis  | proton   | A_PV_h | JAM4EIC        | Optimistic        |
+| 90011 |  pvpdis  | proton   | A_PV_h | JAM4EIC        | Moderate          |
+| 90021 |  pvpdis  | proton   | A_PV_h | JAM4EIC        | Pessimistic       |
 
 
 [ref10033]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D60,072004

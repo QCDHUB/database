@@ -60,8 +60,12 @@
 ## simulation tables
 | index | ref                    | process | target   | obs              | experiment            | notes             |
 | :--:  | :--:                   | :--:    | :--      | :--:             | :--:                  | :--:              |
-| 90001 |                        | PVDIS   | proton   | A_PV_e           | JAM4EIC               |                   |
-| 90002 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               |                   |
+| 90001 |                        | PVDIS   | proton   | A_PV_e           | JAM4EIC               | Optimistic        |
+| 90002 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               | Optimistic        |
+| 90011 |                        | PVDIS   | proton   | A_PV_e           | JAM4EIC               | Moderate          |
+| 90012 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               | Moderate          |
+| 90021 |                        | PVDIS   | proton   | A_PV_e           | JAM4EIC               | Pessimistic       |
+| 90022 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               | Pessimistic       |
 
 
 
