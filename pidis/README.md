@@ -61,6 +61,8 @@
 | :--:  |  :--:    | :--:     | :--:   | :--:           | :--:              |
 | 90001 |  pvpdis  | proton   | A_PV_h | JAM4EIC        | Optimistic        |
 
+<br>
+
 | index |  process | target   | obs    | experiment     | uncertainty       | parameterization  | comment           |
 | :--:  |  :--:    | :--:     | :--:   | :--:           | :--:              | :--:              | :--:              |
 | 80001 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | plus              |                   |
@@ -72,7 +74,10 @@
 | 80051 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | plus              | outliers removed  |
 | 80052 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed  |
 
-outliers are removed with the following filter during inspection
+<br>
+
+where the outliers are removed with the following filter during inspection
+
 <pre>
 FILT = []
 FILT.append(('g1 N' ,  0.0, 'less')) ## filter out negative gluons
