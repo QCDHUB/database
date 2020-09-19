@@ -61,6 +61,26 @@
 | :--:  |  :--:    | :--:     | :--:   | :--:           | :--:              |
 | 90001 |  pvpdis  | proton   | A_PV_h | JAM4EIC        | Optimistic        |
 
+| index |  process | target   | obs    | experiment     | uncertainty       | parameterization  | comment           |
+| :--:  |  :--:    | :--:     | :--:   | :--:           | :--:              | :--:              | :--:              |
+| 80001 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | plus              |                   |
+| 80002 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           |                   |
+| 80021 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | plus              |                   |
+| 80022 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           |                   |
+| 80031 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | plus              | outliers removed  |
+| 80032 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed  |
+| 80051 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | plus              | outliers removed  |
+| 80052 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed  |
+
+outliers are removed with the following filter during inspection
+<pre>
+FILT = []
+FILT.append(('g1 N' ,  0.0, 'less')) ## filter out negative gluons
+FILT.append(('sp1 N',  0.3, 'greater')) ## filter out PPDF outliers
+FILT.append(('uv1 d', -5.0, 'less')) ## filter out PPDF outliers
+FILT.append(('dp1 a',  1.0, 'greater')) ## filter out PPDF outliers
+FILT.append(('dp1 d', -5.0, 'less')) ## filter out PPDF outliers
+</pre>
 
 [ref10033]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D60,072004
 [ref10034]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D58,112001
