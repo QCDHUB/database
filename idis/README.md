@@ -62,6 +62,9 @@
 | :--:  | :--:                   | :--:    | :--      | :--:             | :--:                  | :--:              |
 | 90001 |                        | PVDIS   | proton   | A_PV_e           | JAM4EIC               | Optimistic        |
 | 90002 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               | Optimistic        |
+| 70001 |                        | DIS NC  | proton   | sigma red        | JAM4EIC               | Optimistic        |
+| 70002 |                        | DIS NC  | deuteron | sigma red        | JAM4EIC               | Optimistic        |
+| 70011 |                        | DIS CC  | proton   | sigma red        | JAM4EIC               | Optimistic        |
 
 
 
