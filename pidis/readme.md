@@ -59,7 +59,9 @@
 # EIC simulation
 | index |  process | target   | obs    | experiment     | comments          |
 | :--:  |  :--:    | :--:     | :--:   | :--:           | :--:              |
-| 90001 |  pvpdis  | proton   | A_PV_h | JAM4EIC        | Optimistic        |
+| 90001 |  pvpdis  | proton   | A_PV_h | JAM4EIC        | mean        |
+| 90011 |  pvpdis  | proton   | A_PV_h | JAM4EIC        | min         |
+| 90021 |  pvpdis  | proton   | A_PV_h | JAM4EIC        | max         |
 
 <br>
 
