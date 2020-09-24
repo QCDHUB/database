@@ -67,8 +67,6 @@
 | 90002 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               |                   |
 
 
-
-
 [ref10001-10004]: http://inspirehep.net/record/820503?ln=en
 [ref10005-10009]: http://inspirehep.net/record/894309
 [ref10010-10015]: ....TO.BE.ADDED....
