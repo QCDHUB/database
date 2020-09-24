@@ -60,8 +60,11 @@
 ## simulation tables
 | index | ref                    | process | target   | obs              | experiment            | notes             |
 | :--:  | :--:                   | :--:    | :--      | :--:             | :--:                  | :--:              |
-| 90001 |                        | PVDIS   | proton   | A_PV_e           | JAM4EIC               | Optimistic        |
-| 90002 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               | Optimistic        |
+| 70001 |                        | DIS     | proton   | sigma red        | JAM4EIC NC e-         |                   |
+| 70002 |                        | DIS     | deuteron | sigma red        | JAM4EIC NC e-         |                   |
+| 70011 |                        | DIS     | proton   | sigma red        | JAM4EIC CC e-         |                   |
+| 90001 |                        | PVDIS   | proton   | A_PV_e           | JAM4EIC               |                   |
+| 90002 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               |                   |
 
 
 
