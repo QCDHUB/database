@@ -75,18 +75,28 @@
 | 80032 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed  |
 | 80051 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | plus              | outliers removed  |
 | 80052 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed  |
+| 80062 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use the largest g_1 solution  |
+| 80082 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use the largest g_1 solution  |
+| 80091 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use the positive g_1 solution one sigma larger than the mean   |
+| 80092 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use the positive g_1 solution one sigma larger than the mean   |
+| 80093 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use the negative g_1 solution one sigma smaller than the mean  |
+| 80094 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use the negative g_1 solution one sigma smaller than the mean  |
+| 80095 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use an A_LL one sigma larger than its mean   |
+| 80096 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use an A_LL one sigma larger than its mean   |
+| 80097 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use an A_LL one sigma smaller than its mean  |
+| 80098 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use an A_LL one sigma smaller than its mean  |
 
 <br>
 
-where the outliers are removed with the following filter during inspection
+the outliers are removed with the following filter during inspection
 
 <pre>
 FILT = []
-FILT.append(('g1 N' ,  0.0, 'less')) ## filter out negative gluons
-FILT.append(('sp1 N',  0.3, 'greater')) ## filter out PPDF outliers
-FILT.append(('uv1 d', -5.0, 'less')) ## filter out PPDF outliers
-FILT.append(('dp1 a',  1.0, 'greater')) ## filter out PPDF outliers
-FILT.append(('dp1 d', -5.0, 'less')) ## filter out PPDF outliers
+FILT.append(('ppdf', 'g1 N' ,  0.0, 'less')) ## filter out negative gluons
+FILT.append(('ppdf', 'sp1 N',  0.3, 'greater')) ## filter out PPDF outliers
+FILT.append(('ppdf', 'uv1 d', -5.0, 'less')) ## filter out PPDF outliers
+FILT.append(('ppdf', 'dp1 a',  1.0, 'greater')) ## filter out PPDF outliers
+FILT.append(('ppdf', 'dp1 d', -5.0, 'less')) ## filter out PPDF outliers
 </pre>
 
 [ref10033]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D60,072004
