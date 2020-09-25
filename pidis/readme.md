@@ -73,24 +73,24 @@
 
 | index |  process | target   | obs    | experiment     | uncertainty       | parameterization  | comment           |
 | :--:  |  :--:    | :--:     | :--:   | :--:           | :--:              | :--:              | :--:              |
-| 80001 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | plus              |                   |
-| 80002 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           |                   |
-| 80021 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | plus              |                   |
-| 80022 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           |                   |
-| 80031 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | plus              | outliers removed  |
-| 80032 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed  |
-| 80051 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | plus              | outliers removed  |
-| 80052 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed  |
-| 80062 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use the largest g_1 solution  |
-| 80082 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use the largest g_1 solution  |
-| 80091 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use the positive g_1 solution one sigma larger than the mean   |
-| 80092 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use the positive g_1 solution one sigma larger than the mean   |
-| 80093 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use the negative g_1 solution one sigma smaller than the mean  |
-| 80094 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use the negative g_1 solution one sigma smaller than the mean  |
-| 80095 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use an A_LL one sigma larger than its mean   |
-| 80096 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use an A_LL one sigma larger than its mean   |
-| 80097 |  pvpdis  | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use an A_LL one sigma smaller than its mean  |
-| 80098 |  pvpdis  | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use an A_LL one sigma smaller than its mean  |
+| 80001 |  pdis    | proton   | A_ll   | JAM4EIC        | optimistic        | plus              |                   |
+| 80002 |  pdis    | proton   | A_ll   | JAM4EIC        | optimistic        | valence           |                   |
+| 80021 |  pdis    | proton   | A_ll   | JAM4EIC        | pessimistic       | plus              |                   |
+| 80022 |  pdis    | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           |                   |
+| 80031 |  pdis    | proton   | A_ll   | JAM4EIC        | optimistic        | plus              | outliers removed  |
+| 80032 |  pdis    | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed  |
+| 80051 |  pdis    | proton   | A_ll   | JAM4EIC        | pessimistic       | plus              | outliers removed  |
+| 80052 |  pdis    | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed  |
+| 80062 |  pdis    | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use the largest g_1 solution  |
+| 80082 |  pdis    | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use the largest g_1 solution  |
+| 80091 |  pdis    | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use the positive g_1 solution one sigma larger than the mean   |
+| 80092 |  pdis    | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use the positive g_1 solution one sigma larger than the mean   |
+| 80093 |  pdis    | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use the negative g_1 solution one sigma smaller than the mean  |
+| 80094 |  pdis    | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use the negative g_1 solution one sigma smaller than the mean  |
+| 80095 |  pdis    | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use an A_LL one sigma larger than its mean   |
+| 80096 |  pdis    | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use an A_LL one sigma larger than its mean   |
+| 80097 |  pdis    | proton   | A_ll   | JAM4EIC        | optimistic        | valence           | outliers removed, use an A_LL one sigma smaller than its mean  |
+| 80098 |  pdis    | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | outliers removed, use an A_LL one sigma smaller than its mean  |
 
 <br>
 
