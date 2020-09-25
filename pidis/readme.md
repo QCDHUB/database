@@ -57,11 +57,17 @@
 | 20003 |  pvdis   | helium   | Apvdis | Jlab12PVDIS    | E=11 GeV          |
 
 # EIC simulation
-| index |  process | target   | obs    | experiment     | comments          |
-| :--:  |  :--:    | :--:     | :--:   | :--:           | :--:              |
+| index |  process | target   | obs    | experiment     | comments    |
+| :--:  |  :--:    | :--:     | :--:   | :--:           | :--:        |
 | 90001 |  pvpdis  | proton   | A_PV_h | JAM4EIC        | mean        |
 | 90011 |  pvpdis  | proton   | A_PV_h | JAM4EIC        | min         |
 | 90021 |  pvpdis  | proton   | A_PV_h | JAM4EIC        | max         |
+
+| index |  process | target   | obs    | experiment     | comments    |
+| :--:  |  :--:    | :--:     | :--:   | :--:           | :--:        |
+| 70001 |  pdis    | proton   | sigLT  | JAM4EIC        | mean        |
+| 70011 |  pdis    | proton   | sigLT  | JAM4EIC        | min         |
+| 70021 |  pdis    | proton   | sigLT  | JAM4EIC        | max         |
 
 <br>
 
