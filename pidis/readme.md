@@ -66,8 +66,8 @@
 | index |  process | target   | obs    | experiment     | comments    |
 | :--:  |  :--:    | :--:     | :--:   | :--:           | :--:        |
 | 70001 |  pdis    | proton   | sigLT  | JAM4EIC        | mean        |
-| 70011 |  pdis    | proton   | sigLT  | JAM4EIC        | min         |
-| 70021 |  pdis    | proton   | sigLT  | JAM4EIC        | max         |
+| 70002 |  pdis    | deuteron | sigLT  | JAM4EIC        | mean        |
+| 70003 |  pdis    | helium   | sigLT  | JAM4EIC        | mean        |
 
 <br>
 
