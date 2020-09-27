@@ -65,11 +65,6 @@
 | 70011 |                        | DIS     | proton   | sigma red        | JAM4EIC CC e-         |                   |
 | 90001 |                        | PVDIS   | proton   | A_PV_e           | JAM4EIC               | mean              |
 | 90002 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               | mean              |
-| 90011 |                        | PVDIS   | proton   | A_PV_e           | JAM4EIC               | mean - std        |
-| 90012 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               | mean - std        |
-| 90011 |                        | PVDIS   | proton   | A_PV_e           | JAM4EIC               | mean + std        |
-| 90012 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               | mean + std        |
-
 
 [ref10001-10004]: http://inspirehep.net/record/820503?ln=en
 [ref10005-10009]: http://inspirehep.net/record/894309
