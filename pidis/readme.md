@@ -65,9 +65,12 @@
 
 | index |  process | target   | obs    | experiment     | comments    |
 | :--:  |  :--:    | :--:     | :--:   | :--:           | :--:        |
-| 70001 |  pdis    | proton   | sigLT  | JAM4EIC        | mean        |
-| 70002 |  pdis    | deuteron | sigLT  | JAM4EIC        | mean        |
-| 70003 |  pdis    | helium   | sigLT  | JAM4EIC        | mean        |
+| 70001 |  pdis    | proton   | Ape    | JAM4EIC        | using g1 fit|
+| 70002 |  pdis    | deuteron | Ape    | JAM4EIC        | using g1 fit|
+| 70003 |  pdis    | helium   | Ape    | JAM4EIC        | using g1 fit|
+| 70011 |  pdis    | proton   | Ape    | JAM4EIC        | using gT fit|
+| 70012 |  pdis    | deuteron | Ape    | JAM4EIC        | using gT fit|
+| 70013 |  pdis    | helium   | Ape    | JAM4EIC        | using gT fit|
 
 <br>
 
