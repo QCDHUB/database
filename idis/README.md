@@ -63,6 +63,11 @@
 | 70001 |                        | DIS     | proton   | sigma red        | JAM4EIC NC e-         |                   |
 | 70002 |                        | DIS     | deuteron | sigma red        | JAM4EIC NC e-         |                   |
 | 70011 |                        | DIS     | proton   | sigma red        | JAM4EIC CC e-         |                   |
+| 70012 |                        | DIS     | deuteron | sigma red        | JAM4EIC CC e-         |                   |
+| 70021 |                        | DIS     | proton   | sigma red        | JAM4EIC NC e+         |                   |
+| 70022 |                        | DIS     | deuteron | sigma red        | JAM4EIC NC e+         |                   |
+| 70031 |                        | DIS     | proton   | sigma red        | JAM4EIC CC e+         |                   |
+| 70032 |                        | DIS     | deuteron | sigma red        | JAM4EIC CC e+         |                   |
 | 90001 |                        | PVDIS   | proton   | A_PV_e           | JAM4EIC               | mean              |
 | 90002 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               | mean              |
 
