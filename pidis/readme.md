@@ -92,6 +92,8 @@
 | 81001 |  pdis    | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | negative gluons removed, use an A_LL one sigma larger than its mean, pseudo data is smoothed  |
 | 81002 |  pdis    | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | negative gluons removed, use an central A_LL                                                  |
 | 81003 |  pdis    | proton   | A_ll   | JAM4EIC        | pessimistic       | valence           | negative gluons removed, use an A_LL one sigma smaller than its mean, pseudo data is smoothed |
+| 82002 |  pdis    | deoteron | A_ll   | JAM4EIC        | pessimistic       | valence           | negative gluons removed, use an central A_LL                                                  |
+| 82002 |  pdis    | helium   | A_ll   | JAM4EIC        | pessimistic       | valence           | negative gluons removed, use an central A_LL                                                  |
 
 <br>
 
