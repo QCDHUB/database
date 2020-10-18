@@ -1,6 +1,6 @@
 EIC kinematic templates.  Data Index:
-- 1000: X, Q2, RS values for EIC on A_PV (electron, hadron), A_parallel (Apa), and A_perp (Ape) (proton)
-- 1001: X, Q2, RS values for EIC on A_PV (electron, hadron), A_parallel (Apa), and A_perp (Ape) (deuteron/helium)
+- 1000: X, Q2, RS values for EIC on A_PV (electron, hadron), A_parallel (Apa), and A_perp (Ape) (proton) (lum=100 fb-1)
+- 1001: X, Q2, RS values for EIC on A_PV (electron, hadron), A_parallel (Apa), and A_perp (Ape) (deuteron/helium) (lum=10 fb-1)
 - 2000: X, Q2, RS, and uncertanty values for EIC on NC e-p lum=10 fb-1 reduced cross-section (optimistic)
 - 2001: X, Q2, RS, and uncertanty values for EIC on NC e-p lum=10 fb-1 reduced cross-section (pessimistic)
 - 2010: X, Q2, RS, and uncertanty values for EIC on CC e-p lum=10 fb-1 reduced cross-section (optimistic)
