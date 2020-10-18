@@ -11,7 +11,6 @@ EIC kinematic templates.  Data Index:
 - 2111: X, Q2, RS, and uncertanty values for EIC on CC e-p lum=100fb-1reduced cross-section (pessimistic)
 
 <br>
-Apa
 
 | index |  process | target   | obs      | experiment     | uncertainty       | parameterization  | comment           |
 | :--:  |  :--:    | :--:     | :--:     | :--:           | :--:              | :--:              | :--:              |
