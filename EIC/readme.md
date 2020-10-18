@@ -10,5 +10,12 @@ EIC kinematics.  Data Index:
 - 2110: X, Q2, RS, and uncertanty values for EIC on CC e-p lum=100fb-1reduced cross-section (optimistic)
 - 2111: X, Q2, RS, and uncertanty values for EIC on CC e-p lum=100fb-1reduced cross-section (pessimistic)
 
+Generated tables.  Data Index:
+- 70001: Ape,            proton target
+- 70002: Ape,            deuteron target
+- 70003: Ape,            helium target
+- 90001: PVDIS electron, proton target
+- 90002: PVDIS electron, deuteron target
+- 90011: PVDIS hadron,   proton target
 
 
