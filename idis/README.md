@@ -60,11 +60,14 @@
 ## simulation tables
 | index | ref                    | process | target   | obs              | experiment            | notes             |
 | :--:  | :--:                   | :--:    | :--      | :--:             | :--:                  | :--:              |
-| 90001 |                        | PVDIS   | proton   | A_PV_e           | JAM4EIC               |                   |
-| 90002 |                        | PVDIS   | deuteron | A_PV_e           | JAM4EIC               |                   |
-
-
-
+| 70001 |                        | DIS     | proton   | sigma red        | JAM4EIC NC e-         |                   |
+| 70002 |                        | DIS     | deuteron | sigma red        | JAM4EIC NC e-         |                   |
+| 70011 |                        | DIS     | proton   | sigma red        | JAM4EIC CC e-         |                   |
+| 70012 |                        | DIS     | deuteron | sigma red        | JAM4EIC CC e-         |                   |
+| 70021 |                        | DIS     | proton   | sigma red        | JAM4EIC NC e+         |                   |
+| 70022 |                        | DIS     | deuteron | sigma red        | JAM4EIC NC e+         |                   |
+| 70031 |                        | DIS     | proton   | sigma red        | JAM4EIC CC e+         |                   |
+| 70032 |                        | DIS     | deuteron | sigma red        | JAM4EIC CC e+         |                   |
 
 [ref10001-10004]: http://inspirehep.net/record/820503?ln=en
 [ref10005-10009]: http://inspirehep.net/record/894309

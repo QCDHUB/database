@@ -11,21 +11,7 @@
 
 <br/>
 
-1. dataset [10099][link.10099] is the cone algorithm version of dataset 10002
-
-2. dataset 10082 is a copy of dataset 10099 except
-
-    - it treats systematic uncertainties that are only correlated within single $\left| \eta \right|$ bin as fully correlated over all bins
-
-3. dataset 10092 is a copy of dataset 10099 except
-
-    - it adds all systematic uncertainties in 10099 in quadrature to give one single overall systematic uncertainty
-    - it treats this one single systematic uncertainty as uncorrelated
-
-3. dataset 10072 is a copy of dataset 10002 except
-
-    - it adds all systematic uncertainties in 10002 in quadrature to give one single overall systematic uncertainty
-    - it treats this one single systematic uncertainty as uncorrelated
+1. dataset [10092][link.10092] is the cone algorithm version of dataset 10002
 
 4. dataset 19999 is a test dataset
 
@@ -33,7 +19,7 @@
 [link.10002]: https://www.hepdata.net/record/ins743342
 [link.10003]: https://drupal.star.bnl.gov/STAR/files/starpublications/68/data.html
 [link.10004]: https://drupal.star.bnl.gov/STAR/files/starpublications/68/data.html
-[link.10099]: https://www.hepdata.net/record/ins790693
+[link.10092]: https://www.hepdata.net/record/ins790693
 
 ## observables
 
@@ -84,5 +70,5 @@ When either the systematic or statistical uncertainties have a positive and nega
         1. subroutine `DATSCN` in line 250
         2. special treatment for CDF data in line 312
 - CJ15 has a covariance matrix for CDF run I data.
-- [Joseph Owens](mailto:owens@hep.fsu.edu) claims that using the covariance matrix or adding everything in quadrature give same low $\chi ^2$.
-- [Joseph Owens](mailto:owens@hep.fsu.edu) that for CDF run II data, CJ used the errors added in quadrature and the covariance matrix is for CDF run I data.
+- [Joseph Owens](mailto:owens@hep.fsu.edu) claimed that using the covariance matrix or adding everything in quadrature give same low $\chi ^2$.
+- [Joseph Owens](mailto:owens@hep.fsu.edu) confirmed that for CDF run II data, CJ used the errors added in quadrature and the covariance matrix is for CDF run I data.
