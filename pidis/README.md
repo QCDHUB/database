@@ -56,6 +56,10 @@
 | 20002 |  pdis    | deuteron | Apa    | Jlab12HB(EG1b) | E=11 GeV  90 days |
 | 20003 |  pvdis   | helium   | Apvdis | Jlab12PVDIS    | E=11 GeV          |
 
+# JAM Delta q+ "data"
+|50000| \Delta u+
+|50001| \Delta d+
+|50002| \Delta s+
 
 [ref10033]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D60,072004
 [ref10034]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D58,112001
