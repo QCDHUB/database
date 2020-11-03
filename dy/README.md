@@ -14,7 +14,7 @@ The table below indexes and summarizes the E866 pp and pd Drell-Yan cross sectio
 ### Columns:
 
 - RS    = root(s) [GeV]
-- Rtau  = root(tau) [GeV]
+- Rtau  = root(tau)
 - xF    = x1 - x2
 - obs   = M^3 dsig/dM dxF
 - units = nb GeV^2
@@ -27,7 +27,8 @@ The table below indexes and summarizes the E866 pp and pd Drell-Yan cross sectio
 | index | ref              | process | target | obs             | experiment    | status |
 | :--:  | :--:             | :--:    | :--:   | :--:            | :--:          | :--:   |
 | 10001 | [link][ref10001] | DY      | pp     | M^3 dsig/dM dxF | Fermilab E866 | FINAL  |
-| 10002 | [link][ref10001] | DIS     | pd     | M^3 dsig/dM dxF | Fermilab E866 | FINAL  |
+| 10002 | [link][ref10001] | DY      | pd     | M^3 dsig/dM dxF | Fermilab E866 | FINAL  |
+| 10003 |                  | DY      | N/A    | sigpd/2sigpp    | Fermilab E906 | FINAL  |
 
 [ref10001]: https://inspirehep.net/record/554316
 [ref10001]: https://inspirehep.net/record/554316
