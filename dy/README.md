@@ -10,15 +10,14 @@ The table below indexes and summarizes the E866 pp and pd Drell-Yan cross sectio
 ### Observables
 
 * M^3 dsig/dM dxF
-* sigpd/2sigpp
 
 ### Columns:
 
 - RS    = root(s) [GeV]
 - Rtau  = root(tau)
 - xF    = x1 - x2
-- units = nb GeV^2 or None
-- value = cross section or cross section ratio
+- units = nb GeV^2 
+- value = cross section
 - stat  = statistical uncertainty
 - syst  = systematic uncertainty
 
@@ -28,7 +27,6 @@ The table below indexes and summarizes the E866 pp and pd Drell-Yan cross sectio
 | :--:  | :--:             | :--:    | :--:   | :--:            | :--:          | :--:   |
 | 10001 | [link][ref10001] | DY      | pp     | M^3 dsig/dM dxF | Fermilab E866 | FINAL  |
 | 10002 | [link][ref10001] | DY      | pd     | M^3 dsig/dM dxF | Fermilab E866 | FINAL  |
-| 10003 |                  | DY      | pd/pp  | sigpd/2sigpp    | Fermilab E906 | FINAL  |
 
 [ref10001]: https://inspirehep.net/record/554316
 [ref10001]: https://inspirehep.net/record/554316
