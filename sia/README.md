@@ -78,6 +78,7 @@
 | 4013  |      | SIA     | hadron | 91.2  | DELPHI(b)   |              |
 | 4014  |      | SIA     | hadron | 91.28 | SLD(c)      |              |
 | 4015  |      | SIA     | hadron | 91.28 | SLD(b)      |              |
+| 5001  |      | SIA     | dipion | 10.58 | BELLE       | a12R,bins:z,M|
 
 30XX: pythia
 
