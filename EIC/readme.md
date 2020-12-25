@@ -1,4 +1,5 @@
 EIC kinematic templates.  Data Index:
+
 - 1000: X, Q2, RS values for EIC on A_PV (electron, hadron), A_parallel (Apa), and A_perp (Ape) (proton) (lum=100 fb-1)
 - 1001: X, Q2, RS values for EIC on A_PV (electron, hadron), A_parallel (Apa), and A_perp (Ape) (deuteron/helium) (lum=10 fb-1)
 - 2000: X, Q2, RS, and uncertanty values for EIC on NC e-p lum=10 fb-1 reduced cross-section (optimistic)
@@ -30,10 +31,13 @@ EIC kinematic templates.  Data Index:
 | 90002 |  dis     | deuteron | A_PV_e   | JAM4EIC        | optimistic        | ---               | 10  fb-1
 | 90003 |  dis     | deuteron | A_PV_e   | JAM4EIC        | optimistic        | ---               | 100 fb-1
 | 90011 |  pdis    | proton   | A_PV_had | JAM4EIC        | optimistic        | ---               | ---
+
 <br>
+
 For pseudo data of A_ll from proton, deuteron and helium beams
-    - The "low case" means A_LL is one sigma smaller than its mean only in the unmeasured region.
-    - The "mid case" means A_LL is its central value
-    - The "high case" means A_LL is one sigma larger than its mean only in the unmeasured region.
-    - By unmeasured region we mean x Bjorken less than about 0.01.
-    - Spin dependent gluons that are negative, and spin dependent valence down quarks that are positive, are removed from baseline.
+
+- The "low case" means A_LL is one sigma smaller than its mean only in the unmeasured region.
+- The "mid case" means A_LL is its central value
+- The "high case" means A_LL is one sigma larger than its mean only in the unmeasured region.
+- By unmeasured region we mean x Bjorken less than about 0.01.
+- Spin dependent gluons that are negative, and spin dependent valence down quarks that are positive, are removed from baseline.
