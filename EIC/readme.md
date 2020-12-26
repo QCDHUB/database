@@ -27,6 +27,9 @@ EIC kinematic templates.  Data Index:
 | 83002 |  pdis    | helium   | A_ll     | JAM4EIC        | pessimistic       | valence           | negative gluons removed, use an central A_LL                                                  |
 | 83003 |  pdis    | helium   | A_ll     | JAM4EIC        | pessimistic       | valence           | negative gluons removed, use an A_LL one sigma smaller than its mean, pseudo data is smoothed |
 | 90001 |  dis     | proton   | A_PV_e   | JAM4EIC        | optimistic        | ---               | 100 fb-1
+| 90101 |  dis     | proton   | A_PV_e   | JAM4EIC        | moderate          | ---               | 100 fb-1
 | 90002 |  dis     | deuteron | A_PV_e   | JAM4EIC        | optimistic        | ---               | 10  fb-1
+| 90102 |  dis     | proton   | A_PV_e   | JAM4EIC        | moderate          | ---               | 100 fb-1
 | 90003 |  dis     | deuteron | A_PV_e   | JAM4EIC        | optimistic        | ---               | 100 fb-1
 | 90011 |  pdis    | proton   | A_PV_had | JAM4EIC        | optimistic        | ---               | ---
+| 90111 |  pdis    | proton   | A_PV_had | JAM4EIC        | moderate          | ---               | ---
