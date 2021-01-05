@@ -32,8 +32,6 @@ EIC kinematic templates.  Data Index:
 | 90002 |  dis     | deuteron | A_PV_e   | JAM4EIC        | optimistic        | ---               | 10  fb-1
 | 90102 |  dis     | proton   | A_PV_e   | JAM4EIC        | moderate          | ---               | 100 fb-1
 | 90003 |  dis     | deuteron | A_PV_e   | JAM4EIC        | optimistic        | ---               | 100 fb-1
-| 90011 |  pdis    | proton   | A_PV_had | JAM4EIC        | optimistic        | ---               | ---
-| 90111 |  pdis    | proton   | A_PV_had | JAM4EIC        | moderate          | ---               | ---
 
 <br>
 
