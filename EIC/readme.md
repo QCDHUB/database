@@ -37,6 +37,7 @@ EIC kinematic templates.  Data Index:
 
 For pseudo data of A_ll from proton, deuteron and helium beams
 
+- All the pseudo data are in https://github.com/QCDHUB/analysis-all
 - The "low case" means A_LL is one sigma smaller than its mean only in the unmeasured region.
 - The "mid case" means A_LL is its central value
 - The "high case" means A_LL is one sigma larger than its mean only in the unmeasured region.
