@@ -7,7 +7,7 @@
 
 * Whenever "deuteron" is mentioned it is actually a per-nucleon observable.
 
-## tables used in current analyzes
+## tables used in current analyses
 
 | index | ref                    | process | target   | obs       | experiment            | notes             |
 | :--:  | :--:                   | :--:    | :--      | :--:      | :--:                  | :--:              |
