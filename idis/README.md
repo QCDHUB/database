@@ -3,9 +3,10 @@
 ## Data collections and reviews:
 * http://hepdata.cedar.ac.uk/review/f2/
 
-## Nontes
+## Notes
 
 * Whenever "deuteron" is mentioned it is actually a per-nucleon observable.
+* Abbreviations - p: proton, d: deuteron, h: helium 3, t: tritium
 
 ## tables used in current analyses
 
