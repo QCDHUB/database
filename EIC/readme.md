@@ -15,9 +15,6 @@ EIC kinematic templates.  Data Index:
 
 | index |  process | target   | obs      | experiment     | uncertainty       | parameterization  | comment           |
 | :--:  |  :--:    | :--:     | :--:     | :--:           | :--:              | :--:              | :--:              |
-| 70001 |  pdis    | proton   | A_LT     | JAM4EIC        | optimistic        | ---               | ---
-| 70002 |  pdis    | deuteron | A_LT     | JAM4EIC        | optimistic        | ---               | ---
-| 70003 |  pdis    | helium   | A_LT     | JAM4EIC        | optimistic        | ---               | ---
 | 81001 |  pdis    | proton   | A_ll     | JAM4EIC        | pessimistic       | valence           | high case |
 | 81002 |  pdis    | proton   | A_ll     | JAM4EIC        | pessimistic       | valence           | mid case  |
 | 81003 |  pdis    | proton   | A_ll     | JAM4EIC        | pessimistic       | valence           | low case  |
