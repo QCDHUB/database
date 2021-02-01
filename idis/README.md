@@ -58,6 +58,11 @@
 | 10001 | [link][ref10001-10004] | DIS     | proton   | F2               | JLab Hall C (E00-106) | [more][com10001]  |
 | 10004 | [link][ref10001-10004] | DIS     | deuteron | sigma red        | JLab Hall C (E00-106) | [more][com10001]  |
 
+## marathon tables
+| 10050 |                        | DIS     | d/p      | F2               | MARATHON              |                   | 
+| 10051 |                        | DIS     | h/d      | F2               | MARATHON              |                   | 
+| 10052 |                        | DIS     | t/d      | F2               | MARATHON              |                   | 
+
 ## simulation tables
 | index | ref                    | process | target   | obs              | experiment            | notes             |
 | :--:  | :--:                   | :--:    | :--      | :--:             | :--:                  | :--:              |
