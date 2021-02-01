@@ -15,9 +15,6 @@ EIC kinematic templates.  Data Index:
 
 | index |  process | target   | obs      | experiment     | uncertainty       | parameterization  | comment           |
 | :--:  |  :--:    | :--:     | :--:     | :--:           | :--:              | :--:              | :--:              |
-| 70001 |  pdis    | proton   | A_LT     | JAM4EIC        | optimistic        | ---               | ---
-| 70002 |  pdis    | deuteron | A_LT     | JAM4EIC        | optimistic        | ---               | ---
-| 70003 |  pdis    | helium   | A_LT     | JAM4EIC        | optimistic        | ---               | ---
 | 81001 |  pdis    | proton   | A_ll     | JAM4EIC        | pessimistic       | valence           | high case |
 | 81002 |  pdis    | proton   | A_ll     | JAM4EIC        | pessimistic       | valence           | mid case  |
 | 81003 |  pdis    | proton   | A_ll     | JAM4EIC        | pessimistic       | valence           | low case  |
@@ -32,13 +29,12 @@ EIC kinematic templates.  Data Index:
 | 90002 |  dis     | deuteron | A_PV_e   | JAM4EIC        | optimistic        | ---               | 10  fb-1
 | 90102 |  dis     | proton   | A_PV_e   | JAM4EIC        | moderate          | ---               | 100 fb-1
 | 90003 |  dis     | deuteron | A_PV_e   | JAM4EIC        | optimistic        | ---               | 100 fb-1
-| 90011 |  pdis    | proton   | A_PV_had | JAM4EIC        | optimistic        | ---               | ---
-| 90111 |  pdis    | proton   | A_PV_had | JAM4EIC        | moderate          | ---               | ---
 
 <br>
 
 For pseudo data of A_ll from proton, deuteron and helium beams
 
+- All the pseudo data are in https://github.com/QCDHUB/analysis-all
 - The "low case" means A_LL is one sigma smaller than its mean only in the unmeasured region.
 - The "mid case" means A_LL is its central value
 - The "high case" means A_LL is one sigma larger than its mean only in the unmeasured region.
