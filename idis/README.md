@@ -39,6 +39,9 @@
 | 10015 | [link][ref10010-10015] | DIS     | deuteron | sigma red | SLAC       | [more][com_sigma] |
 | 10018 | [link][ref10016]       | DIS     | proton   | R         | BCDMS      | [more][com_BCDMS] |
 | 10019 | [link][ref10017]       | DIS     | deuteron | R         | BCDMS      | [more][com_BCDMS] |
+| 10034 |                        | DIS     | proton   | sigma red | BCDMS      |                   |
+| 10035 |                        | DIS     | deuteron | sigma red | BCDMS      |                   |
+| 10036 |                        | DIS     | proton   | sigma red | BCDMS      |                   |
 
 ## other tables
 
@@ -65,17 +68,11 @@
 | 10051 |                        | DIS     | h/d      | F2               | MARATHON              |                   | 
 | 10052 |                        | DIS     | t/d      | F2               | MARATHON              |                   | 
 
-## simulation tables
+## heavy quark tables
 | index | ref                    | process | target   | obs              | experiment            | notes             |
 | :--:  | :--:                   | :--:    | :--      | :--:             | :--:                  | :--:              |
-| 70001 |                        | DIS     | proton   | sigma red        | JAM4EIC NC e-         |                   |
-| 70002 |                        | DIS     | deuteron | sigma red        | JAM4EIC NC e-         |                   |
-| 70011 |                        | DIS     | proton   | sigma red        | JAM4EIC CC e-         |                   |
-| 70012 |                        | DIS     | deuteron | sigma red        | JAM4EIC CC e-         |                   |
-| 70021 |                        | DIS     | proton   | sigma red        | JAM4EIC NC e+         |                   |
-| 70022 |                        | DIS     | deuteron | sigma red        | JAM4EIC NC e+         |                   |
-| 70031 |                        | DIS     | proton   | sigma red        | JAM4EIC CC e+         |                   |
-| 70032 |                        | DIS     | deuteron | sigma red        | JAM4EIC CC e+         |                   |
+| 10037 |                        | DIS     | proton   | sigcc_r          | HERA I and II         |                   | 
+| 10038 |                        | DIS     | proton   | sigbb_r          | HERA I and II         |                   | 
 
 [ref10001-10004]: http://inspirehep.net/record/820503?ln=en
 [ref10005-10009]: http://inspirehep.net/record/894309
