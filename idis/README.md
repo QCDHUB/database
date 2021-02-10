@@ -60,7 +60,7 @@
 | 10009 | [link][ref10005-10009] | DIS     | d/p      | sigma d/ sigma p | HERMES                | [more][com10005]  |
 | 10001 | [link][ref10001-10004] | DIS     | proton   | F2               | JLab Hall C (E00-106) | [more][com10001]  |
 | 10004 | [link][ref10001-10004] | DIS     | deuteron | sigma red        | JLab Hall C (E00-106) | [more][com10001]  |
-| 10041 |                        | DIS     | h/d      | sig              | JLab Hall C (E00-106) |                   | 
+| 10041 |                        | DIS     | h/d      | sigma h/ sigma d | JLab Hall C (E00-106) |                   | 
  
 ## marathon tables
 | index | ref                    | process | target   | obs              | experiment            | notes             |
