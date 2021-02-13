@@ -66,8 +66,8 @@
 | index | ref                    | process | target   | obs              | experiment            | notes             |
 | :--:  | :--:                   | :--:    | :--      | :--:             | :--:                  | :--:              |
 | 10050 |                        | DIS     | d/p      | F2               | MARATHON              |                   | 
-| 10051 |                        | DIS     | h/d      | F2               | MARATHON              |                   | 
-| 10052 |                        | DIS     | t/d      | F2               | MARATHON              |                   | 
+| 10051 |                        | DIS     | h/d      | F2               | MARATHON              | (not per nucleon) | 
+| 10052 |                        | DIS     | t/d      | F2               | MARATHON              | (not per nucleon) | 
 
 ## heavy quark tables
 | index | ref                    | process | target   | obs              | experiment            | notes             |
