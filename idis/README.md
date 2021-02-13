@@ -5,7 +5,7 @@
 
 ## Notes
 
-* Whenever "deuteron" is mentioned it is actually a per-nucleon observable.
+* Whenever "deuteron" is mentioned it is (usually) a per-nucleon observable.
 * Abbreviations - p: proton, n: neutron, d: deuteron, h: helium 3, t: tritium
 
 ## tables used in current analyses
@@ -27,7 +27,7 @@
 | 10032 | [link][ref10026]       | DIS     | proton   | sigma red | HERA II CC e-         | [more][com_HERA2] |
 | 10002 | [link][ref10001-10004] | DIS     | deuteron | F2        | JLab Hall C (E00-106) | [more][com10001]  |
 | 10003 | [link][ref10001-10004] | DIS     | proton   | sigma red | JLab Hall C (E00-106) | [more][com10001]  |
-| 10033 | [link][ref10033]       | DIS     | n/d      | F2        | BONUS                 | [more][com_BONUS] |
+| 10033 | [link][ref10033]       | DIS     | n/d      | F2        | BONUS                 | [more][com_BONUS] (not per nucleon)|
 
 ## tables with reduced cross section 
 
