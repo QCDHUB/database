@@ -5,7 +5,7 @@
 
 ## Notes
 
-* Whenever "deuteron" is mentioned it is (usually) a per-nucleon observable.
+* Whenever "deuteron" is mentioned it is a per-nucleon observable (unless stated otherwise).
 * Abbreviations - p: proton, n: neutron, d: deuteron, h: helium 3, t: tritium
 
 ## tables used in current analyses
