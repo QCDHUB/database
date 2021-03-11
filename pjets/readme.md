@@ -10,6 +10,7 @@
 | 20004 | [drupal][link.20004.d]   | yes           | `pp`      | [2015][link.20004.p]     | 2009             | STAR             | ready  |
 | 20005 | [phenix][link.20005.d]   | no            | `pp`      | [2011][link.20005.p]     | 2005             | PHENIX           | ready  |
 | 20006 | [drupal][link.20006.d]   | yes           | `pp`      | [2019][link.20006.p]     | 2012             | STAR             | ready  |
+| 20006 | [drupal][link.20007.d]   | no            | `pp`      | [2021][link.20007.p]     | 2015             | STAR             | ready  |
 
 [link.20001.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/68/data.html
 [link.20002.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/188/data.html
@@ -17,6 +18,7 @@
 [link.20004.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/217/data.html
 [link.20005.d]: https://www.phenix.bnl.gov/phenix/WWW/info/data/ppg093_data.html
 [link.20006.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/310/data.html
+[link.20007.d]: https://drupal.star.bnl.gov/STAR/publications
 
 [link.20001.p]: http://dx.doi.org/10.1103/PhysRevLett.97.252001 'DOI'
 [link.20002.p]: http://dx.doi.org/10.1103/PhysRevD.86.032006 'DOI'
@@ -24,6 +26,7 @@
 [link.20004.p]: http://dx.doi.org/10.1103/PhysRevLett.115.092002 'DOI'
 [link.20005.p]: http://dx.doi.org/10.1103/PhysRevD.84.012006 'DOI'
 [link.20006.p]: https://doi.org/10.1103/PhysRevD.100.052005 'DOI'
+[link.20007.p]: https://arxiv.org/abs/2103.05571
 
 ## observables
 
