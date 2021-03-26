@@ -58,7 +58,7 @@
 | 10007 | [link][ref10005-10009] | DIS     | proton   | sigma red        | HERMES                | [more][com10005]  |
 | 10008 | [link][ref10005-10009] | DIS     | deuteron | sigma red        | HERMES                | [more][com10005]  |
 | 10009 | [link][ref10005-10009] | DIS     | d/p      | sigma d/ sigma p | HERMES                | [more][com10005]  |
-| 10001 | [link][ref10001-10004] | DIS     | deuteron | F2               | JLab Hall C (E00-106) | [more][com10001]  (not per nucleon)|
+| 10001 | [link][ref10001-10004] | DIS     | deuteron | F2               | JLab Hall C (E00-106) | [more][com10001]  |
 | 10004 | [link][ref10001-10004] | DIS     | deuteron | sigma red        | JLab Hall C (E00-106) | [more][com10001]  |
 | 10041 |                        | DIS     | h/d      | F2               | JLab Hall C (E00-106) |                   | 
  
@@ -67,8 +67,8 @@
 | :--:  | :--:                   | :--:    | :--      | :--:             | :--:                  | :--:              |
 | 10050 |                        | DIS     | d/p      | F2               | MARATHON              |                   | 
 | 10051 |                        | DIS     | h/t      | F2               | MARATHON              |                   |
-| 10052 |                        | DIS     | h/d      | F2               | MARATHON              | (not per nucleon) | 
-| 10053 |                        | DIS     | t/d      | F2               | MARATHON              | (not per nucleon) | 
+| 10052 |                        | DIS     | h/d      | F2               | MARATHON              |                   | 
+| 10053 |                        | DIS     | t/d      | F2               | MARATHON              |                   | 
 
 ## heavy quark tables
 | index | ref                    | process | target   | obs              | experiment            | notes             |
