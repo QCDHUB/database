@@ -2,25 +2,35 @@
 
 ## data tables
 
-| index | ref                    | normalization | collision | year                                   | collaboration    | status |
-| ----- | -----                  | -----         | -----     | -----                                  | -----            | -----  |
-| 20001 | [drupal][link.20001]   | no            | `pp`      | 2006 paper on 2003 and 2004 data       | STAR             | ready  |
-| 20002 | [drupal][link.20002]   | yes           | `pp`      | 2012 paper on 2005 data                | STAR             | ready  |
-| 20003 | [drupal][link.20003]   | yes           | `pp`      | 2012 paper on 2006 data                | STAR             | ready  |
-| 20004 | [drupal][link.20004]   | yes           | `pp`      | 2015 paper on 2009 data                | STAR             | ready  |
-| 20005 | [phenix][link.20005]   | no            | `pp`      | 2011 paper on 2005 data                | PHENIX           | ready  |
-| 20006 | [drupal][link.20006]   | yes           | `pp`      | 2019 paper on 2012 data                | STAR             | ready  |
+| index | data table               | normalization | collision | paper in                 | data recorded in | collaboration    | status |
+| ----- | -----                    | -----         | -----     | -----                    | -----            | -----            | -----  |
+| 20001 | [drupal][link.20001.d]   | no            | `pp`      | [2006][link.20001.p]     | 2003 and 2004    | STAR             | ready  |
+| 20002 | [drupal][link.20002.d]   | yes           | `pp`      | [2012][link.20002.p]     | 2005             | STAR             | ready  |
+| 20003 | [drupal][link.20003.d]   | yes           | `pp`      | [2012][link.20003.p]     | 2006             | STAR             | ready  |
+| 20004 | [drupal][link.20004.d]   | yes           | `pp`      | [2015][link.20004.p]     | 2009             | STAR             | ready  |
+| 20005 | [phenix][link.20005.d]   | no            | `pp`      | [2011][link.20005.p]     | 2005             | PHENIX           | ready  |
+| 20006 | [drupal][link.20006.d]   | yes           | `pp`      | [2019][link.20006.p]     | 2012             | STAR             | ready  |
+| 20006 | [drupal][link.20007.d]   | no            | `pp`      | [2021][link.20007.p]     | 2015             | STAR             | ready  |
 
-[link.20001]: https://drupal.star.bnl.gov/STAR/files/starpublications/68/data.html
-[link.20002]: https://drupal.star.bnl.gov/STAR/files/starpublications/188/data.html
-[link.20003]: https://drupal.star.bnl.gov/STAR/files/starpublications/188/data.html
-[link.20004]: https://drupal.star.bnl.gov/STAR/files/starpublications/217/data.html
-[link.20005]: https://www.phenix.bnl.gov/phenix/WWW/info/data/ppg093_data.html
-[link.20006]: https://drupal.star.bnl.gov/STAR/files/starpublications/310/data.html
+[link.20001.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/68/data.html
+[link.20002.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/188/data.html
+[link.20003.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/188/data.html
+[link.20004.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/217/data.html
+[link.20005.d]: https://www.phenix.bnl.gov/phenix/WWW/info/data/ppg093_data.html
+[link.20006.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/310/data.html
+[link.20007.d]: https://drupal.star.bnl.gov/STAR/publications
+
+[link.20001.p]: http://dx.doi.org/10.1103/PhysRevLett.97.252001 'DOI'
+[link.20002.p]: http://dx.doi.org/10.1103/PhysRevD.86.032006 'DOI'
+[link.20003.p]: http://dx.doi.org/10.1103/PhysRevD.86.032006 'DOI'
+[link.20004.p]: http://dx.doi.org/10.1103/PhysRevLett.115.092002 'DOI'
+[link.20005.p]: http://dx.doi.org/10.1103/PhysRevD.84.012006 'DOI'
+[link.20006.p]: https://doi.org/10.1103/PhysRevD.100.052005 'DOI'
+[link.20007.p]: https://arxiv.org/abs/2103.05571
 
 ## observables
 
-- $A_{L L}$
+- <i>A<sub>LL</sub></i>
 
 ## headers
 
@@ -28,14 +38,14 @@
 - `col`: collaboration
 - `particles-in`: `pp` for proton proton collision and `ppb` for proton anti proton collision
 - `RS`: $\sqrt{s}$ in GeV
-- `pt-min`: minimum $p_T$ in GeV
-- `pt-max`: maximum $p_T$ in GeV
-- `pT`: average $p_T$ in GeV
+- `pt-min`: minimum <i>p<sub>T</sub></i> in GeV
+- `pt-max`: maximum <i>p<sub>T</sub></i> in GeV
+- `pT`: average <i>p<sub>T</sub></i> in GeV
 - `tau`: $\frac{2 p_t}{\sqrt{s}}$
-- `eta-abs-min`: minimum $\left| \eta \right|$
-- `eta-abs-max`: maximum $\left| \eta \right|$
-- `eta-min`: minimum $\eta$
-- `eta-max`: maximum $\eta$
+- `eta-abs-min`: minimum |<i>&eta;</i>|
+- `eta-abs-max`: maximum |<i>&eta;</i>|
+- `eta-min`: minimum <i>&eta;</i>
+- `eta-max`: maximum <i>&eta;</i>
 - `cone-radius`: radius used in Jet algorithm
 - `obs`: observable[observable]
 - `units`: `pb` for pico barn and `nb` for nano barn[unit]
