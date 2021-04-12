@@ -6,14 +6,16 @@
 | ----- | -----                    | -----         | -----     | -----                    | -----                    | -----            | -----  |
 | 10001 | [HEP Data][link.10001.d] | no            | `ppb`     | [2008][link.10001.p]     | run II from 2004 to 2005 | D0               | ready  |
 | 10002 | [HEP Data][link.10002.d] | yes           | `ppb`     | [2007][link.10002.p]     | run II from 2002 to 2006 | CDF              | ready  |
-| 10003 | [drupal][link.10003.d]   | no            | `pp`      | [2006][link.10003.p]     | 2003 and 2004            | STAR MB          | ready  |
-| 10004 | [drupal][link.10004.d]   | no            | `pp`      | [2006][link.10004.p]     | 2003 and 2004            | STAR HT          | ready  |
+| 10003 | [drupal][link.10003.d]   | yes           | `pp`      | [2006][link.10003.p]     | 2003 and 2004            | STAR MB          | ready  |
+| 10004 | [drupal][link.10004.d]   | yes           | `pp`      | [2006][link.10004.p]     | 2003 and 2004            | STAR HT          | ready  |
 
 <br/>
 
-1. dataset [10092][link.10092.d] is the cone algorithm version of dataset 10002
+1. according to email exchanges with Bria Page (April 12, 2021), datasets 10003 and 10004 have normalization unceratinties of 8%
 
-4. dataset 19999 is a test dataset
+2. dataset [10092][link.10092.d] is the cone algorithm version of dataset 10002
+
+3. dataset 19999 is a test dataset
 
 [link.10001.d]: https://www.hepdata.net/record/ins779574
 [link.10002.d]: https://www.hepdata.net/record/ins743342
