@@ -27,7 +27,10 @@
 | 10032 | [link][ref10026]       | DIS     | proton   | sigma red | HERA II CC e-         | [more][com_HERA2] |
 | 10002 | [link][ref10001-10004] | DIS     | deuteron | F2        | JLab Hall C (E00-106) | [more][com10001]  |
 | 10003 | [link][ref10001-10004] | DIS     | proton   | sigma red | JLab Hall C (E00-106) | [more][com10001]  |
-| 10033 | [link][ref10033]       | DIS     | n/d      | F2        | BONUS                 | [more][com_BONUS] (not per nucleon)|
+| 10033 | [link][ref10033]       | DIS     | n/d      | F2        | BONUS                 | [more][com_BONUS] |
+| 10041 |                        | DIS     | h/d      | F2        | JLab Hall C (E00-106) |                   | 
+| 10050 |                        | DIS     | d/p      | F2        | MARATHON              |                   | 
+| 10051 |                        | DIS     | h/t      | F2        | MARATHON              |                   |
 
 ## tables with reduced cross section 
 
@@ -60,16 +63,7 @@
 | 10009 | [link][ref10005-10009] | DIS     | d/p      | sigma d/ sigma p | HERMES                | [more][com10005]  |
 | 10001 | [link][ref10001-10004] | DIS     | deuteron | F2               | JLab Hall C (E00-106) | [more][com10001]  |
 | 10004 | [link][ref10001-10004] | DIS     | deuteron | sigma red        | JLab Hall C (E00-106) | [more][com10001]  |
-| 10041 |                        | DIS     | h/d      | F2               | JLab Hall C (E00-106) |                   | 
  
-## marathon tables
-| index | ref                    | process | target   | obs              | experiment            | notes             |
-| :--:  | :--:                   | :--:    | :--      | :--:             | :--:                  | :--:              |
-| 10050 |                        | DIS     | d/p      | F2               | MARATHON              |                   | 
-| 10051 |                        | DIS     | h/t      | F2               | MARATHON              |                   |
-| 10052 |                        | DIS     | h/d      | F2               | MARATHON              |                   | 
-| 10053 |                        | DIS     | t/d      | F2               | MARATHON              |                   | 
-
 ## heavy quark tables
 | index | ref                    | process | target   | obs              | experiment            | notes             |
 | :--:  | :--:                   | :--:    | :--      | :--:             | :--:                  | :--:              |
