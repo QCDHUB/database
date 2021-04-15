@@ -5,8 +5,8 @@
 
 ## Notes
 
-* Whenever "deuteron" is mentioned it is a per-nucleon observable (unless stated otherwise).
 * Abbreviations - p: proton, n: neutron, d: deuteron, h: helium 3, t: tritium
+* All nuclear targets should be per-nucleon observables (divided by number of protons + neutrons)
 
 ## tables used in current analyses
 
@@ -28,9 +28,9 @@
 | 10002 | [link][ref10001-10004] | DIS     | deuteron | F2        | JLab Hall C (E00-106) | [more][com10001]  |
 | 10003 | [link][ref10001-10004] | DIS     | proton   | sigma red | JLab Hall C (E00-106) | [more][com10001]  |
 | 10033 | [link][ref10033]       | DIS     | n/d      | F2        | BONUS                 | [more][com_BONUS] |
-| 10041 |                        | DIS     | h/d      | F2        | JLab Hall C (E00-106) |                   | 
-| 10050 |                        | DIS     | d/p      | F2        | MARATHON              |                   | 
-| 10051 |                        | DIS     | h/t      | F2        | MARATHON              |                   |
+| 10041 | [link][ref10041]       | DIS     | h/d      | F2        | JLab Hall C (E00-106) |                   | 
+| 10050 | [link][ref10050-10051] | DIS     | d/p      | F2        | MARATHON              |                   | 
+| 10051 | [link][ref10050-10051] | DIS     | h/t      | F2        | MARATHON              |                   |
 
 ## tables with reduced cross section 
 
@@ -79,6 +79,8 @@
 [ref10021]: http://inspirehep.net/record/426595?ln=en
 [ref10026]: https://inspirehep.net/record/1377206?ln=en
 [ref10033]: https://inspirehep.net/record/1280957?ln=en
+[ref10041]: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.103.202301
+[ref10050-10051]: https://inspirehep.net/literature/1858035
 
 [com10001]:  comments/jl00106.md
 [com10005]:  comments/HERMES_DIS.md
