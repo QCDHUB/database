@@ -2,15 +2,15 @@
 
 ## data tables
 
-| index | data table               | normalization | collision | paper in                 | data recorded in | collaboration    | status |
-| ----- | -----                    | -----         | -----     | -----                    | -----            | -----            | -----  |
-| 20001 | [drupal][link.20001.d]   | no            | `pp`      | [2006][link.20001.p]     | 2003 and 2004    | STAR             | ready  |
-| 20002 | [drupal][link.20002.d]   | yes           | `pp`      | [2012][link.20002.p]     | 2005             | STAR             | ready  |
-| 20003 | [drupal][link.20003.d]   | yes           | `pp`      | [2012][link.20003.p]     | 2006             | STAR             | ready  |
-| 20004 | [drupal][link.20004.d]   | yes           | `pp`      | [2015][link.20004.p]     | 2009             | STAR             | ready  |
-| 20005 | [phenix][link.20005.d]   | no            | `pp`      | [2011][link.20005.p]     | 2005             | PHENIX           | ready  |
-| 20006 | [drupal][link.20006.d]   | yes           | `pp`      | [2019][link.20006.p]     | 2012             | STAR             | ready  |
-| 20006 | [drupal][link.20007.d]   | no            | `pp`      | [2021][link.20007.p]     | 2015             | STAR             | ready  |
+| index | data table               | normalization | collision | paper in                 | data recorded in | collaboration |
+| ----- | -----                    | -----         | -----     | -----                    | -----            | -----         |
+| 20001 | [drupal][link.20001.d]   | no            | `pp`      | [2006][link.20001.p]     | 2003 and 2004    | STAR          |
+| 20002 | [drupal][link.20002.d]   | yes           | `pp`      | [2012][link.20002.p]     | 2005             | STAR          |
+| 20003 | [drupal][link.20003.d]   | yes           | `pp`      | [2012][link.20003.p]     | 2006             | STAR          |
+| 20004 | [drupal][link.20004.d]   | yes           | `pp`      | [2015][link.20004.p]     | 2009             | STAR          |
+| 20005 | [phenix][link.20005.d]   | yes           | `pp`      | [2011][link.20005.p]     | 2005             | PHENIX        |
+| 20006 | [drupal][link.20006.d]   | yes           | `pp`      | [2019][link.20006.p]     | 2012             | STAR          |
+| 20007 | [drupal][link.20007.d]   | yes           | `pp`      | [2021][link.20007.p]     | 2015             | STAR          |
 
 [link.20001.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/68/data.html
 [link.20002.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/188/data.html
@@ -58,13 +58,10 @@
 
 When either the systematic or statistical uncertainties have a positive and negative and are different in magnitude, only the one with a larger magnitude is written in the data file.
 
-- `_c` means correlated and and `_u` means uncorrelated
-
-- `%` means the uncertainty or normalization or other types of corrections is a percentage
-
+- `_c` means correlated and and `_u` means uncorrelated uncertainties
+- `%` means the uncertainty or normalization is a percentage
 - `norm` is reserved for normalization
-
-- `parton-to-hadron` is the correction from parton level calculation to hadron level, it is 1 plus the relative correction
+- `parton-to-hadron` is the correction from parton level calculation to hadron level, it is 1 plus a relative correction
 
 ## STAR 2019 paper on 2012 data
-According to the paper, part of the systematic uncertainties in STAR 2019 paper on 2012 data are uncorrelated.
+According to the paper, part of the systematic uncertainties in STAR 2012 data (2019 paper) are uncorrelated.

@@ -2,12 +2,12 @@
 
 ## data tables
 
-| index | ref                      | normalization | collision | paper in                 | data recorded in         | collaboration    | status |
-| ----- | -----                    | -----         | -----     | -----                    | -----                    | -----            | -----  |
-| 10001 | [HEP Data][link.10001.d] | no            | `ppb`     | [2008][link.10001.p]     | run II from 2004 to 2005 | D0               | ready  |
-| 10002 | [HEP Data][link.10002.d] | yes           | `ppb`     | [2007][link.10002.p]     | run II from 2002 to 2006 | CDF              | ready  |
-| 10003 | [drupal][link.10003.d]   | yes           | `pp`      | [2006][link.10003.p]     | 2003 and 2004            | STAR MB          | ready  |
-| 10004 | [drupal][link.10004.d]   | yes           | `pp`      | [2006][link.10004.p]     | 2003 and 2004            | STAR HT          | ready  |
+| index | ref                      | normalization | collision | paper in                 | data recorded in         | collaboration |
+| ----- | -----                    | -----         | -----     | -----                    | -----                    | -----         |
+| 10001 | [HEP Data][link.10001.d] | yes           | `ppb`     | [2008][link.10001.p]     | run II from 2004 to 2005 | D0            |
+| 10002 | [HEP Data][link.10002.d] | yes           | `ppb`     | [2007][link.10002.p]     | run II from 2002 to 2006 | CDF           |
+| 10003 | [drupal][link.10003.d]   | yes           | `pp`      | [2006][link.10003.p]     | 2003 and 2004            | STAR MB       |
+| 10004 | [drupal][link.10004.d]   | yes           | `pp`      | [2006][link.10004.p]     | 2003 and 2004            | STAR HT       |
 
 <br/>
 
