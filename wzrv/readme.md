@@ -13,5 +13,5 @@ Data Index:
 - 2012: electron charge asymmetry in W decays at 7 TeV from CMS 2011 data (https://inspirehep.net/literature/1118047)
 - 2013 and 2014: lepton charge asymmetries in W decays at 7 TeV from CMS 2010 data (https://inspirehep.net/literature/892975)
 - 2015: Same as 2008, with correlated errors treated as uncorrelated
-- 2020: W+/W- ratio from STAR, preliminary ()
+- 2020: W+/W- ratio at 510 GeV from STAR 2011-2013 data (https://inspirehep.net/literature/1829350
 
