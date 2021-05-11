@@ -21,12 +21,14 @@ This repo contains pp and pd (per nucleon) Drell-Yan cross section data from the
 
 ## Tables used in current analyses
 
-| index | ref              | process | target | obs                                  | experiment    |
-| :--:  | :--:             | :--:    | :--:   | :--:                                 | :--:          |
-| 10001 | [link][ref10001] | DY      | pp     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 |
-| 10002 | [link][ref10001] | DY      | pd     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 |
-| 20001 | [link][ref20001] | DY      | pd/2pp | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 |
-| 20002 | [link][ref20002] | DY      | pd/2pp | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E906 |
+| index | ref              | process | target | obs                                  | experiment    | notes                             |
+| :--:  | :--:             | :--:    | :--:   | :--:                                 | :--:          | :--:                              |
+| 10001 | [link][ref10001] | DY      | pp     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 |                                   |
+| 10002 | [link][ref10001] | DY      | pd     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 |                                   |
+| 10011 | [link][ref10001] | DY      | pp     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 | Same as 10001, but with M > 6 GeV |
+| 10012 | [link][ref10001] | DY      | pd     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 | Same as 10002, but with M > 6 GeV |
+| 20001 | [link][ref20001] | DY      | pd/2pp | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 |                                   |
+| 20002 | [link][ref20002] | DY      | pd/2pp | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E906 |                                   |
 
 [ref10001]: https://inspirehep.net/record/554316
 [ref20001]: https://inspirehep.net/literature/554316
