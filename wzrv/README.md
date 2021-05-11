@@ -1,14 +1,14 @@
 This repo contains data on unpolarized and polarized lepton production in p + p or p + pb collisions from Tevatron, LHC, and RHIC.
-Example process:  p + p --> W<sup>-</sup> --> e- + &nu
+Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu
 
 # Unpolarized
 
 ## Notes
 
 * Observables: (always differental in eta and integrated over pT) 
-  * A:     Asymmetry of cross-sections: (W+ - W-)/(W+ - W-)
-  * Sig:   Absolute cross-section for W+ and/or W-
-  * RW:    Ratio of W+ to W- cross-section
+  * A:     Asymmetry of cross-sections: (W<sup>+</sup> - W<sup>-</sup>)/(W<sup>+</sup> - W<sup>-</sup>)
+  * Sig:   Absolute cross-section for W<sup>+</sup> and/or W<sup>-</sup>
+  * RW:    Ratio of W<sup>+</sup> to W<sup>-</sup> cross-section
 * 2015 is the same as 2008, with systematic errors treated as correlated instead of uncorrelated
 
 ## Tables used in current analyses
