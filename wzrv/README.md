@@ -1,5 +1,5 @@
 This repo contains data on unpolarized and polarized lepton production in p + p or p + pb collisions from Tevatron, LHC, and RHIC.
-Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu
+Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 
 # Unpolarized
 
