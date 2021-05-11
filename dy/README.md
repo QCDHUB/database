@@ -1,13 +1,13 @@
-# pp and pd (per nucleon) Drell-Yan cross sections from E866+E906 experiments at FNAL.
+This repo contains pp and pd (per nucleon) Drell-Yan cross section data from the E866 (NuSea) and E906 (SeaQuest) experiments at FNAL.
 
 ## Data collections and reviews:
 * http://p25ext.lanl.gov/e866/papers/e866dyabs/E866_Drell-Yan_Cross_Sections/E866_Drell-Yan_Cross_Sections.html
 
-### Observables
+## Observables
 
 * M<sup>3</sup> dsig/dM dx<sub>F</sub>
 
-### Columns:
+## Columns:
 
 - RS            = root(s) [GeV]
 - Rtau          = root(tau) = root(sqrt(s/M<sup>2</sup>))
