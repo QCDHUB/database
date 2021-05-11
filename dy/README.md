@@ -27,6 +27,9 @@ The table below indexes and summarizes the E866 pp and pd Drell-Yan cross sectio
 | :--:  | :--:             | :--:    | :--:   | :--:            | :--:          | :--:   |
 | 10001 | [link][ref10001] | DY      | pp     | M^3 dsig/dM dxF | Fermilab E866 | FINAL  |
 | 10002 | [link][ref10001] | DY      | pd     | M^3 dsig/dM dxF | Fermilab E866 | FINAL  |
+| 20001 | [link][ref10001] | DY      | pd/2pp | sig_pd/2sig_pp  | Fermilab E866 | FINAL  |
+| 20002 | [link][ref20002] | DY      | pd/2pp | sig_pd/2sig_pp  | Fermilab E906 | FINAL  |
 
 [ref10001]: https://inspirehep.net/record/554316
 [ref10001]: https://inspirehep.net/record/554316
+[ref20002]: https://inspirehep.net/literature/1849683
