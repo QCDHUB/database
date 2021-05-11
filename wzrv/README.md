@@ -1,12 +1,14 @@
 This repo contains data on unpolarized and polarized lepton production in p + p or p + pb collisions from Tevatron, LHC, and RHIC.
+
 Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 
-# Unpolarized
+# Unpolarized Datasets
 
 ## Notes
 
+* These datasets involve spin-averaged PDFs
 * Observables: (always differental in eta and integrated over pT) 
-  * A:     Asymmetry of cross-sections: (W<sup>+</sup> - W<sup>-</sup>)/(W<sup>+</sup> - W<sup>-</sup>)
+  * Asym:  Asymmetry of cross-sections: (W<sup>+</sup> - W<sup>-</sup>)/(W<sup>+</sup> - W<sup>-</sup>)
   * Sig:   Absolute cross-section for W<sup>+</sup> and/or W<sup>-</sup>
   * RW:    Ratio of W<sup>+</sup> to W<sup>-</sup> cross-section
 * 2015 is the same as 2008, with systematic errors treated as correlated instead of uncorrelated
@@ -35,10 +37,11 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | :--:  | :--:                   | :--       | :--:      | :--:      | :--:         | :--:         | 
 | 2008  | [link][ref2008/2015]   | p + p     | Sig       | 7000      | 25           | ATLAS        | 
  
-# Polarized
+# Polarized Datasets
 
 ## Notes
 
+* These datasets involve helicity PDFs and spin-averaged PDFs
 * Observables: (always differental in eta and integrated over pT) 
   * SSA: Single-spin asymmetry
   * DSA: Double-spin asymmetry
