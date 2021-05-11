@@ -1,35 +1,40 @@
-# pp and pd (per nucleon) Drell-Yan cross sections from E866 experiment at FNAL.
+# pp and pd (per nucleon) Drell-Yan cross sections from E866+E906 experiments at FNAL.
 
 ## Data collections and reviews:
 * http://p25ext.lanl.gov/e866/papers/e866dyabs/E866_Drell-Yan_Cross_Sections/E866_Drell-Yan_Cross_Sections.html
 
-## JAM database (converted into xlsx from ASCII files in CJ database)
-
-The table below indexes and summarizes the E866 pp and pd Drell-Yan cross sections.
-
 ### Observables
 
-* M^3 dsig/dM dxF
+* M<sup>3</sup> dsig/dM dx<sub>F</sub>
 
 ### Columns:
 
-- RS    = root(s) [GeV]
-- Rtau  = root(tau)
-- xF    = x1 - x2
-- units = nb GeV^2 
-- value = cross section
-- stat  = statistical uncertainty
-- syst  = systematic uncertainty
+- RS            = root(s) [GeV]
+- Rtau          = root(tau) = root(sqrt(s/M<sup>2))
+- x<sub>t</sub> = target x
+- x<sub>b</sub> = beam x
+- x<sub>F</sub> = x<sub>b</sub> - x<sub>t</sub>
+- units         = nb GeV^<sup>2</sup> or None 
+- stat_u        = uncorrelated statistical uncertainty
+- syst_u        = uncorrelated systematic uncertainty
+- norm_c        = correlated normalization uncertainty
 
-## Data table
+## Tables used in current analyses
 
-| index | ref              | process | target | obs             | experiment    | status |
-| :--:  | :--:             | :--:    | :--:   | :--:            | :--:          | :--:   |
-| 10001 | [link][ref10001] | DY      | pp     | M^3 dsig/dM dxF | Fermilab E866 | FINAL  |
-| 10002 | [link][ref10001] | DY      | pd     | M^3 dsig/dM dxF | Fermilab E866 | FINAL  |
-| 20001 | [link][ref10001] | DY      | pd/2pp | sig_pd/2sig_pp  | Fermilab E866 | FINAL  |
-| 20002 | [link][ref20002] | DY      | pd/2pp | sig_pd/2sig_pp  | Fermilab E906 | FINAL  |
+| index | ref              | process | target | obs             | experiment    |
+| :--:  | :--:             | :--:    | :--:   | :--:            | :--:          |
+| 10001 | [link][ref10001] | DY      | pp     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 |
+| 10002 | [link][ref10001] | DY      | pd     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 |
+| 20001 | [link][ref20001] | DY      | pd/2pp | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 |
+| 20002 | [link][ref20002] | DY      | pd/2pp | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E906 |
 
 [ref10001]: https://inspirehep.net/record/554316
-[ref10001]: https://inspirehep.net/record/554316
+[ref20001]: https://inspirehep.net/literature/554316
 [ref20002]: https://inspirehep.net/literature/1849683
+
+
+
+
+
+
+
