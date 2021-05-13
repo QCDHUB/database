@@ -23,10 +23,10 @@ This repo contains pp and pd (per nucleon) Drell-Yan cross section data from the
 
 | index | ref              | process | target | obs                                  | experiment    | notes                             |
 | :--:  | :--:             | :--:    | :--:   | :--:                                 | :--:          | :--:                              |
-| 10001 | [link][ref10001] | DY      | pp     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 |                                   |
-| 10002 | [link][ref10001] | DY      | pd     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 |                                   |
-| 10011 | [link][ref10001] | DY      | pp     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 | Same as 10001, but with M > 6 GeV |
-| 10012 | [link][ref10001] | DY      | pd     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 | Same as 10002, but with M > 6 GeV |
+| 10001 | [link][ref10001] | DY      | pp     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 | M > 6 GeV cut                     |
+| 10002 | [link][ref10001] | DY      | pd     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 | M > 6 GeV cut                     |
+| 10011 | [link][ref10001] | DY      | pp     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 | Same as 10001, but no cut         |
+| 10012 | [link][ref10001] | DY      | pd     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 | Same as 10002, but no cut         |
 | 20001 | [link][ref20001] | DY      | pd/2pp | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 |                                   |
 | 20002 | [link][ref20002] | DY      | pd/2pp | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E906 |                                   |
 
