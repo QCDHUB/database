@@ -21,7 +21,6 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | 2003  | [link][ref2003]        | p + pb    | Asym     | 1.96      | 25           | CDF          | 
 | 2006  | [link][ref2006]        | p + pb    | Asym     | 1.96      | 25           | D0           | 
 | 2007  | [link][ref2007]        | p + p     | Sig      | 8000      | 25           | ATLAS        | 
-| 2008  | [link][ref2008/2015]   | p + p     | Sig      | 7000      | 25           | ATLAS        | 
 | 2009  | [link][ref2009]        | p + p     | Sig      | 7000      | 25           | ATLAS        | 
 | 2010  | [link][ref2010]        | p + p     | Sig      | 8000      | 20           | CMS          | 
 | 2011  | [link][ref2011]        | p + p     | Asym     | 7000      | 25           | CMS          | 
