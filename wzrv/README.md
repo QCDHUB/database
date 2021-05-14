@@ -36,6 +36,8 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | index | ref                    | particles | obs       | RS (TeV)  | pT cut (GeV) | experiment   | 
 | :--:  | :--:                   | :--       | :--:      | :--:      | :--:         | :--:         | 
 | 2008  | [link][ref2008/2015]   | p + p     | Sig       | 7000      | 25           | ATLAS        | 
+| 2016  | [link][ref2016]        | p + p     | Asym      | 7000      | 25           | LHCb         | 
+| 2017  | [link][ref2017]        | p + p     | Asym      | 8000      | 25           | LHCb         | 
  
 # Polarized Datasets
 
@@ -75,6 +77,8 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 [ref2011]:      https://inspirehep.net/literature/1273570
 [ref2012]:      https://inspirehep.net/literature/1118047
 [ref2013-2014]: https://inspirehep.net/literature/892975
+[ref2016]:      https://inspirehep.net/literature/1311488
+[ref2017]:      https://inspirehep.net/literature/1454404
 [ref2020]:      https://inspirehep.net/literature/1829350
 
 
