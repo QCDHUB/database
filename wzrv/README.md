@@ -46,7 +46,6 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 * Observables: (always differental in eta and integrated over pT) 
   * SSA: Single-spin asymmetry
   * DSA: Double-spin asymmetry
-* 2015 is the same as 2008, with systematic errors treated as correlated instead of uncorrelated
 
 ## Tables used in current analyses
 
