@@ -58,8 +58,8 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 
 | index | ref                    | particles | obs       | RS (TeV)  | pT cut (GeV) | experiment   | 
 | :--:  | :--:                   | :--       | :--:      | :--:      | :--:         | :--:         | 
-| 1002  | [link][ref1000-1003]   | p + p     | DSA       | 0.51      | 25           | STAR         | 
-| 1003  | [link][ref1000-1003]   | p + p     | DSA       | 0.51      | 25           | STAR         | 
+| 1010  | [link][ref1000-1003]   | p + p     | DSA       | 0.51      | 25           | STAR         | 
+| 1011  | [link][ref1000-1003]   | p + p     | DSA       | 0.51      | 25           | STAR         | 
 
 
 
