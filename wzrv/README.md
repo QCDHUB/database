@@ -62,11 +62,15 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | 1011  | [link][ref1000-1001]   | p + p     | DSA(W)    | 0.51      | 25           | STAR         | 
 | 1020  | [link][ref1020-1021]   | p + p     | SSA(W+Z)  | 0.51      | 25           | PHENIX       | 
 | 1021  | [link][ref1020-1021]   | p + p     | SSA(W+Z)  | 0.51      | 25           | PHENIX       | 
+| 1022  | [link][ref1022-1023]   | p + p     | SSA(W+Z)  | 0.51      | 16           | PHENIX       | 
+| 1023  | [link][ref1022-1023]   | p + p     | SSA(W+Z)  | 0.51      | 16           | PHENIX       | 
 
 
 
 
 [ref1000-1001]: https://inspirehep.net/record/1708793 
+[ref1020-1021]: https://inspirehep.net/literature/1365091
+[ref1022-1023]: https://inspirehep.net/literature/1667398
 [ref2000]:      https://inspirehep.net/record/1333394 
 [ref2003]:      https://inspirehep.net/record/674676
 [ref2006]:      https://inspirehep.net/literature/1253555
