@@ -20,23 +20,23 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | 2000  | [link][ref2000]        | p + pb    | Asym     | 1.96      | 25           | D0           | 
 | 2003  | [link][ref2003]        | p + pb    | Asym     | 1.96      | 25           | CDF          | 
 | 2006  | [link][ref2006]        | p + pb    | Asym     | 1.96      | 25           | D0           | 
-| 2007  | [link][ref2007]        | p + p     | Sig      | 8000      | 25           | ATLAS        | 
-| 2009  | [link][ref2009]        | p + p     | Sig      | 7000      | 25           | ATLAS        | 
-| 2010  | [link][ref2010]        | p + p     | Sig      | 8000      | 20           | CMS          | 
-| 2011  | [link][ref2011]        | p + p     | Asym     | 7000      | 25           | CMS          | 
-| 2012  | [link][ref2012]        | p + p     | Asym     | 7000      | 35           | CMS          | 
-| 2013  | [link][ref2013-2014]   | p + p     | Asym     | 7000      | 25           | CMS          | 
-| 2014  | [link][ref2013-2014]   | p + p     | Asym     | 7000      | 25           | CMS          | 
-| 2015  | [link][ref2008/2015]   | p + p     | Sig      | 7000      | 25           | ATLAS        | 
+| 2007  | [link][ref2007]        | p + p     | Sig      | 8.00      | 25           | ATLAS        | 
+| 2009  | [link][ref2009]        | p + p     | Sig      | 7.00      | 25           | ATLAS        | 
+| 2010  | [link][ref2010]        | p + p     | Sig      | 8.00      | 20           | CMS          | 
+| 2011  | [link][ref2011]        | p + p     | Asym     | 7.00      | 25           | CMS          | 
+| 2012  | [link][ref2012]        | p + p     | Asym     | 7.00      | 35           | CMS          | 
+| 2013  | [link][ref2013-2014]   | p + p     | Asym     | 7.00      | 25           | CMS          | 
+| 2014  | [link][ref2013-2014]   | p + p     | Asym     | 7.00      | 25           | CMS          | 
+| 2015  | [link][ref2008/2015]   | p + p     | Sig      | 7.00      | 25           | ATLAS        | 
 | 2020  | [link][ref2020]        | p + p     | RW       | 0.51      | 25           | STAR         | 
 
 ## Other tables
 
 | index | ref                    | particles | obs       | RS (TeV)  | pT cut (GeV) | experiment   | 
 | :--:  | :--:                   | :--       | :--:      | :--:      | :--:         | :--:         | 
-| 2008  | [link][ref2008/2015]   | p + p     | Sig       | 7000      | 25           | ATLAS        | 
-| 2016  | [link][ref2016]        | p + p     | Asym      | 7000      | 20           | LHCb         | 
-| 2017  | [link][ref2017]        | p + p     | Asym      | 8000      | 20           | LHCb         | 
+| 2008  | [link][ref2008/2015]   | p + p     | Sig       | 7.00      | 25           | ATLAS        | 
+| 2016  | [link][ref2016]        | p + p     | Asym      | 7.00      | 20           | LHCb         | 
+| 2017  | [link][ref2017]        | p + p     | Asym      | 8.00      | 20           | LHCb         | 
  
 # Polarized Datasets
 
