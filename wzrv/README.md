@@ -53,8 +53,6 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | :--:  | :--:                   | :--       | :--:     | :--:      | :--:         | :--:         | 
 | 1000  | [link][ref1000-1001]   | p + p     | SSA      | 0.51      | 25           | STAR         | 
 | 1001  | [link][ref1000-1001]   | p + p     | SSA      | 0.51      | 25           | STAR         | 
-| 1002  | [link][ref1002-1003]   | p + p     | SSA      | 0.51      | 30           | PHENIX       | 
-| 1003  | [link][ref1002-1003]   | p + p     | SSA      | 0.51      | 30           | PHENIX       | 
 
 ## Other tables
 
@@ -67,7 +65,6 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 
 
 [ref1000-1001]: https://inspirehep.net/record/1708793 
-[ref1002-1003]: https://inspirehep.net/literature/1365091
 [ref2000]:      https://inspirehep.net/record/1333394 
 [ref2003]:      https://inspirehep.net/record/674676
 [ref2006]:      https://inspirehep.net/literature/1253555
