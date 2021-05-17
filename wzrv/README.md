@@ -36,7 +36,9 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | :--:  | :--:                   | :--       | :--:      | :--:      | :--:         | :--:         | 
 | 2008  | [link][ref2008/2015]   | p + p     | Sig       | 7.00      | 25           | ATLAS        | 
 | 2016  | [link][ref2016]        | p + p     | Asym      | 7.00      | 20           | LHCb         | 
-| 2017  | [link][ref2017]        | p + p     | Asym      | 8.00      | 20           | LHCb         | 
+| 2017  | [link][ref2017]        | p + p     | Asym      | 8.00      | 20           | LHCb         |
+| 2018  | [link][ref2016]        | p + p     | Sig       | 7.00      | 20           | LHCb         | 
+| 2019  | [link][ref2017]        | p + p     | Sig       | 8.00      | 20           | LHCb         | 
  
 # Polarized Datasets
 
