@@ -13,10 +13,6 @@ This repo contains data on unpolarized W production in p + pb collisions from Te
 | 1001  | [link][ref1001]        | p + pb    | Asym     | 1.96      | D0           | 
 
 
-[ref1000]: https://inspirehep.net/literature/811060
-[ref1001]: https://inspirehep.net/literature/1268647
-
-
 
 
 
