@@ -82,7 +82,7 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 [ref2012]:      https://inspirehep.net/literature/1118047
 [ref2013-2014]: https://inspirehep.net/literature/892975
 [ref2016]:      https://inspirehep.net/literature/1311488
-[ref2017]:      https://inspirehep.net/literature/1454404
+[ref2017]:      https://inspirehep.net/literature/1406555
 [ref2020]:      https://inspirehep.net/literature/1829350
 
 
