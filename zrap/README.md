@@ -7,9 +7,9 @@ This repo contains data on unpolarized Z production in p + pb collisions from Te
 
 ## Tables used in current analyses
 
-| index | ref                    | particles | obs        | RS (TeV)  | experiment   | 
-| :--:  | :--:                   | :--       | :--:       | :--:      | :--:         | 
-| 1000  | [link][ref1000]        | p + pb    | Norm. Sig  | 1.96      | CDF          | 
+| index | ref                    | particles | obs        | RS (TeV)  | experiment   | normalization 
+| :--:  | :--:                   | :--       | :--:       | :--:      | :--:         | :--:
+| 1000  | [link][ref1000]        | p + pb    | Norm. Sig  | 1.96      | CDF          | Yes
 | 1001  | [link][ref1001]        | p + pb    | Norm. Sig  | 1.96      | D0           | 
 
 
