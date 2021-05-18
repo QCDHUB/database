@@ -21,7 +21,7 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | 2003  | [link][ref2003]        | p + pb    | Asym     | 1.96      | 25           | CDF          | 
 | 2006  | [link][ref2006]        | p + pb    | Asym     | 1.96      | 25           | D0           | 
 | 2007  | [link][ref2007]        | p + p     | Asym     | 8.00      | 25           | ATLAS        |  
-| 2008  | [link][ref2008/2015]   | p + p     | Sig      | 7.00      | 25           | ATLAS        | 
+| 2008  | [link][ref2008]        | p + p     | Asym     | 7.00      | 25           | ATLAS        | 
 | 2009  | [link][ref2009]        | p + p     | Asym     | 7.00      | 20           | ATLAS        | 
 | 2010  | [link][ref2010]        | p + p     | Asym     | 8.00      | 25           | CMS          | 
 | 2011  | [link][ref2011]        | p + p     | Asym     | 7.00      | 25           | CMS          | 
@@ -37,6 +37,7 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | index    | ref                    | particles | obs       | RS (TeV)  | pT cut (GeV) | experiment   | normalization 
 | :--:     | :--:                   | :--       | :--:      | :--:      | :--:         | :--:         | :--:
 | 2007sig  | [link][ref2007]        | p + p     | Sig       | 8.00      | 25           | ATLAS        | Yes 
+| 2008sig  | [link][ref2008]        | p + p     | Sig       | 7.00      | 25           | ATLAS        | 
 | 2009sig  | [link][ref2009]        | p + p     | Sig       | 7.00      | 20           | ATLAS        | Yes
 | 2010sig  | [link][ref2010]        | p + p     | Sig       | 8.00      | 25           | CMS          | Yes
 | 2016sig  | [link][ref2016]        | p + p     | Sig       | 7.00      | 20           | LHCb         | Yes
@@ -80,7 +81,7 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 [ref2003]:      https://inspirehep.net/record/674676
 [ref2006]:      https://inspirehep.net/literature/1253555
 [ref2007]:      https://inspirehep.net/literature/1729240
-[ref2008/2015]: https://inspirehep.net/literature/1502620
+[ref2008]:      https://inspirehep.net/literature/1502620
 [ref2009]:      https://inspirehep.net/literature/928289
 [ref2010]:      https://inspirehep.net/literature/1426517
 [ref2011]:      https://inspirehep.net/literature/1273570
