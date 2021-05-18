@@ -18,8 +18,8 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | index | ref                    | particles | obs      | RS (TeV)  | pT cut (GeV) | experiment   | normalization 
 | :--:  | :--:                   | :--       | :--:     | :--:      | :--:         | :--:         | :--:
 | 2000  | [link][ref2000]        | p + pb    | Asym     | 1.96      | 25           | D0           | 
-| 2003  | [link][ref2003]        | p + pb    | Asym     | 1.96      | 25           | CDF          | 
-| 2006  | [link][ref2006]        | p + pb    | Asym     | 1.96      | 25           | D0           | 
+| 2001  | [link][ref2001]        | p + pb    | Asym     | 1.96      | 25           | CDF          | 
+| 2002  | [link][ref2002]        | p + pb    | Asym     | 1.96      | 25           | D0           | 
 | 2007  | [link][ref2007]        | p + p     | Sig      | 8.00      | 25           | ATLAS        | Yes 
 | 2008  | [link][ref2008/2015]   | p + p     | Sig      | 7.00      | 25           | ATLAS        | Yes
 | 2009  | [link][ref2009]        | p + p     | Sig      | 7.00      | 20           | ATLAS        | Yes
@@ -74,8 +74,8 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 [ref1020-1021]: https://inspirehep.net/literature/1365091
 [ref1022-1023]: https://inspirehep.net/literature/1667398
 [ref2000]:      https://inspirehep.net/record/1333394 
-[ref2003]:      https://inspirehep.net/record/674676
-[ref2006]:      https://inspirehep.net/literature/1253555
+[ref2001]:      https://inspirehep.net/record/674676
+[ref2002]:      https://inspirehep.net/literature/1253555
 [ref2007]:      https://inspirehep.net/literature/1729240
 [ref2008/2015]: https://inspirehep.net/literature/1502620
 [ref2009]:      https://inspirehep.net/literature/928289
