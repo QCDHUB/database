@@ -11,7 +11,22 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
   * Asym:  Asymmetry of cross-sections: (W<sup>+</sup> - W<sup>-</sup>)/(W<sup>+</sup> - W<sup>-</sup>)
   * Sig:   Absolute cross-section for W<sup>+</sup> and/or W<sup>-</sup>
   * RW:    Ratio of W<sup>+</sup> to W<sup>-</sup> cross-section
-* 2015 is the same as 2008, with systematic errors treated as correlated instead of uncorrelated
+* Tables under "Other tables" may not be correct
+* The following uncertainties are considered correlated bin-to-bin in eta:
+  * Energy tuning
+  * Beam energy
+  * Recoil modeling
+  * Background modeling
+  * Unfolding 
+  * Generator
+  * MC modeling
+  * Signal Yield
+  * QCD shape
+* The following uncertainties are considered uncorrelated bin-to-bin in eta:
+  * Electron identification
+  * Charge misidentification
+  * Positron/electron efficiency
+  * QCD +/-
 
 ## Tables used in current analyses
 
@@ -42,7 +57,7 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | 2010sig  | [link][ref2010]        | p + p     | Sig       | 8.00      | 25           | CMS          | Yes
 | 2016sig  | [link][ref2016]        | p + p     | Sig       | 7.00      | 20           | LHCb         | Yes
 | 2017sig  | [link][ref2017]        | p + p     | Sig       | 8.00      | 20           | LHCb         | Yes
-| 2008alt  | [link][ref2008/2015]   | p + p     | Sig       | 7.00      | 25           | ATLAS        | Yes
+| 2008alt  | [link][ref2008]        | p + p     | Sig       | 7.00      | 25           | ATLAS        | Yes
  
 # Polarized Datasets
 
