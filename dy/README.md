@@ -1,32 +1,43 @@
-# pp and pd (per nucleon) Drell-Yan cross sections from E866 experiment at FNAL.
+This repo contains pp and pd (per nucleon) Drell-Yan cross section data from the E866 (NuSea) and E906 (SeaQuest) experiments at FNAL.
 
 ## Data collections and reviews:
 * http://p25ext.lanl.gov/e866/papers/e866dyabs/E866_Drell-Yan_Cross_Sections/E866_Drell-Yan_Cross_Sections.html
 
-## JAM database (converted into xlsx from ASCII files in CJ database)
+## Observables
 
-The table below indexes and summarizes the E866 pp and pd Drell-Yan cross sections.
+* M<sup>3</sup> dsig/dM dx<sub>F</sub>
 
-### Observables
+## Columns:
 
-* M^3 dsig/dM dxF
+- RS            = root(s) [GeV]
+- Rtau          = root(tau) = root(sqrt(s/M<sup>2</sup>))
+- x<sub>t</sub> = target x
+- x<sub>b</sub> = beam x
+- x<sub>F</sub> = x<sub>b</sub> - x<sub>t</sub>
+- units         = nb GeV<sup>2</sup> or None 
+- stat_u        = uncorrelated statistical uncertainty
+- syst_u        = uncorrelated systematic uncertainty
+- norm_c        = correlated normalization uncertainty
 
-### Columns:
+## Tables used in current analyses
 
-- RS    = root(s) [GeV]
-- Rtau  = root(tau)
-- xF    = x1 - x2
-- units = nb GeV^2 
-- value = cross section
-- stat  = statistical uncertainty
-- syst  = systematic uncertainty
-
-## Data table
-
-| index | ref              | process | target | obs             | experiment    | status |
-| :--:  | :--:             | :--:    | :--:   | :--:            | :--:          | :--:   |
-| 10001 | [link][ref10001] | DY      | pp     | M^3 dsig/dM dxF | Fermilab E866 | FINAL  |
-| 10002 | [link][ref10001] | DY      | pd     | M^3 dsig/dM dxF | Fermilab E866 | FINAL  |
+| index | ref              | process | target | obs                                  | experiment    | notes                             |
+| :--:  | :--:             | :--:    | :--:   | :--:                                 | :--:          | :--:                              |
+| 10001 | [link][ref10001] | DY      | pp     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 | M > 6 GeV cut                     |
+| 10002 | [link][ref10001] | DY      | pd     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 | M > 6 GeV cut                     |
+| 10011 | [link][ref10001] | DY      | pp     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 | Same as 10001, but no cut         |
+| 10012 | [link][ref10001] | DY      | pd     | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 | Same as 10002, but no cut         |
+| 20001 | [link][ref20001] | DY      | pd/2pp | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E866 |                                   |
+| 20002 | [link][ref20002] | DY      | pd/2pp | M<sup>3</sup> dsig/dM dx<sub>F</sub> | Fermilab E906 |                                   |
 
 [ref10001]: https://inspirehep.net/record/554316
-[ref10001]: https://inspirehep.net/record/554316
+[ref20001]: https://inspirehep.net/literature/554316
+[ref20002]: https://inspirehep.net/literature/1849683
+
+### Notes
+* SeaQuest data (20002) requires sum over acceptance matrix.  Values are stored in SQ_Acceptance.xlsx.
+
+
+
+
+
