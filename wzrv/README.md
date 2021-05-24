@@ -11,6 +11,7 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
   * Asym:  Asymmetry of cross-sections: (W<sup>+</sup> - W<sup>-</sup>)/(W<sup>+</sup> - W<sup>-</sup>)
   * Sig:   Absolute cross-section for W<sup>+</sup> and/or W<sup>-</sup>
   * RW:    Ratio of W<sup>+</sup> to W<sup>-</sup> cross-section
+* Datasets with observable "Sig" have normalization uncertainties
 * Tables under "Other tables" may not be correct
 * The following uncertainties are considered correlated bin-to-bin in eta:
   * Energy tuning
@@ -30,34 +31,34 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 
 ## Tables used in current analyses
 
-| index | ref                    | particles | obs      | RS (TeV)  | pT min (GeV) |  experiment   | normalization 
-| :--:  | :--:                   | :--       | :--:     | :--:      | :--:         |  :--:         | :--:
-| 2000  | [link][ref2000]        | p + pb    | Asym     | 1.96      | 25           |  D0           | 
-| 2003  | [link][ref2003]        | p + pb    | Asym     | 1.96      | 25           |  CDF          | 
-| 2006  | [link][ref2006]        | p + pb    | Asym     | 1.96      | 25           |  D0           | 
-| 2007  | [link][ref2007]        | p + p     | Asym     | 8.00      | 25           |  ATLAS        |  
-| 2008  | [link][ref2008]        | p + p     | Asym     | 7.00      | 25           |  ATLAS        | 
-| 2009  | [link][ref2009]        | p + p     | Asym     | 7.00      | 20           |  ATLAS        | 
-| 2010  | [link][ref2010]        | p + p     | Asym     | 8.00      | 25           |  CMS          | 
-| 2011  | [link][ref2011]        | p + p     | Asym     | 7.00      | 25           |  CMS          | 
-| 2012  | [link][ref2012]        | p + p     | Asym     | 7.00      | 35           |  CMS          | 
-| 2013  | [link][ref2013-2014]   | p + p     | Asym     | 7.00      | 25           |  CMS          | 
-| 2014  | [link][ref2013-2014]   | p + p     | Asym     | 7.00      | 25           |  CMS          | 
-| 2016  | [link][ref2016]        | p + p     | Asym     | 7.00      | 20           |  LHCb         | 
-| 2017  | [link][ref2017]        | p + p     | Asym     | 8.00      | 20           |  LHCb         |
-| 2020  | [link][ref2020]        | p + p     | RW       | 0.51      | 25           |  STAR         |
+| index | ref                    | particles | obs      | RS (TeV)  | pT min (GeV) |  experiment
+| :--:  | :--:                   | :--       | :--:     | :--:      | :--:         |  :--:      
+| 2000  | [link][ref2000]        | p + pb    | Asym     | 1.96      | 25           |  D0        
+| 2003  | [link][ref2003]        | p + pb    | Asym     | 1.96      | 25           |  CDF       
+| 2006  | [link][ref2006]        | p + pb    | Asym     | 1.96      | 25           |  D0        
+| 2007  | [link][ref2007]        | p + p     | Asym     | 8.00      | 25           |  ATLAS      
+| 2008  | [link][ref2008]        | p + p     | Asym     | 7.00      | 25           |  ATLAS     
+| 2009  | [link][ref2009]        | p + p     | Asym     | 7.00      | 20           |  ATLAS     
+| 2010  | [link][ref2010]        | p + p     | Asym     | 8.00      | 25           |  CMS       
+| 2011  | [link][ref2011]        | p + p     | Asym     | 7.00      | 25           |  CMS       
+| 2012  | [link][ref2012]        | p + p     | Asym     | 7.00      | 35           |  CMS       
+| 2013  | [link][ref2013-2014]   | p + p     | Asym     | 7.00      | 25           |  CMS       
+| 2014  | [link][ref2013-2014]   | p + p     | Asym     | 7.00      | 25           |  CMS       
+| 2016  | [link][ref2016]        | p + p     | Asym     | 7.00      | 20           |  LHCb      
+| 2017  | [link][ref2017]        | p + p     | Asym     | 8.00      | 20           |  LHCb      
+| 2020  | [link][ref2020]        | p + p     | RW       | 0.51      | 25           |  STAR      
 
 ## Other tables
 
-| index    | ref                    | particles | obs       | RS (TeV)  | pT min (GeV) |  experiment   | normalization 
-| :--:     | :--:                   | :--       | :--:      | :--:      | :--:         |  :--:         | :--:
-| 2007sig  | [link][ref2007]        | p + p     | Sig       | 8.00      | 25           |  ATLAS        | Yes 
-| 2008sig  | [link][ref2008]        | p + p     | Sig       | 7.00      | 25           |  ATLAS        | 
-| 2009sig  | [link][ref2009]        | p + p     | Sig       | 7.00      | 20           |  ATLAS        | Yes
-| 2010sig  | [link][ref2010]        | p + p     | Sig       | 8.00      | 25           |  CMS          | Yes
-| 2016sig  | [link][ref2016]        | p + p     | Sig       | 7.00      | 20           |  LHCb         | Yes
-| 2017sig  | [link][ref2017]        | p + p     | Sig       | 8.00      | 20           |  LHCb         | Yes
-| 2008alt  | [link][ref2008]        | p + p     | Sig       | 7.00      | 25           |  ATLAS        | Yes
+| index    | ref                    | particles | obs       | RS (TeV)  | pT min (GeV) |  experiment
+| :--:     | :--:                   | :--       | :--:      | :--:      | :--:         |  :--:      
+| 2007sig  | [link][ref2007]        | p + p     | Sig       | 8.00      | 25           |  ATLAS     
+| 2008sig  | [link][ref2008]        | p + p     | Sig       | 7.00      | 25           |  ATLAS     
+| 2009sig  | [link][ref2009]        | p + p     | Sig       | 7.00      | 20           |  ATLAS     
+| 2010sig  | [link][ref2010]        | p + p     | Sig       | 8.00      | 25           |  CMS       
+| 2016sig  | [link][ref2016]        | p + p     | Sig       | 7.00      | 20           |  LHCb      
+| 2017sig  | [link][ref2017]        | p + p     | Sig       | 8.00      | 20           |  LHCb      
+| 2008alt  | [link][ref2008]        | p + p     | Sig       | 7.00      | 25           |  ATLAS     
                                                                                                   
 # Polarized Datasets                                                       
                                                                            
