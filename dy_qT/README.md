@@ -32,6 +32,7 @@
 | 20002 | [link][refCMS8]  | pp->ZW->e nu           | 1/sig dsig/dpT  | CMS           |  
 | 20003 | [link][refCMS8]  | pp->ZW->mu nu          | 1/sig dsig/dpT  | CMS           |  
 | 30001 | [link][refLHCb13]  | pp->Z/gamma*          | 1/sig dsig/dpT  | LHCb           |  
+| 40001 | [link][refLHCb8]  | pp->Z/gamma*          | 1/sig dsig/dpT  | LHCb           |  
 
 [refCMS]: https://inspirehep.net/literature/1753680, https://www.hepdata.net/record/ins1753680
 
@@ -53,6 +54,6 @@ Z/gamma* and W, 8 TeV
 
 [refLHCb13] https://inspirehep.net/literature/1477581, https://lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/LHCb-PAPER-2016-021.html
 
-
+[refLHCb8] https://inspirehep.net/literature/1406555, https://www.hepdata.net/record/ins1406555
 
 
