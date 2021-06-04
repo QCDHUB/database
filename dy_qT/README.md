@@ -53,10 +53,10 @@ Normalized fiducial differential cross sections of W+ boson and W- boson decayin
 Z/gamma* and W, 8 TeV
 
 
-[refLHCb13] https://inspirehep.net/literature/1477581, https://lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/LHCb-PAPER-2016-021.html
+[refLHCb13]: https://inspirehep.net/literature/1477581, https://lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/LHCb-PAPER-2016-021.html
 
-[refLHCb8] https://inspirehep.net/literature/1406555, https://www.hepdata.net/record/ins1406555
+[refLHCb8]: https://inspirehep.net/literature/1406555, https://www.hepdata.net/record/ins1406555
 
-[refLHCb7] https://inspirehep.net/literature/1373300, https://www.hepdata.net/record/ins1373300
+[refLHCb7]: https://inspirehep.net/literature/1373300, https://www.hepdata.net/record/ins1373300
 
 
