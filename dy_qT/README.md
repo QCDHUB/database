@@ -40,6 +40,12 @@
 | 60004 | [link][refATLAS17]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
 | 60005 | [link][refATLAS17]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
 | 60006 | [link][refATLAS17]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
+| 70001 | [link][refATLAS8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
+| 70002 | [link][refATLAS8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
+| 70003 | [link][refATLAS8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
+| 70004 | [link][refATLAS8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
+| 70005 | [link][refATLAS8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
+| 70006 | [link][refATLAS8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
 
 [refCMS]: https://inspirehep.net/literature/1753680, https://www.hepdata.net/record/ins1753680
 
@@ -69,3 +75,8 @@ Z/gamma* and W, 8 TeV
 
 [refATLAS17]: https://inspirehep.net/literature/1300647, https://www.hepdata.net/record/ins1300647 The measured normalized combined (electron and muon channels) cross section (1/SIG(FID))*D(SIG(FID))/DPT(Z) for 0 <= ABS(YRAP(Z)) < 1, 1 <= ABS(YRAP(Z)) < 2 and 2 <= ABS(YRAP(Z)) < 2.4. The cross sections at DRESSED levels are given as well as the relative statistical and systematic uncertainties for uncorrelated and correlated sources.
 
+[refATLAS8]: https://inspirehep.net/literature/1408516, https://www.hepdata.net/record/ins1408516 70001-70006 Bins in rapidity, data here are only for combination of electron and muon channels at Born level. More data in source if needed
+
+70007-7012 Bins in mll, integrated over rapidity, data here are only for combination of electron and muon channels at Born level. More data in source if needed
+
+TODO: there is also data in dsigma/dpT we need to decide if we collect and use it. I have not collected it here.
