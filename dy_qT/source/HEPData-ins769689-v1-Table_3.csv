@@ -1,0 +1,26 @@
+#: table_doi: 10.17182/hepdata.50920.v1/t3
+#: name: Table 3
+#: description: Normalized differential transverse momentum spectrum for Z0/GAMMA* events for the absolute rapidity region > 2 and PT < 30 GeV.
+
+#: data_file: Table3.yaml
+#: keyword reactions: PBAR P --> E+ E- X | PBAR P --> GAMMA* X | PBAR P --> Z0 X
+#: keyword observables: DSIG/DPT
+#: keyword phrases: Inclusive | Single Differential Cross Section | Transverse Momentum Dependence | Z Production | Electron production
+#: keyword cmenergies: 1960.0
+#: ABS(YRAP),,,> 2
+#: RE,,,PBAR P --> Z0 <E+ E-> X + GAMMA* <E+ E-> X
+#: SQRT(S) [GeV],,,1960.0,,,,
+PT [GEV],PT [GEV] LOW,PT [GEV] HIGH,(1/SIG)*D(SIG)/DPT [GEV**-1],stat +,stat -,sys +,sys -
+1.1,0.0,2.5,0.0667,0.0044,-0.0044,0.0024,-0.0024
+4.0,2.5,5.0,0.0966,0.004,-0.004,0.0032,-0.0032
+6.0,5.0,7.5,0.0721,0.0033,-0.0033,0.0023,-0.0023
+8.5,7.5,10.0,0.0444,0.0025,-0.0025,0.0015,-0.0015
+11.5,10.0,12.5,0.0312,0.002,-0.002,0.0009,-0.0009
+14.0,12.5,15.0,0.0206,0.0016,-0.0016,0.0008,-0.0008
+16.3,15.0,17.5,0.0156,0.0013,-0.0013,0.0005,-0.0005
+18.7,17.5,20.0,0.011,0.001,-0.001,0.0005,-0.0005
+20.5,20.0,22.5,0.0096,0.0009,-0.0009,0.00044,-0.00044
+23.2,22.5,25.0,0.008,0.00076,-0.00076,0.00048,-0.00048
+26.2,25.0,27.5,0.0045,0.00063,-0.00063,0.00031,-0.00031
+29.0,27.5,30.0,0.004,0.00052,-0.00052,0.0003,-0.0003
+

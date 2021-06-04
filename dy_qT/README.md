@@ -49,6 +49,9 @@
 | 80001 | [link][refPHENIX]  | pp->Z/gamma*          |  1/sig dsig/dpT  | PHENIX           |  
 | 90001 | [link][refCDF1.8]  | pp->Z/gamma*          |   dsig/dpT  | CDF           |  
 | 90002 | [link][refCDF1.96]  | pp->Z/gamma*          |   dsig/dpT  | CDF           |  
+| 90003 | [link][refD01.8]  | pp->Z/gamma*          |   dsig/dpT  | D0          |  
+| 90004 | [link][refD01.96]  | pp->Z/gamma*          |  1/sig dsig/dpT  | D0           |  
+| 90005 | [link][refD0m1.96]  | pp->Z/gamma*          |  1/sig dsig/dpT  | D0           |  
 
 [refCMS]: https://inspirehep.net/literature/1753680, https://www.hepdata.net/record/ins1753680
 
@@ -89,3 +92,9 @@ TODO: there is also data in dsigma/dpT we need to decide if we collect and use i
 [refCDF1.8]: https://inspirehep.net/literature/505738, https://www.hepdata.net/record/ins505738
 
 [refCDF1.96]: https://inspirehep.net/literature/1124333, https://www.hepdata.net/record/ins1124333
+
+[refD01.8]: https://inspirehep.net/literature/503361, https://www.hepdata.net/record/ins503361
+
+[refD01.96]: https://inspirehep.net/literature/769689, https://www.hepdata.net/record/ins769689
+
+[refD0m1.96]: https://inspirehep.net/literature/856972, https://www.hepdata.net/record/ins856972
