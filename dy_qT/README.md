@@ -1,4 +1,4 @@
-# Z/gamma* boson pT dependent cross sections
+# Z/gamma*, W->e nu, W->mu nu boson pT dependent cross sections
 
 
 ## JAM database (converted into xlsx from HEPDATA cvs files)
@@ -6,13 +6,13 @@
 
 ### Observables
 
-* 1/sig dsig/dpT
+* 1/sig dsig/dpT, dsig/dpT
 
 ### Columns:
 - RS    = root(s) [GeV]  
 - value = cross section
-- stat_u  = statistical uncertainty
-- %syst_c  = systematic correlated uncertainty in % due to luminosity
+- _u  = uncorrelated uncertainty
+- _c  = correlated uncertainty
 
 ## Data table
 
@@ -29,11 +29,17 @@
 | 10009 | [link][refCMS]   | pp->Z/gamma*           |       dsig/dpT  | CMS           |  
 | 10010 | [link][refCMS]   | pp->Z/gamma*           |       dsig/dpT  | CMS           |  
 | 20001 | [link][refCMS8]  | pp->Z/gamma*->mu+mi-   | 1/sig dsig/dpT  | CMS           |  
-| 20002 | [link][refCMS8]  | pp->ZW->e nu           | 1/sig dsig/dpT  | CMS           |  
-| 20003 | [link][refCMS8]  | pp->ZW->mu nu          | 1/sig dsig/dpT  | CMS           |  
+| 20002 | [link][refCMS8]  | pp->W->e nu           | 1/sig dsig/dpT  | CMS           |  
+| 20003 | [link][refCMS8]  | pp->W->mu nu          | 1/sig dsig/dpT  | CMS           |  
 | 30001 | [link][refLHCb13]  | pp->Z/gamma*          |      dsig/dpT  | LHCb           |  
 | 40001 | [link][refLHCb8]  | pp->Z/gamma*          |       dsig/dpT  | LHCb           |  
 | 50001 | [link][refLHCb7]  | pp->Z/gamma*          |       dsig/dpT  | LHCb           |  
+| 60001 | [link][refATLAS7]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
+| 60002 | [link][refATLAS7]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
+| 60003 | [link][refATLAS7]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
+| 60004 | [link][refATLAS17]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
+| 60005 | [link][refATLAS17]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
+| 60006 | [link][refATLAS17]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
 
 [refCMS]: https://inspirehep.net/literature/1753680, https://www.hepdata.net/record/ins1753680
 
@@ -59,4 +65,7 @@ Z/gamma* and W, 8 TeV
 
 [refLHCb7]: https://inspirehep.net/literature/1373300, https://www.hepdata.net/record/ins1373300
 
+[refATLAS7]: https://inspirehep.net/literature/1300647, https://www.hepdata.net/record/ins1300647 The measured normalized combined (electron and muon channels) cross section (1/SIG(FID))*D(SIG(FID))/DPT(Z) for 0 <= ABS(YRAP(Z)) < 1, 1 <= ABS(YRAP(Z)) < 2 and 2 <= ABS(YRAP(Z)) < 2.4. The cross sections at BORN levels are given as well as the relative statistical and systematic uncertainties for uncorrelated and correlated sources.
+
+[refATLAS17]: https://inspirehep.net/literature/1300647, https://www.hepdata.net/record/ins1300647 The measured normalized combined (electron and muon channels) cross section (1/SIG(FID))*D(SIG(FID))/DPT(Z) for 0 <= ABS(YRAP(Z)) < 1, 1 <= ABS(YRAP(Z)) < 2 and 2 <= ABS(YRAP(Z)) < 2.4. The cross sections at DRESSED levels are given as well as the relative statistical and systematic uncertainties for uncorrelated and correlated sources.
 
