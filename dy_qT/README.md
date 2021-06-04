@@ -47,6 +47,7 @@
 | 70005 | [link][refATLAS8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
 | 70006 | [link][refATLAS8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
 | 80001 | [link][refPHENIX]  | pp->Z/gamma*          |  1/sig dsig/dpT  | PHENIX           |  
+| 90001 | [link][refCDF1.8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | CDF           |  
 
 [refCMS]: https://inspirehep.net/literature/1753680, https://www.hepdata.net/record/ins1753680
 
@@ -83,3 +84,5 @@ Z/gamma* and W, 8 TeV
 TODO: there is also data in dsigma/dpT we need to decide if we collect and use it. I have not collected it here.
 
 [refPHENIX]: https://inspirehep.net/literature/1672015
+
+[refCDF1.8]: https://inspirehep.net/literature/505738, https://www.hepdata.net/record/ins505738
