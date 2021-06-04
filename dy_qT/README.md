@@ -47,7 +47,8 @@
 | 70005 | [link][refATLAS8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
 | 70006 | [link][refATLAS8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
 | 80001 | [link][refPHENIX]  | pp->Z/gamma*          |  1/sig dsig/dpT  | PHENIX           |  
-| 90001 | [link][refCDF1.8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | CDF           |  
+| 90001 | [link][refCDF1.8]  | pp->Z/gamma*          |   dsig/dpT  | CDF           |  
+| 90002 | [link][refCDF1.96]  | pp->Z/gamma*          |   dsig/dpT  | CDF           |  
 
 [refCMS]: https://inspirehep.net/literature/1753680, https://www.hepdata.net/record/ins1753680
 
@@ -86,3 +87,5 @@ TODO: there is also data in dsigma/dpT we need to decide if we collect and use i
 [refPHENIX]: https://inspirehep.net/literature/1672015
 
 [refCDF1.8]: https://inspirehep.net/literature/505738, https://www.hepdata.net/record/ins505738
+
+[refCDF1.96]: https://inspirehep.net/literature/1124333, https://www.hepdata.net/record/ins1124333
