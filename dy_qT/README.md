@@ -46,6 +46,7 @@
 | 70004 | [link][refATLAS8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
 | 70005 | [link][refATLAS8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
 | 70006 | [link][refATLAS8]  | pp->Z/gamma*          |  1/sig dsig/dpT  | ATLAS           |  
+| 80001 | [link][refPHENIX]  | pp->Z/gamma*          |  1/sig dsig/dpT  | PHENIX           |  
 
 [refCMS]: https://inspirehep.net/literature/1753680, https://www.hepdata.net/record/ins1753680
 
@@ -80,3 +81,5 @@ Z/gamma* and W, 8 TeV
 70007-7012 Bins in mll, integrated over rapidity, data here are only for combination of electron and muon channels at Born level. More data in source if needed
 
 TODO: there is also data in dsigma/dpT we need to decide if we collect and use it. I have not collected it here.
+
+[refPHENIX]: https://inspirehep.net/literature/1672015
