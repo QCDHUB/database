@@ -19,7 +19,7 @@
 [ref10605tab]: http://hepdata.cedar.ac.uk/review-cgi/drell1/p_N_mu/fnal_605/pt_800
 [refE605]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.43.2815
 
-[ref1077tab]: https://www.hepdata.net/record/ins372414?version=1&table=Table%205
+[ref10772tab]: https://www.hepdata.net/record/ins372414?version=1&table=Table%205
 [refE772]: https://inspirehep.net/literature/372414
 
 [refE866]: https://www.osti.gov/biblio/1155678/
