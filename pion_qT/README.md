@@ -42,9 +42,16 @@ The table below indexes and summarizes the E610 pion-tungsten Drell-Yan cross se
 
 ... details coming ...
 
+PB: will have to check:
+  -  the systematic uncertainties and normalization
+
 ##File 15372
 
 ... details coming ...
+
+PB: will have to check:
+  -  the systematic uncertainties and normalization
+  -  whether integration over x is 0->1 or -0.1->1
 
 ## Data table
 
