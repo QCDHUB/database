@@ -51,3 +51,6 @@ The table below indexes and summarizes the E610 pion-tungsten Drell-Yan cross se
 
 # pion-tungsten (per nucleon) Drell-Yan cross sections from E537 experiment at FNAL.
 
+## Data sets:
+* http://hepdata.cedar.ac.uk/review/dy/e537.shtml
+
