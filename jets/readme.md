@@ -6,8 +6,8 @@
 | ----- | -----                    | -----         | -----     | -----                    | -----                    | -----         |
 | 10001 | [HEP Data][link.10001.d] | yes           | `ppb`     | [2008][link.10001.p]     | run II from 2004 to 2005 | D0            |
 | 10002 | [HEP Data][link.10002.d] | yes           | `ppb`     | [2007][link.10002.p]     | run II from 2002 to 2006 | CDF           |
-| 10003 | [drupal][link.10003.d]   | yes           | `pp`      | [2006][link.10003.p]     | 2003 and 2004            | STAR MB       |
-| 10004 | [drupal][link.10004.d]   | yes           | `pp`      | [2006][link.10004.p]     | 2003 and 2004            | STAR HT       |
+| 10003 | [drupal][link.10003.d]   | yes           | `pp`      | [2006][link.10003.p]     | 2003                     | STAR MB       |
+| 10004 | [drupal][link.10004.d]   | yes           | `pp`      | [2006][link.10004.p]     | 2004                     | STAR HT       |
 
 <br/>
 
@@ -30,8 +30,8 @@
 
 ## observables
 
-- <math><mfrac><mi>d<sup>2</sup>&sigma;</mi><mi>d p<sub>T</sub> d y</mi></mfrac></i></math>
-- <math><mfrac><mi>d<sup>2</sup>&sigma;</mi><mi>2 &pi; d p<sub>T</sub> d y</mi></mfrac></i></math>
+- <math><mfrac><mi>d<sup>2</sup>&sigma;</mi><mi>d p<sub>T</sub> d y</mi></mfrac></i></math> for 10001 and 10002
+- <math><mfrac><mi>d<sup>2</sup>&sigma;</mi><mi>2 &pi; d p<sub>T</sub> d y</mi></mfrac></i></math> for 10003 and 10004
 
 ## headers
 
@@ -39,6 +39,7 @@
 - `col`: collaboration
 - `particles-in`: `pp` for proton proton collision and `ppb` for proton anti proton collision
 - `RS`: $\sqrt{s}$ in GeV
+- `RS`: <math><mroot>s</mroot></math> in GeV
 - `pt-min`: minimum <i>p<sub>T</sub></i> in GeV
 - `pt-max`: maximum <i>p<sub>T</sub></i> in GeV
 - `pT`: average <i>p<sub>T</sub></i> in GeV
@@ -48,13 +49,14 @@
 - `eta-min`: minimum <i>&eta;</i>
 - `eta-max`: maximum <i>&eta;</i>
 - `cone-radius`: radius used in Jet algorithm
-- `obs`: observable[observable]
-- `units`: `pb` for pico barn and `nb` for nano barn[unit]
+- `obs`: observable<sup>[1](#f.observable)</sup>
+- `units`: `pb` for pico barn and `nb` for nano barn<sup>[2](#f.unit)</sup>
 - `value`: experimental values of observable
 - `plot-factor`: multiplier for separating <i>&eta;</i> bins in plots
 
-[observable]: `<` and `>` can only be used in pairs to represent averaging.
-[unit]: Values of `units` have to be the same for the whole dataset, because the numeric unit conversion factor is read in only based on the first entry.
+<a name="f.observable">[1]</a>: `<` and `>` can only be used in pairs to represent averaging
+
+<a name="f.unit">[2]</a>: Values of `units` have to be the same for the whole dataset, because the numeric unit conversion factor is only based on the first entry.
 
 ## uncertainties and corrections
 

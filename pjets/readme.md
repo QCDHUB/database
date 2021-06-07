@@ -47,12 +47,14 @@
 - `eta-min`: minimum <i>&eta;</i>
 - `eta-max`: maximum <i>&eta;</i>
 - `cone-radius`: radius used in Jet algorithm
-- `obs`: observable[observable]
-- `units`: `pb` for pico barn and `nb` for nano barn[unit]
+- `obs`: observable<sup>[1](#f.observable)</sup>
+- `units`: `pb` for pico barn and `nb` for nano barn<sup>[2](#f.unit)</sup>
 - `value`: experimental values of observable
 
-[observable]: `<` and `>` can only be used in pairs to represent averaging.
-[unit]: Values of `units` have to be the same for the whole dataset, because the numeric unit conversion factor is read in only based on the first entry.
+<a name="f.observable">[1]</a>: `<` and `>` can only be used in pairs to represent averaging
+
+<a name="f.unit">[2]</a>: Values of `units` have to be the same for the whole dataset, because the numeric unit conversion factor is only based on the first entry.
+
 
 ## uncertainties and corrections
 
