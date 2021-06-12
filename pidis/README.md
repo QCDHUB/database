@@ -61,9 +61,9 @@
 [ref10003]: https://www.sciencedirect.com/science/article/pii/S037026931500920X
 [ref10004]: https://www.sciencedirect.com/science/article/abs/pii/0550321389900898
 [ref10005]: https://inspirehep.net/literature/440904
-[ref10006]: blank
-[ref10007]: blank
-[ref10008]: blank
+[ref10006]: https://inspirehep.net/literature/726689
+[ref10007]: https://inspirehep.net/literature/726689
+[ref10008]: https://inspirehep.net/literature/1082840
 [ref10009]: blank
 [ref10010]: blank
 [ref10011]: blank
@@ -85,8 +85,8 @@
 [ref10027]: https://inspirehep.net/literature/586656
 [ref10028]: https://inspirehep.net/literature/493768
 [ref10029]: https://inspirehep.net/literature/530798
-[ref10030]: blank
-[ref10031]: blank
+[ref10030]: https://inspirehep.net/literature/585675
+[ref10031]: https://inspirehep.net/literature/585675
 [ref10032]: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.51.1135
 [ref10033]: https://inspirehep.net/literature/499139
 [ref10034]: https://inspirehep.net/literature/471981
