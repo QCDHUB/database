@@ -1,5 +1,6 @@
 # Polarized DIS
 
+## tables used in current analyses
 | index | ref              | target   | obs  | experiment      | Notes                             |
 | :--:  | :--:             | :--:     | :--: | :--:            | :--:                              |
 | 10001 | [link][ref10001] | deuteron | A1   | COMPASS         |                                   |
@@ -10,11 +11,8 @@
 | 10006 | [link][ref10006] | deuteron | Apa  | HERMES          |                                   |
 | 10007 | [link][ref10007] | proton   | Apa  | HERMES          |                                   |
 | 10008 | [link][ref10008] | proton   | A2   | HERMES          |                                   |
-| 10009 | [link][ref10009] | helium   | Apa  | JLabHA(E01012)  |                                   |
 | 10010 | [link][ref10010] | helium   | Apa  | JLabHA(E06014)  |                                   |
 | 10011 | [link][ref10011] | helium   | Ape  | JLabHA(E06014)  |                                   |
-| 10012 | [link][ref10012] | helium   | Apa  | JLabHA(E97103)  |                                   |
-| 10013 | [link][ref10013] | helium   | Ape  | JLabHA(E97103)  |                                   |
 | 10014 | [link][ref10014] | helium   | Apa  | JLabHA(E99117)  |                                   |
 | 10015 | [link][ref10015] | helium   | Ape  | JLabHA(E99117)  |                                   |
 | 10016 | [link][ref10016] | deuteron | Apa  | JLabHB(EG1DVCS) |                                   |
@@ -38,15 +36,22 @@
 | 10034 | [link][ref10034] | deuteron | A1   | SMC             | low-x trigger                     |
 | 10035 | [link][ref10035] | proton   | A1   | SMC             |                                   |
 | 10036 | [link][ref10036] | proton   | A1   | SMC             |                                   |
-| 10037 | [link][ref10037] | deuteron | Apa  | JLabHB(EG1b)    | E =1 GeV.  below W2cut            |
-| 10038 | [link][ref10038] | deuteron | Apa  | JLabHB(EG1b)    | E =2 GeV.  below W2cut            |
-| 10039 | [link][ref10039] | deuteron | Apa  | JLabHB(EG1b)    | E =4 GeV.                         |
-| 10040 | [link][ref10040] | deuteron | Apa  | JLabHB(EG1b)    | E =5 GeV.                         |
-| 10041 | [link][ref10041] | proton   | Apa  | JLabHB(EG1b)    | E =1 GeV.  below W2cut            |
-| 10042 | [link][ref10042] | proton   | Apa  | JLabHB(EG1b)    | E =2 GeV.                         |
-| 10043 | [link][ref10043] | proton   | Apa  | JLabHB(EG1b)    | E =4 GeV.                         |
-| 10044 | [link][ref10044] | proton   | Apa  | JLabHB(EG1b)    | E =5 GeV.                         |
+| 10039 | [link][ref10039] | deuteron | Apa  | JLabHB(EG1b)    | E = 4 GeV.                        |
+| 10040 | [link][ref10040] | deuteron | Apa  | JLabHB(EG1b)    | E = 5 GeV.                        |
+| 10042 | [link][ref10042] | proton   | Apa  | JLabHB(EG1b)    | E = 2 GeV.                        |
+| 10043 | [link][ref10043] | proton   | Apa  | JLabHB(EG1b)    | E = 4 GeV.                        |
+| 10044 | [link][ref10044] | proton   | Apa  | JLabHB(EG1b)    | E = 5 GeV.                        |
 
+
+## other tables
+| index | ref              | target   | obs  | experiment      | Notes                             |
+| :--:  | :--:             | :--:     | :--: | :--:            | :--:                              |
+| 10009 | None             | helium   | Apa  | JLabHA(E01012)  | below W2 = 4                      |
+| 10012 | None             | helium   | Apa  | JLabHA(E97103)  |                                   |
+| 10013 | None             | helium   | Ape  | JLabHA(E97103)  |                                   |
+| 10037 | [link][ref10037] | deuteron | Apa  | JLabHB(EG1b)    | E = 1 GeV.  below W2 = 4          |
+| 10038 | [link][ref10038] | deuteron | Apa  | JLabHB(EG1b)    | E = 2 GeV.  below W2 = 4          |
+| 10041 | [link][ref10041] | proton   | Apa  | JLabHB(EG1b)    | E = 1 GeV.  below W2 = 4          |
 
 # JLab 12
 | index |  process | target   | obs    | experiment     | comments          |
