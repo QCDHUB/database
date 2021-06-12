@@ -92,14 +92,14 @@
 [ref10034]: https://inspirehep.net/literature/471981
 [ref10035]: https://inspirehep.net/literature/499139
 [ref10036]: https://inspirehep.net/literature/471981
-[ref10037]: blank
-[ref10038]: blank
-[ref10039]: blank
-[ref10040]: blank
-[ref10041]: blank
-[ref10042]: blank
-[ref10043]: blank
-[ref10044]: blank
+[ref10037]: https://journals.aps.org/prc/abstract/10.1103/PhysRevC.92.055201
+[ref10038]: https://journals.aps.org/prc/abstract/10.1103/PhysRevC.92.055201
+[ref10039]: https://journals.aps.org/prc/abstract/10.1103/PhysRevC.92.055201
+[ref10040]: https://journals.aps.org/prc/abstract/10.1103/PhysRevC.92.055201
+[ref10041]: https://journals.aps.org/prc/abstract/10.1103/PhysRevC.96.065208
+[ref10042]: https://journals.aps.org/prc/abstract/10.1103/PhysRevC.96.065208
+[ref10043]: https://journals.aps.org/prc/abstract/10.1103/PhysRevC.96.065208
+[ref10044]: https://journals.aps.org/prc/abstract/10.1103/PhysRevC.96.065208
 
 
 
