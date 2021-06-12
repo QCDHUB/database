@@ -3,7 +3,7 @@
 | index | ref              | target   | obs  | experiment      | Notes                             |
 | :--:  | :--:             | :--:     | :--: | :--:            | :--:                              |
 | 10001 | [link][ref10001] | deuteron | A1   | COMPASS         |                                   |
-| 10002 |                  | proton   | A1   | COMPASS         |                                   |
+| 10002 | [link][ref10002] | proton   | A1   | COMPASS         |                                   |
 | 10003 |                  | proton   | A1   | COMPASS         |                                   |
 | 10004 |                  | proton   | A1   | EMC             |                                   |
 | 10005 |                  | neutron  | A1   | HERMES          |                                   |
@@ -57,6 +57,7 @@
 | 20003 |  pvdis   | helium   | Apvdis | Jlab12PVDIS    | E=11 GeV          |
 
 [ref10001]: https://inspirehep.net/literature/1501480
+[ref10002]: https://inspirehep.net/literature/843494
 [ref10033]: https://inspirehep.net/literature/499139
 [ref10034]: https://inspirehep.net/literature/471981
 [ref10035]: https://inspirehep.net/literature/499139
