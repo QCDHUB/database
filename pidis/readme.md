@@ -2,7 +2,7 @@
 
 | index | ref              | process | target   | obs  | experiment      | Notes                             |
 | :--:  | :--:             | :--:    | :--      | :--: | :--             | :--                               |
-| 10001 |                  | pdis    | deuteron | A1   | COMPASS         |                                   |
+| 10001 | [link][ref10001] | pdis    | deuteron | A1   | COMPASS         |                                   |
 | 10002 |                  | pdis    | proton   | A1   | COMPASS         |                                   |
 | 10003 |                  | pdis    | proton   | A1   | COMPASS         |                                   |
 | 10004 |                  | pdis    | proton   | A1   | EMC             |                                   |
@@ -56,6 +56,7 @@
 | 20002 |  pdis    | deuteron | Apa    | Jlab12HB(EG1b) | E=11 GeV  90 days |
 | 20003 |  pvdis   | helium   | Apvdis | Jlab12PVDIS    | E=11 GeV          |
 
+[ref10001]: https://inspirehep.net/literature/1501480
 [ref10033]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D60,072004
 [ref10034]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D58,112001
 [ref10035]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D60,072004
