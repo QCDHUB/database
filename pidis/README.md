@@ -59,8 +59,8 @@
 [ref10001]: https://inspirehep.net/literature/1501480
 [ref10002]: https://inspirehep.net/literature/843494
 [ref10003]: https://www.sciencedirect.com/science/article/pii/S037026931500920X
-[ref10004]: blank
-[ref10005]: blank
+[ref10004]: https://www.sciencedirect.com/science/article/abs/pii/0550321389900898
+[ref10005]: https://inspirehep.net/literature/440904
 [ref10006]: blank
 [ref10007]: blank
 [ref10008]: blank
