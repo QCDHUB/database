@@ -47,19 +47,19 @@
 | index | ref              | target   | obs  | experiment      | Notes                             |
 | :--:  | :--:             | :--:     | :--: | :--:            | :--:                              |
 | 10009 | None             | helium   | Apa  | JLabHA(E01012)  | below W2 = 4                      |
-| 10012 | None             | helium   | Apa  | JLabHA(E97103)  |                                   |
-| 10013 | None             | helium   | Ape  | JLabHA(E97103)  |                                   |
+| 10012 | None             | helium   | Apa  | JLabHA(E97103)  | CC: Something wrong with data?    |
+| 10013 | None             | helium   | Ape  | JLabHA(E97103)  | CC: Something wrong with data?    |
 | 10037 | [link][ref10037] | deuteron | Apa  | JLabHB(EG1b)    | E = 1 GeV.  below W2 = 4          |
 | 10038 | [link][ref10038] | deuteron | Apa  | JLabHB(EG1b)    | E = 2 GeV.  below W2 = 4          |
 | 10041 | [link][ref10041] | proton   | Apa  | JLabHB(EG1b)    | E = 1 GeV.  below W2 = 4          |
 
-# JLab 12
-| index |  process | target   | obs    | experiment     | comments          |
-| :--:  |  :--:    | :--:     | :--:   | :--:           | :--:              |
-| 20000 |  pdis    | proton   | Apa    | Jlab12HB(EG1b) | E=11 GeV  45 days |
-| 20001 |  pdis    | deuteron | Apa    | Jlab12HB(EG1b) | E=11 GeV  45 days |
-| 20002 |  pdis    | deuteron | Apa    | Jlab12HB(EG1b) | E=11 GeV  90 days |
-| 20003 |  pvdis   | helium   | Apvdis | Jlab12PVDIS    | E=11 GeV          |
+## JLab 12
+| index | target   | obs    | experiment     | comments          |
+| :--:  | :--:     | :--:   | :--:           | :--:              |
+| 20000 | proton   | Apa    | Jlab12HB(EG1b) | E=11 GeV  45 days |
+| 20001 | deuteron | Apa    | Jlab12HB(EG1b) | E=11 GeV  45 days |
+| 20002 | deuteron | Apa    | Jlab12HB(EG1b) | E=11 GeV  90 days |
+| 20003 | helium   | Apvdis | Jlab12PVDIS    | E=11 GeV          |
 
 [ref10001]: https://inspirehep.net/literature/1501480
 [ref10002]: https://inspirehep.net/literature/843494
@@ -69,11 +69,8 @@
 [ref10006]: https://inspirehep.net/literature/726689
 [ref10007]: https://inspirehep.net/literature/726689
 [ref10008]: https://inspirehep.net/literature/1082840
-[ref10009]: blank
 [ref10010]: https://inspirehep.net/literature/1299339
 [ref10011]: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.022002
-[ref10012]: blank
-[ref10013]: blank
 [ref10014]: https://inspirehep.net/literature/650244
 [ref10015]: https://inspirehep.net/literature/650244
 [ref10016]: https://journals.aps.org/prc/abstract/10.1103/PhysRevC.90.025212
