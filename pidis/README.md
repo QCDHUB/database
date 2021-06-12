@@ -70,7 +70,7 @@
 [ref10007]: https://inspirehep.net/literature/726689
 [ref10008]: https://inspirehep.net/literature/1082840
 [ref10010]: https://inspirehep.net/literature/1299339
-[ref10011]: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.022002
+[ref10011]: https://inspirehep.net/literature/1299339
 [ref10014]: https://inspirehep.net/literature/650244
 [ref10015]: https://inspirehep.net/literature/650244
 [ref10016]: https://journals.aps.org/prc/abstract/10.1103/PhysRevC.90.025212
