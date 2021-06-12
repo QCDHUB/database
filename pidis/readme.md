@@ -57,9 +57,9 @@
 | 20003 |  pvdis   | helium   | Apvdis | Jlab12PVDIS    | E=11 GeV          |
 
 [ref10001]: https://inspirehep.net/literature/1501480
-[ref10033]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D60,072004
+[ref10033]: https://inspirehep.net/literature/499139
 [ref10034]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D58,112001
-[ref10035]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D60,072004
+[ref10035]: https://inspirehep.net/literature/499139
 [ref10036]: https://inspirehep.net/search?p=find+j+Phys.Rev.,D58,112001
 [com10016-10017]: comments/10016-10017.md
 [com10039-10044]: comments/10039-10044.md
