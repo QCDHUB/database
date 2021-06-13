@@ -31,7 +31,7 @@
 | 10029 | [link][ref10029] | proton   | Apa  | SLAC(E155)      |                                   |
 | 10030 | [link][ref10030] | deuteron | Atpe | SLAC(E155x)     |                                   |
 | 10031 | [link][ref10031] | proton   | Atpe | SLAC(E155x)     |                                   |
-| 10032 | [link][ref10032] | proton   | Apa  | SLACE80E130     | NS: I set norm==syst_c due to  0  |
+| 10032 | [link][ref10032] | proton   | Apa  | SLACE80E130     |                                   |
 | 10033 | [link][ref10033] | deuteron | A1   | SMC             | low-x trigger                     |
 | 10034 | [link][ref10034] | deuteron | A1   | SMC             | low-x trigger                     |
 | 10035 | [link][ref10035] | proton   | A1   | SMC             |                                   |
