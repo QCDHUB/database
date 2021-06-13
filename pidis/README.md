@@ -1,35 +1,21 @@
 # Polarized DIS
 
-This repo contains data on unpolarized and polarized lepton production in p + p or p + pb collisions from Tevatron, LHC, and RHIC.
-
-Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
-
-# Unpolarized Datasets
+This repo contains data on polarized inclusive deep inelastic scattering
 
 ## Notes
 
-* These datasets involve spin-averaged PDFs
-* Observables: (always differental in eta and integrated over pT) 
-  * Asym:  Asymmetry of cross-sections: (W<sup>+</sup> - W<sup>-</sup>)/(W<sup>+</sup> - W<sup>-</sup>)
-  * Sig:   Absolute cross-section for W<sup>+</sup> and/or W<sup>-</sup>
-  * RW:    Ratio of W<sup>+</sup> to W<sup>-</sup> cross-section
-* Datasets with observable "Sig" have normalization uncertainties
+* These datasets involve helicity and spin-averaged PDFs
+* Observables:
 * Tables under "Other tables" may not be correct
-* The following uncertainties are considered correlated bin-to-bin in eta:
-  * Energy tuning
-  * Beam energy
-  * Recoil modeling
-  * Background modeling
-  * Unfolding 
-  * Generator
-  * MC modeling
-  * Signal Yield
-  * QCD shape
-* The following uncertainties are considered uncorrelated bin-to-bin in eta:
-  * Electron identification
-  * Charge misidentification
-  * Positron/electron efficiency
-  * QCD +/-
+* The following uncertainties are considered normalization uncertainties:
+  * Beam polarization
+  * Target polarization
+  * Dilution ractor
+  * Depolarization factor
+* The following uncertainties are considered uncorrelated bin-to-bin:
+  * False asymmetries
+  * Radiative corrections
+  * Neglect of A<sub>2</sub>
 
 ## Tables used in current analyses
 | index | ref              | target   | obs  | experiment      | Notes                             |
