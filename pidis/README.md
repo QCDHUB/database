@@ -1,6 +1,37 @@
 # Polarized DIS
 
-## tables used in current analyses
+This repo contains data on unpolarized and polarized lepton production in p + p or p + pb collisions from Tevatron, LHC, and RHIC.
+
+Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
+
+# Unpolarized Datasets
+
+## Notes
+
+* These datasets involve spin-averaged PDFs
+* Observables: (always differental in eta and integrated over pT) 
+  * Asym:  Asymmetry of cross-sections: (W<sup>+</sup> - W<sup>-</sup>)/(W<sup>+</sup> - W<sup>-</sup>)
+  * Sig:   Absolute cross-section for W<sup>+</sup> and/or W<sup>-</sup>
+  * RW:    Ratio of W<sup>+</sup> to W<sup>-</sup> cross-section
+* Datasets with observable "Sig" have normalization uncertainties
+* Tables under "Other tables" may not be correct
+* The following uncertainties are considered correlated bin-to-bin in eta:
+  * Energy tuning
+  * Beam energy
+  * Recoil modeling
+  * Background modeling
+  * Unfolding 
+  * Generator
+  * MC modeling
+  * Signal Yield
+  * QCD shape
+* The following uncertainties are considered uncorrelated bin-to-bin in eta:
+  * Electron identification
+  * Charge misidentification
+  * Positron/electron efficiency
+  * QCD +/-
+
+## Tables used in current analyses
 | index | ref              | target   | obs  | experiment      | Notes                             |
 | :--:  | :--:             | :--:     | :--: | :--:            | :--:                              |
 | 10001 | [link][ref10001] | deuteron | A1   | COMPASS         |                                   |
@@ -42,7 +73,7 @@
 | 10044 | [link][ref10044] | proton   | Apa  | JLabHB(EG1b)    | E = 5 GeV.                        |
 
 
-## other tables
+## Other tables
 | index | ref              | target   | obs  | experiment      | Notes                             |
 | :--:  | :--:             | :--:     | :--: | :--:            | :--:                              |
 | 10009 | None             | helium   | Apa  | JLabHA(E01012)  | below W2 = 4                      |
