@@ -38,7 +38,6 @@
 | 10036 | [link][ref10036] | proton   | A1   | SMC             |                                   |
 | 10039 | [link][ref10039] | deuteron | Apa  | JLabHB(EG1b)    | E = 4 GeV.                        |
 | 10040 | [link][ref10040] | deuteron | Apa  | JLabHB(EG1b)    | E = 5 GeV.                        |
-| 10042 | [link][ref10042] | proton   | Apa  | JLabHB(EG1b)    | E = 2 GeV.                        |
 | 10043 | [link][ref10043] | proton   | Apa  | JLabHB(EG1b)    | E = 4 GeV.                        |
 | 10044 | [link][ref10044] | proton   | Apa  | JLabHB(EG1b)    | E = 5 GeV.                        |
 
@@ -52,6 +51,7 @@
 | 10037 | [link][ref10037] | deuteron | Apa  | JLabHB(EG1b)    | E = 1 GeV.  below W2 = 4          |
 | 10038 | [link][ref10038] | deuteron | Apa  | JLabHB(EG1b)    | E = 2 GeV.  below W2 = 4          |
 | 10041 | [link][ref10041] | proton   | Apa  | JLabHB(EG1b)    | E = 1 GeV.  below W2 = 4          |
+| 10042 | [link][ref10042] | proton   | Apa  | JLabHB(EG1b)    | E = 2 GeV.  below W2 = 4          |
 
 ## JLab 12
 | index | target   | obs    | experiment     | comments          |
