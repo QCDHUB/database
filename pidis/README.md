@@ -84,7 +84,7 @@
 [ref10024]: https://inspirehep.net/files/5837438e365534e9d3fc7225f13260dd
 [ref10025]: https://inspirehep.net/files/5837438e365534e9d3fc7225f13260dd
 [ref10026]: https://inspirehep.net/literature/493768
-[ref10027]: https://inspirehep.net/literature/586656
+[ref10027]: https://www.sciencedirect.com/science/article/pii/S0370269399009405
 [ref10028]: https://inspirehep.net/literature/493768
 [ref10029]: https://inspirehep.net/literature/530798
 [ref10030]: https://inspirehep.net/literature/585675
