@@ -1,8 +1,4 @@
-# pion-tungsten (per nucleon) Drell-Yan cross sections from E615 experiment at FNAL.
-  
-## Data sets:
-* http://hepdata.cedar.ac.uk/review/dy/e615.shtml
-* http://hepdata.cedar.ac.uk/review/dy/e537.shtml
+# pion-tungsten (per nucleon) Drell-Yan cross sections
 
 ## File 15371
 
