@@ -21,12 +21,12 @@ PB: will have to check:
 | :--:  | :--:             | :--:    | :--:   | :--:                | :--:          | :--:        | :--:                |
 | 1001  | [link][ref1001]  | DY      |tungsten| dsigma/dpTdQ        | Fermilab E615 | E=252 GeV   | [link][ref1001tab]  |
 | 1002  | [link][ref1002]  | DY      |tungsten| dsigma/dpTdxF       | Fermilab E615 | E=252 GeV   | [link][ref1002tab]  |
-| 15371 | [link][ref15371] | DY      |tungsten| d2sigma/dpT2dx      | Fermilab E537 | E=125 GeV   | [link][ref15371tab] |
-| 15372 | [link][ref15372] | DY      |tungsten| d2sigma/dpT2dm      | Fermilab E537 | E=125 GeV   | [link][ref15372tab] |
+| 15371 | [link][ref15371] | DY      |tungsten| d2sigma/dpT2dQ      | Fermilab E537 | E=125 GeV   | [link][ref15371tab] |
+| 15372 | [link][ref15372] | DY      |tungsten| d2sigma/dpT2dxF     | Fermilab E537 | E=125 GeV   | [link][ref15372tab] |
 
 
-[ref1001]: https://journals.aps.org/prd/pdf/10.1103/PhysRevD.39.92
-[ref1002]: https://journals.aps.org/prd/pdf/10.1103/PhysRevD.39.92
+[ref1001]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.39.92
+[ref1002]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.39.92
 [ref15371]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.38.1377
 [ref15372]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.38.1377
 
