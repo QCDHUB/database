@@ -1,16 +1,16 @@
-# unpolarized Jet data from Tevatron and RHIC
+# Polarized single jet production data <br> from RHIC
 
 ## data tables
 
-| index | data table               | normalization | collision | paper in                 | data recorded in | collaboration |
-| ----- | -----                    | -----         | -----     | -----                    | -----            | -----         |
-| 20001 | [drupal][link.20001.d]   | no            | `pp`      | [2006][link.20001.p]     | 2003 and 2004    | STAR          |
-| 20002 | [drupal][link.20002.d]   | yes           | `pp`      | [2012][link.20002.p]     | 2005             | STAR          |
-| 20003 | [drupal][link.20003.d]   | yes           | `pp`      | [2012][link.20003.p]     | 2006             | STAR          |
-| 20004 | [drupal][link.20004.d]   | yes           | `pp`      | [2015][link.20004.p]     | 2009             | STAR          |
-| 20005 | [phenix][link.20005.d]   | yes           | `pp`      | [2011][link.20005.p]     | 2005             | PHENIX        |
-| 20006 | [drupal][link.20006.d]   | yes           | `pp`      | [2019][link.20006.p]     | 2012             | STAR          |
-| 20007 | [drupal][link.20007.d]   | yes           | `pp`      | [2021][link.20007.p]     | 2015             | STAR          |
+| index | data                     | normalization | collision | algorithm | paper in                 | data recorded in | collaboration |
+| ----- | -----                    | -----         | -----     | -----     | -----                    | -----            | -----         |
+| 20001 | [drupal][link.20001.d]   | no            | `pp`      | cone                      | [2006][link.20001.p]     | 2003 and 2004    | STAR          |
+| 20002 | [drupal][link.20002.d]   | yes           | `pp`      | cone                      | [2012][link.20002.p]     | 2005             | STAR          |
+| 20003 | [drupal][link.20003.d]   | yes           | `pp`      | cone                      | [2012][link.20003.p]     | 2006             | STAR          |
+| 20004 | [drupal][link.20004.d]   | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2015][link.20004.p]     | 2009             | STAR          |
+| 20005 | [phenix][link.20005.d]   | yes           | `pp`      | cone                      | [2011][link.20005.p]     | 2005             | PHENIX        |
+| 20006 | [drupal][link.20006.d]   | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2019][link.20006.p]     | 2012             | STAR          |
+| 20007 | [drupal][link.20007.d]   | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2021][link.20007.p]     | 2015             | STAR          |
 
 [link.20001.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/68/data.html
 [link.20002.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/188/data.html

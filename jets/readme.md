@@ -1,13 +1,13 @@
-# unpolarized Jet data from Tevatron and RHIC
+# Unpolarized single jet production data <br> from Tevatron and RHIC
 
 ## data tables
 
-| index | ref                      | normalization | collision | paper in                 | data recorded in         | collaboration |
-| ----- | -----                    | -----         | -----     | -----                    | -----                    | -----         |
-| 10001 | [HEP Data][link.10001.d] | yes           | `ppb`     | [2008][link.10001.p]     | run II from 2004 to 2005 | D0            |
-| 10002 | [HEP Data][link.10002.d] | yes           | `ppb`     | [2007][link.10002.p]     | run II from 2002 to 2006 | CDF           |
-| 10003 | [drupal][link.10003.d]   | yes           | `pp`      | [2006][link.10003.p]     | 2003                     | STAR MB       |
-| 10004 | [drupal][link.10004.d]   | yes           | `pp`      | [2006][link.10004.p]     | 2004                     | STAR HT       |
+| index | data                     | normalization | collision | algorithm            |paper in                 | data recorded in      | collaboration |
+| ----- | -----                    | -----         | -----     | -----                |-----                    | -----                 | -----         |
+| 10001 | [HEP Data][link.10001.d] | yes           | `ppb`     | cone                 |[2008][link.10001.p]     | 2004 to 2005 (run II) | D0            |
+| 10002 | [HEP Data][link.10002.d] | yes           | `ppb`     | <i>k<sub>T</sub></i> |[2007][link.10002.p]     | 2002 to 2006 (run II) | CDF           |
+| 10003 | [drupal][link.10003.d]   | yes           | `pp`      | cone                 |[2006][link.10003.p]     | 2003                  | STAR          |
+| 10004 | [drupal][link.10004.d]   | yes           | `pp`      | cone                 |[2006][link.10004.p]     | 2004                  | STAR          |
 
 <br/>
 
