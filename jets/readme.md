@@ -15,23 +15,21 @@
 
 2. dataset [10092][link.10092.d] is the cone algorithm version of dataset 10002
 
-3. dataset 19999 is a test dataset
-
 [link.10001.d]: https://www.hepdata.net/record/ins779574
 [link.10002.d]: https://www.hepdata.net/record/ins743342
 [link.10003.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/68/data.html
 [link.10004.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/68/data.html
 [link.10092.d]: https://www.hepdata.net/record/ins790693
 
-[link.10001.p]: http://dx.doi.org/10.1103/PhysRevLett.101.062001 'DOI'
-[link.10002.p]: http://dx.doi.org/10.1103/PhysRevD.75.092006 'DOI'
-[link.10003.p]: http://dx.doi.org/10.1103/PhysRevLett.97.252001 'DOI'
-[link.10004.p]: http://dx.doi.org/10.1103/PhysRevLett.97.252001 'DOI'
+[link.10001.p]: https://doi.org/10.1103/PhysRevLett.101.062001 'DOI'
+[link.10002.p]: https://doi.org/10.1103/PhysRevD.75.092006 'DOI'
+[link.10003.p]: https://doi.org/10.1103/PhysRevLett.97.252001 'DOI'
+[link.10004.p]: https://doi.org/10.1103/PhysRevLett.97.252001 'DOI'
 
 ## observables
 
-- <math><mfrac><mi>d<sup>2</sup>&sigma;</mi><mi>d p<sub>T</sub> d y</mi></mfrac></i></math> for 10001 and 10002
-- <math><mfrac><mi>d<sup>2</sup>&sigma;</mi><mi>2 &pi; d p<sub>T</sub> d y</mi></mfrac></i></math> for 10003 and 10004
+- d<sup>2</sup><i>&sigma;</i> / (d<i>p<sub>T</sub></i> d<i>&eta;</i>) for 10001 and 10002
+- d<sup>2</sup><i>&sigma;</i> / (<i>2&pi;</i> d<i>p<sub>T</sub></i> d<i>&eta;</i>) for 10003 and 10004
 
 ## headers
 

@@ -20,13 +20,13 @@
 [link.20006.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/310/data.html
 [link.20007.d]: https://drupal.star.bnl.gov/STAR/publications
 
-[link.20001.p]: http://dx.doi.org/10.1103/PhysRevLett.97.252001 'DOI'
-[link.20002.p]: http://dx.doi.org/10.1103/PhysRevD.86.032006 'DOI'
-[link.20003.p]: http://dx.doi.org/10.1103/PhysRevD.86.032006 'DOI'
-[link.20004.p]: http://dx.doi.org/10.1103/PhysRevLett.115.092002 'DOI'
-[link.20005.p]: http://dx.doi.org/10.1103/PhysRevD.84.012006 'DOI'
+[link.20001.p]: https://doi.org/10.1103/PhysRevLett.97.252001 'DOI'
+[link.20002.p]: https://doi.org/10.1103/PhysRevD.86.032006 'DOI'
+[link.20003.p]: https://doi.org/10.1103/PhysRevD.86.032006 'DOI'
+[link.20004.p]: https://doi.org/10.1103/PhysRevLett.115.092002 'DOI'
+[link.20005.p]: https://doi.org/10.1103/PhysRevD.84.012006 'DOI'
 [link.20006.p]: https://doi.org/10.1103/PhysRevD.100.052005 'DOI'
-[link.20007.p]: https://arxiv.org/abs/2103.05571
+[link.20007.p]: https://doi.org/10.1103/PhysRevD.103.L091103 'DOI'
 
 ## observables
 
