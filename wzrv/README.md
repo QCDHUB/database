@@ -82,15 +82,13 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 
 | index | ref                    | particles | obs      | RS (TeV)  | pT cut (GeV) | experiment   | 
 | :--:  | :--:                   | :--       | :--:     | :--:      | :--:         | :--:         | 
-| 1000  | [link][ref1000-1001]   | p + p     | SSA(W)   | 0.51      | 25           | STAR         | 
-| 1001  | [link][ref1000-1001]   | p + p     | SSA(W)   | 0.51      | 25           | STAR         | 
+| 1000  | [link][ref1000]        | p + p     | SSA(W)   | 0.51      | 25           | STAR         | 
 
 ## Double spin asymmetries
 
 | index | ref                    | particles | obs       | RS (TeV)  | pT cut (GeV) | experiment   | 
 | :--:  | :--:                   | :--       | :--:      | :--:      | :--:         | :--:         | 
-| 1010  | [link][ref1000-1001]   | p + p     | DSA(W)    | 0.51      | 25           | STAR         | 
-| 1011  | [link][ref1000-1001]   | p + p     | DSA(W)    | 0.51      | 25           | STAR         | 
+| 1010  | [link][ref1000]        | p + p     | DSA(W)    | 0.51      | 25           | STAR         | 
 
 ## Single spin asymmetries (W+Z)
 
