@@ -98,7 +98,6 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | 1021  | [link][ref1021]        | p + p     | SSA(W+Z)  | 0.51      | 16           | PHENIX       | 
 
 
-
 [ref1000]:      https://inspirehep.net/record/1708793 
 [ref1020]:      https://inspirehep.net/literature/1365091
 [ref1021]:      https://inspirehep.net/literature/1667398
