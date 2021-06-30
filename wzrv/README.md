@@ -29,6 +29,7 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
   * Positron/electron efficiency
   * QCD +/-
 * Only datasets that are fully inclusive (CMS, LHCb, STAR) are currently included
+* Tevatron and ATLAS also include cuts on the neutrino transverse momentum
 * Asymmetries are used instead of cross sections when the choice is given
 
 ## Tables used in current analyses
