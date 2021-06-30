@@ -101,7 +101,7 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 
 
 
-[ref1000-1001]: https://inspirehep.net/record/1708793 
+[ref1000]:      https://inspirehep.net/record/1708793 
 [ref1020-1021]: https://inspirehep.net/literature/1365091
 [ref1022-1023]: https://inspirehep.net/literature/1667398
 [ref2000]:      https://inspirehep.net/record/1333394 
