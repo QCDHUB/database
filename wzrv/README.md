@@ -28,17 +28,13 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
   * Charge misidentification
   * Positron/electron efficiency
   * QCD +/-
+* Only datasets that are fully inclusive (CMS, LHCb, STAR) are currently included
+* Asymmetries are used instead of cross sections when the choice is given
 
 ## Tables used in current analyses
 
 | index | ref                    | particles | obs      | RS (TeV)  | pT min (GeV) |  experiment
 | :--:  | :--:                   | :--       | :--:     | :--:      | :--:         |  :--:      
-| 2000  | [link][ref2000]        | p + pb    | Asym     | 1.96      | 25           |  D0        
-| 2003  | [link][ref2003]        | p + pb    | Asym     | 1.96      | 25           |  CDF       
-| 2006  | [link][ref2006]        | p + pb    | Asym     | 1.96      | 25           |  D0        
-| 2007  | [link][ref2007]        | p + p     | Asym     | 8.00      | 25           |  ATLAS      
-| 2008  | [link][ref2008]        | p + p     | Asym     | 7.00      | 25           |  ATLAS     
-| 2009  | [link][ref2009]        | p + p     | Asym     | 7.00      | 20           |  ATLAS     
 | 2010  | [link][ref2010]        | p + p     | Asym     | 8.00      | 25           |  CMS       
 | 2011  | [link][ref2011]        | p + p     | Asym     | 7.00      | 25           |  CMS       
 | 2012  | [link][ref2012]        | p + p     | Asym     | 7.00      | 35           |  CMS       
@@ -48,7 +44,17 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | 2017  | [link][ref2017]        | p + p     | Asym     | 8.00      | 20           |  LHCb      
 | 2020  | [link][ref2020]        | p + p     | RW       | 0.51      | 25           |  STAR      
 
-## Other tables
+## Non-inclusive data tables
+| index | ref                    | particles | obs      | RS (TeV)  | pT min (GeV) |  experiment
+| :--:  | :--:                   | :--       | :--:     | :--:      | :--:         |  :--:      
+| 2000  | [link][ref2000]        | p + pb    | Asym     | 1.96      | 25           |  D0        
+| 2003  | [link][ref2003]        | p + pb    | Asym     | 1.96      | 25           |  CDF       
+| 2006  | [link][ref2006]        | p + pb    | Asym     | 1.96      | 25           |  D0        
+| 2007  | [link][ref2007]        | p + p     | Asym     | 8.00      | 25           |  ATLAS      
+| 2008  | [link][ref2008]        | p + p     | Asym     | 7.00      | 25           |  ATLAS     
+| 2009  | [link][ref2009]        | p + p     | Asym     | 7.00      | 20           |  ATLAS     
+
+## Cross-section tables
 
 | index    | ref                    | particles | obs       | RS (TeV)  | pT min (GeV) |  experiment
 | :--:     | :--:                   | :--       | :--:      | :--:      | :--:         |  :--:      
@@ -67,7 +73,9 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 * Observables: (always differental in eta and integrated over pT)          
   * SSA: Single-spin asymmetry
   * DSA: Double-spin asymmetry
-* Tables under "Other tables" may not be correct
+* Tables outside of ones currently used may not be correct
+* Double spin asymmetries have not been implemented in the code
+* Single spin asymmetris with W+Z have not been implemented in the code
 
 ## Tables used in current analyses
 
@@ -76,17 +84,21 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | 1000  | [link][ref1000-1001]   | p + p     | SSA(W)   | 0.51      | 25           | STAR         | 
 | 1001  | [link][ref1000-1001]   | p + p     | SSA(W)   | 0.51      | 25           | STAR         | 
 
-## Other tables
+## Double spin asymmetries
 
 | index | ref                    | particles | obs       | RS (TeV)  | pT cut (GeV) | experiment   | 
 | :--:  | :--:                   | :--       | :--:      | :--:      | :--:         | :--:         | 
 | 1010  | [link][ref1000-1001]   | p + p     | DSA(W)    | 0.51      | 25           | STAR         | 
 | 1011  | [link][ref1000-1001]   | p + p     | DSA(W)    | 0.51      | 25           | STAR         | 
+
+## Single spin asymmetries (W+Z)
+
+| index | ref                    | particles | obs       | RS (TeV)  | pT cut (GeV) | experiment   | 
+| :--:  | :--:                   | :--       | :--:      | :--:      | :--:         | :--:         | 
 | 1020  | [link][ref1020-1021]   | p + p     | SSA(W+Z)  | 0.51      | 25           | PHENIX       | 
 | 1021  | [link][ref1020-1021]   | p + p     | SSA(W+Z)  | 0.51      | 25           | PHENIX       | 
 | 1022  | [link][ref1022-1023]   | p + p     | SSA(W+Z)  | 0.51      | 16           | PHENIX       | 
 | 1023  | [link][ref1022-1023]   | p + p     | SSA(W+Z)  | 0.51      | 16           | PHENIX       | 
-
 
 
 
