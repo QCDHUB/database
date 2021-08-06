@@ -38,9 +38,9 @@ This repo contains data on polarized inclusive deep inelastic scattering
 | 20026 | [link][refCOMPASSd] | deuteron | A1   | K-     |  COMPASS         |                                   |
 
 
-[refHERMES]:   https://inspirehep.net/literature/
-[refCOMPASSp]: https://inspirehep.net/literature/
-[refCOMPASSd]: https://inspirehep.net/literature/
+[refHERMES]:   https://inspirehep.net/literature/654756
+[refCOMPASSp]: https://inspirehep.net/literature/862410
+[refCOMPASSd]: https://inspirehep.net/literature/820721
 [refHERMESh]:  https://inspirehep.net/literature/
 [refSMC]:      https://inspirehep.net/literature/
 
