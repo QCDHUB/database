@@ -12,6 +12,10 @@
 | 20006 | [drupal][link.20006.d]   | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2019][link.20006.p]     | 2012             | STAR          |
 | 20007 | [drupal][link.20007.d]   | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2021][link.20007.p]     | 2015             | STAR          |
 
+<br>
+
+1. dataset 20099 is used for testing the separation of "positive" and "negative" <i>&Delta; g</i> solutions
+
 [link.20001.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/68/data.html
 [link.20002.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/188/data.html
 [link.20003.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/188/data.html

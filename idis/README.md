@@ -72,7 +72,7 @@
 
 [ref10001-10004]: http://inspirehep.net/record/820503?ln=en
 [ref10005-10009]: http://inspirehep.net/record/894309
-[ref10010-10015]: ....TO.BE.ADDED....
+[ref10010-10015]: https://inspirehep.net/literature/319089
 [ref10016]: https://inspirehep.net/record/276661?ln=en
 [ref10017]: https://inspirehep.net/record/285497?ln=en
 [ref10020]: http://inspirehep.net/record/424154?ln=en    
