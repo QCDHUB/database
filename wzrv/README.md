@@ -45,6 +45,12 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | 2017  | [link][ref2017]        | p + p     | Asym     | 8.00      | 20           |  LHCb      
 | 2020  | [link][ref2020]        | p + p     | RW       | 0.51      | 25           |  STAR      
 
+## Tables not yet included
+
+| index | ref                    | particles | obs      | RS (TeV)  | pT min (GeV) |  experiment
+| :--:  | :--:                   | :--       | :--:     | :--:      | :--:         |  :--:      
+| 2021  | [link][ref2021]        | p + p     | Asym     | 13.00     | 26           |  CMS       
+
 ## Non-inclusive data tables
 | index | ref                    | particles | obs      | RS (TeV)  | pT min (GeV) |  experiment
 | :--:  | :--:                   | :--       | :--:     | :--:      | :--:         |  :--:      
@@ -107,6 +113,7 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 [ref2016]:      https://inspirehep.net/literature/1311488
 [ref2017]:      https://inspirehep.net/literature/1406555
 [ref2020]:      https://inspirehep.net/literature/1829350
+[ref2021]:      https://inspirehep.net/literature/1810913
 
 
 
