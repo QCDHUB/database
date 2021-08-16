@@ -17,8 +17,6 @@ This repo contains data on unpolarized Z production in p + pb collisions from Te
 
 | index | ref                    | particles | obs        | RS (TeV)  | experiment   |
 | :--:  | :--:                   | :--       | :--:       | :--:      | :--:         |
-| 1000  | [link][ref1000]        | p + pb    | Sig        | 1.96      | CDF          |
-| 1001  | [link][ref1001]        | p + pb    | Norm. Sig  | 1.96      | D0           |
 | 1010  | [link][ref1010]        | p + p     | Sig        | 7.00      | ATLAS        |
 | 1011  | [link][ref1011]        | p + p     | Sig        | 7.00      | ATLAS        |
 | 1020  | [link][ref1020]        | p + p     | Sig        | 0.51      | STAR         |
