@@ -59,18 +59,21 @@ This repo contains data on polarized inclusive deep inelastic scattering
 | 10044 | [link][ref10044] | proton   | Apa  | JLabHB(EG1b)    | E = 5 GeV.                        |
 
 
-## Other tables
+## Tables that should? be included
 | index | ref              | target   | obs  | experiment      | Notes                             |
-| :--:  | :--:             | :--:     | :--: | :--:            | :--:                              |
+| 10012 | [link][ref10012] | helium   | Apa  | JLabHA(E97103)  | CC: Something wrong with data?    |
+| 10013 | [link][ref10013] | helium   | Ape  | JLabHA(E97103)  | CC: Something wrong with data?    |
+
+## Table that are below cuts
+| index | ref              | target   | obs  | experiment      | Notes                                        |
+| :--:  | :--:             | :--:     | :--: | :--:            | :--:                                         |
 | 10009 | None             | helium   | Apa  | JLabHA(E01012)  | below W<sup>2</sup> = 4                      |
-| 10012 | None             | helium   | Apa  | JLabHA(E97103)  | CC: Something wrong with data?    |
-| 10013 | None             | helium   | Ape  | JLabHA(E97103)  | CC: Something wrong with data?    |
 | 10037 | [link][ref10037] | deuteron | Apa  | JLabHB(EG1b)    | E = 1 GeV.  below W<sup>2</sup> = 4          |
 | 10038 | [link][ref10038] | deuteron | Apa  | JLabHB(EG1b)    | E = 2 GeV.  below W<sup>2</sup> = 4          |
 | 10041 | [link][ref10041] | proton   | Apa  | JLabHB(EG1b)    | E = 1 GeV.  below W<sup>2</sup> = 4          |
 | 10042 | [link][ref10042] | proton   | Apa  | JLabHB(EG1b)    | E = 2 GeV.  below W<sup>2</sup> = 4          |
 
-## JLab 12
+## JLab 12?
 | index | target   | obs    | experiment     | comments          |
 | :--:  | :--:     | :--:   | :--:           | :--:              |
 | 20000 | proton   | Apa    | Jlab12HB(EG1b) | E=11 GeV  45 days |
@@ -88,6 +91,8 @@ This repo contains data on polarized inclusive deep inelastic scattering
 [ref10008]: https://inspirehep.net/literature/1082840
 [ref10010]: https://inspirehep.net/literature/1299339
 [ref10011]: https://inspirehep.net/literature/1299339
+[ref10012]: https://inspirehep.net/literature/684137
+[ref10013]: https://inspirehep.net/literature/684137
 [ref10014]: https://inspirehep.net/literature/650244
 [ref10015]: https://inspirehep.net/literature/650244
 [ref10016]: https://journals.aps.org/prc/abstract/10.1103/PhysRevC.90.025212
