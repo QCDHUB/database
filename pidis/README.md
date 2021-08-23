@@ -58,12 +58,6 @@ This repo contains data on polarized inclusive deep inelastic scattering
 | 10043 | [link][ref10043] | proton   | Apa  | JLabHB(EG1b)    | E = 4 GeV.                        |
 | 10044 | [link][ref10044] | proton   | Apa  | JLabHB(EG1b)    | E = 5 GeV.                        |
 
-
-## Tables that should? be included
-| index | ref              | target   | obs  | experiment      | Notes                             |
-| :--:  | :--:             | :--:     | :--: | :--:            | :--:                                         |
-
-
 ## Table that are below cuts (W<sup>2</sup> = 4, below Q<sup>2</sup> = 1.69)
 | index | ref              | target   | obs  | experiment      | Notes                                        |
 | :--:  | :--:             | :--:     | :--: | :--:            | :--:                                         |
