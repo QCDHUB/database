@@ -62,13 +62,14 @@ This repo contains data on polarized inclusive deep inelastic scattering
 ## Tables that should? be included
 | index | ref              | target   | obs  | experiment      | Notes                             |
 | :--:  | :--:             | :--:     | :--: | :--:            | :--:                                         |
-| 10012 | [link][ref10012] | helium   | Apa  | JLabHA(E97103)  | CC: Something wrong with data?    |
-| 10013 | [link][ref10013] | helium   | Ape  | JLabHA(E97103)  | CC: Something wrong with data?    |
 
-## Table that are below cuts
+
+## Table that are below cuts (W<sup>2</sup> = 4, below Q<sup>2</sup> = 1.69)
 | index | ref              | target   | obs  | experiment      | Notes                                        |
 | :--:  | :--:             | :--:     | :--: | :--:            | :--:                                         |
 | 10009 | None             | helium   | Apa  | JLabHA(E01012)  | below W<sup>2</sup> = 4                      |
+| 10012 | [link][ref10012] | helium   | Apa  | JLabHA(E97103)  | below Q<sup>2</sup> = 1.69                   |
+| 10013 | [link][ref10013] | helium   | Ape  | JLabHA(E97103)  | below Q<sup>2</sup> = 1.69                   |
 | 10037 | [link][ref10037] | deuteron | Apa  | JLabHB(EG1b)    | E = 1 GeV.  below W<sup>2</sup> = 4          |
 | 10038 | [link][ref10038] | deuteron | Apa  | JLabHB(EG1b)    | E = 2 GeV.  below W<sup>2</sup> = 4          |
 | 10041 | [link][ref10041] | proton   | Apa  | JLabHB(EG1b)    | E = 1 GeV.  below W<sup>2</sup> = 4          |
