@@ -86,7 +86,7 @@ This repo contains data on polarized inclusive deep inelastic scattering
 [ref10007]: https://inspirehep.net/literature/726689
 [ref10008]: https://inspirehep.net/literature/1082840
 [ref10010]: https://inspirehep.net/literature/1299339
-[ref10011]: https://inspirehep.net/literature/1299339
+[ref10011]: https://inspirehep.net/literature/1290559
 [ref10012]: https://inspirehep.net/literature/684137
 [ref10013]: https://inspirehep.net/literature/684137
 [ref10014]: https://inspirehep.net/literature/650244
