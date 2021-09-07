@@ -1,6 +1,6 @@
 # Polarized DIS
 
-This repo contains data on polarized inclusive deep inelastic scattering
+This repo contains data on semi-inclusive polarized inclusive deep inelastic scattering
 
 ## Notes
 
