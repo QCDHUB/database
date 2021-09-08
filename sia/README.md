@@ -20,7 +20,7 @@
 | 1016  | [link][SLD04]    | SIA     | pion   | 91.28 | SLD(c)      |              |
 | 1017  | [link][SLD04]    | SIA     | pion   | 91.28 | SLD(b)      |              |
 | 1018  | [link][ALEPH95]  | SIA     | pion   | 91.2  | ALEPH       |              |
-| 1019  |      | SIA     | pion   | 91.2  | OPAL        |              |
+| 1019  | [link][OPAL94]     | SIA     | pion   | 91.2  | OPAL        |              |
 | 1020  |      | SIA     | pion   | 91.2  | OPAL(u)     |              |
 | 1021  |      | SIA     | pion   | 91.2  | OPAL(d)     |              |
 | 1022  |      | SIA     | pion   | 91.2  | OPAL(s)     |              |
@@ -48,7 +48,7 @@
 | 2016  | [link][SLD04]     | SIA     | kaon   | 91.28 | SLD(c)      |              |
 | 2017  | [link][SLD04]     | SIA     | kaon   | 91.28 | SLD(b)      |              |
 | 2018  | [link][ALEPH95]    | SIA     | kaon   | 91.2  | ALEPH       |              |
-| 2019  |      | SIA     | kaon   | 91.2  | OPAL        |              |
+| 2019  | [link][OPAL94]     | SIA     | kaon   | 91.2  | OPAL        |              |
 | 2020  |      | SIA     | kaon   | 91.2  | OPAL(u)     |              |
 | 2021  |      | SIA     | kaon   | 91.2  | OPAL(d)     |              |
 | 2022  |      | SIA     | kaon   | 91.2  | OPAL(s)     |              |
@@ -91,6 +91,6 @@
 [TOPAZ95]:   https://inspirehep.net/literature/381900
 [SLD04]:     https://inspirehep.net/literature/630327
 [ALEPH95]:   https://inspirehep.net/literature/382179
-
+[OPAL94]:    https://inspirehep.net/literature/372772
 
 
