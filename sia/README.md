@@ -1,20 +1,20 @@
 # SIA
 
-| index | ref            | process | hadron | RS    | experiment  | Notes        |
-| :--:  | :--:           | :--:    | :--:   | :--:  | :--:        | :--:         |
-| 1001  | [link][TASSO]  | SIA     | pion   | 12    | TASSO       |              |
-| 1002  | [link][TASSO]  | SIA     | pion   | 14    | TASSO       |              |
-| 1003  |      | SIA     | pion   | 22    | TASSO       |              |
-| 1004  |      | SIA     | pion   | 30    | TASSO       |              |
-| 1005  |      | SIA     | pion   | 34    | TASSO       |              |
-| 1006  |      | SIA     | pion   | 44    | TASSO       |              |
-| 1007  |      | SIA     | pion   | 29    | TPC         | '84          |
-| 1008  |      | SIA     | pion   | 29    | TPC         | '88          |
-| 1009  |      | SIA     | pion   | 29    | TPC(uds)    |              |
-| 1010  |      | SIA     | pion   | 29    | TPC(c)      |              |
-| 1011  |      | SIA     | pion   | 29    | TPC(b)      |              |
-| 1012  |      | SIA     | pion   | 29    | HRS         |              |
-| 1013  |      | SIA     | pion   | 58    | TOPAZ       |              |
+| index | ref              | process | hadron | RS    | experiment  | Notes        |
+| :--:  | :--:             | :--:    | :--:   | :--:  | :--:        | :--:         |
+| 1001  | [link][TASSO80]  | SIA     | pion   | 12    | TASSO       |              |
+| 1002  | [link][TASSO83]  | SIA     | pion   | 14    | TASSO       |              |
+| 1003  | [link][TASSO83]  | SIA     | pion   | 22    | TASSO       |              |
+| 1004  | [link][TASSO80]  | SIA     | pion   | 30    | TASSO       |              |
+| 1005  | [link][TASSO89]  | SIA     | pion   | 34    | TASSO       |              |
+| 1006  | [link][TASSO89]  | SIA     | pion   | 44    | TASSO       |              |
+| 1007  | [link][TPC84]    | SIA     | pion   | 29    | TPC         | '84          |
+| 1008  | [link][TPC88]    | SIA     | pion   | 29    | TPC         | '88          |
+| 1009  |      | SIA       | pion   | 29    | TPC(uds)    |              |
+| 1010  |      | SIA       | pion   | 29    | TPC(c)      |              |
+| 1011  |      | SIA       | pion   | 29    | TPC(b)      |              |
+| 1012  | [link][HRS87]    | SIA     | pion   | 29    | HRS         |              |
+| 1013  | [link][TOPAZ95]  | SIA     | pion   | 58    | TOPAZ       |              |
 | 1014  |      | SIA     | pion   | 91.28 | SLD         |              |
 | 1015  |      | SIA     | pion   | 91.28 | SLD(uds)    |              |
 | 1016  |      | SIA     | pion   | 91.28 | SLD(c)      |              |
@@ -33,16 +33,16 @@
 | 1029  |      | SIA     | pion   | 10.52 | BELLE       |              |
 | 1030  |      | SIA     | pion   | 9.98  | ARGUS       |              |
 | 1031  |      | SIA     | pion   | 10.52 | BABAR       | conventional |
-| 2001  |      | SIA     | kaon   | 12    | TASSO       |              |
-| 2002  |      | SIA     | kaon   | 14    | TASSO       |              |
-| 2003  |      | SIA     | kaon   | 22    | TASSO       |              |
-| 2004  |      | SIA     | kaon   | 30    | TASSO       |              |
-| 2005  |      | SIA     | kaon   | 34    | TASSO       |              |
-| 2006  |      | SIA     | kaon   | 44    | TASSO       |              |
-| 2007  |      | SIA     | kaon   | 29    | TPC84       |              |
-| 2008  |      | SIA     | kaon   | 29    | TPC88       |              |
-| 2012  |      | SIA     | kaon   | 29    | HRS         |              |
-| 2013  |      | SIA     | kaon   | 58    | TOPAZ       |              |
+| 2001  | [link][TASSO80]     | SIA     | kaon   | 12    | TASSO       |              |
+| 2002  | [link][TASSO83]     | SIA     | kaon   | 14    | TASSO       |              |
+| 2003  | [link][TASSO83]     | SIA     | kaon   | 22    | TASSO       |              |
+| 2004  | [link][TASSO80]     | SIA     | kaon   | 30    | TASSO       |              |
+| 2005  | [link][TASSO89]     | SIA     | kaon   | 34    | TASSO       |              |
+| 2006  | [link][TASSO89]     | SIA     | kaon   | 44    | TASSO       |              |
+| 2007  | [link][TPC84]     | SIA     | kaon   | 29    | TPC84       |              |
+| 2008  | [link][TPC88]     | SIA     | kaon   | 29    | TPC88       |              |
+| 2012  | [link][HRS87]     | SIA     | kaon   | 29    | HRS         |              |
+| 2013  | [link][TOPAZ95]   | SIA     | kaon   | 58    | TOPAZ       |              |
 | 2014  |      | SIA     | kaon   | 91.28 | SLD         |              |
 | 2015  |      | SIA     | kaon   | 91.28 | SLD(uds)    |              |
 | 2016  |      | SIA     | kaon   | 91.28 | SLD(c)      |              |
@@ -82,14 +82,13 @@
 
 30XX: pythia
 
-[TASSO]:   https://doi.org/10.1016/0370-2693(81)90104-0
-
-
-
-
-
-
-
+[TASSO80]:   https://doi.org/10.1016/0370-2693(81)90104-0
+[TASSO83]:   https://inspirehep.net/literature/195333
+[TASSO89]:   https://inspirehep.net/literature/267755
+[TPC84]:     https://inspirehep.net/literature/195994
+[TPC88]:     https://inspirehep.net/literature/262143
+[HRS87]:     https://journals.aps.org/prd/abstract/10.1103/PhysRevD.35.2639
+[TOPAZ95]:   https://inspirehep.net/literature/381900
 
 
 
