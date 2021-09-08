@@ -15,11 +15,11 @@
 | 1011  |      | SIA       | pion   | 29    | TPC(b)      |              |
 | 1012  | [link][HRS87]    | SIA     | pion   | 29    | HRS         |              |
 | 1013  | [link][TOPAZ95]  | SIA     | pion   | 58    | TOPAZ       |              |
-| 1014  |      | SIA     | pion   | 91.28 | SLD         |              |
-| 1015  |      | SIA     | pion   | 91.28 | SLD(uds)    |              |
-| 1016  |      | SIA     | pion   | 91.28 | SLD(c)      |              |
-| 1017  |      | SIA     | pion   | 91.28 | SLD(b)      |              |
-| 1018  |      | SIA     | pion   | 91.2  | ALEPH       |              |
+| 1014  | [link][SLD04]    | SIA     | pion   | 91.28 | SLD         |              |
+| 1015  | [link][SLD04]    | SIA     | pion   | 91.28 | SLD(uds)    |              |
+| 1016  | [link][SLD04]    | SIA     | pion   | 91.28 | SLD(c)      |              |
+| 1017  | [link][SLD04]    | SIA     | pion   | 91.28 | SLD(b)      |              |
+| 1018  | [link][ALEPH95]  | SIA     | pion   | 91.2  | ALEPH       |              |
 | 1019  |      | SIA     | pion   | 91.2  | OPAL        |              |
 | 1020  |      | SIA     | pion   | 91.2  | OPAL(u)     |              |
 | 1021  |      | SIA     | pion   | 91.2  | OPAL(d)     |              |
@@ -43,11 +43,11 @@
 | 2008  | [link][TPC88]     | SIA     | kaon   | 29    | TPC88       |              |
 | 2012  | [link][HRS87]     | SIA     | kaon   | 29    | HRS         |              |
 | 2013  | [link][TOPAZ95]   | SIA     | kaon   | 58    | TOPAZ       |              |
-| 2014  |      | SIA     | kaon   | 91.28 | SLD         |              |
-| 2015  |      | SIA     | kaon   | 91.28 | SLD(uds)    |              |
-| 2016  |      | SIA     | kaon   | 91.28 | SLD(c)      |              |
-| 2017  |      | SIA     | kaon   | 91.28 | SLD(b)      |              |
-| 2018  |      | SIA     | kaon   | 91.2  | ALEPH       |              |
+| 2014  | [link][SLD04]     | SIA     | kaon   | 91.28 | SLD         |              |
+| 2015  | [link][SLD04]     | SIA     | kaon   | 91.28 | SLD(uds)    |              |
+| 2016  | [link][SLD04]     | SIA     | kaon   | 91.28 | SLD(c)      |              |
+| 2017  | [link][SLD04]     | SIA     | kaon   | 91.28 | SLD(b)      |              |
+| 2018  | [link][ALEPH95]    | SIA     | kaon   | 91.2  | ALEPH       |              |
 | 2019  |      | SIA     | kaon   | 91.2  | OPAL        |              |
 | 2020  |      | SIA     | kaon   | 91.2  | OPAL(u)     |              |
 | 2021  |      | SIA     | kaon   | 91.2  | OPAL(d)     |              |
@@ -89,7 +89,8 @@
 [TPC88]:     https://inspirehep.net/literature/262143
 [HRS87]:     https://journals.aps.org/prd/abstract/10.1103/PhysRevD.35.2639
 [TOPAZ95]:   https://inspirehep.net/literature/381900
-
+[SLD04]:     https://inspirehep.net/literature/630327
+[ALEPH95]:   https://inspirehep.net/literature/382179
 
 
 
