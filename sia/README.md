@@ -2,7 +2,7 @@
 
 | index | ref  | process | hadron | RS    | experiment  | Notes        |
 | :--:  | :--: | :--:    | :--:   | :--:  | :--:        | :--:         |
-| 1001  |      | SIA     | pion   | 12    | TASSO       |              |
+| 1001  | [link][TASSO]     | SIA     | pion   | 12    | TASSO       |              |
 | 1002  |      | SIA     | pion   | 14    | TASSO       |              |
 | 1003  |      | SIA     | pion   | 22    | TASSO       |              |
 | 1004  |      | SIA     | pion   | 30    | TASSO       |              |
@@ -82,7 +82,7 @@
 
 30XX: pythia
 
-
+[TASSO]:   https://doi.org/10.1016/0370-2693(81)90104-0
 
 
 
