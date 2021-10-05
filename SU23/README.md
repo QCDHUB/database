@@ -15,6 +15,17 @@ SU2 and SU3 data.  Data Index:
 | 50001 |  SU2      | nominal with uncertainties divided by 1000 |
 | 50002 |  SU3      | nominal with uncertainties divided by 1000 |
 
+<br>
+
+Lattice full moment data.  Data Index:
+
+<br>
+
+| index | ref               | obs      | col      |
+| :--:  | :--:              | :--:     | :--:     |
+| 60001 | [link][ref60001]  | u+,d+,s+ | ETMC     |
+| 60002 | [link][ref60002]  | g        | xQCD     |
 
 
-
+[ref60001]: https://inspirehep.net/literature/1787020
+[ref60002]: https://inspirehep.net/literature/1487442
