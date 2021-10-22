@@ -2,8 +2,8 @@
 
 ## data tables
 
-| index | data                     | normalization | collision | algorithm | paper in                 | data recorded in | collaboration |
-| ----- | -----                    | -----         | -----     | -----     | -----                    | -----            | -----         |
+| index | data                     | normalization | collision | algorithm                 | paper in                 | data recorded in | collaboration |
+| ----- | -----                    | -----         | -----     | -----                     | -----                    | -----            | -----         |
 | 20001 | [drupal][link.20001.d]   | no            | `pp`      | cone                      | [2006][link.20001.p]     | 2003 and 2004    | STAR          |
 | 20002 | [drupal][link.20002.d]   | yes           | `pp`      | cone                      | [2012][link.20002.p]     | 2005             | STAR          |
 | 20003 | [drupal][link.20003.d]   | yes           | `pp`      | cone                      | [2012][link.20003.p]     | 2006             | STAR          |
@@ -11,6 +11,7 @@
 | 20005 | [phenix][link.20005.d]   | yes           | `pp`      | cone                      | [2011][link.20005.p]     | 2005             | PHENIX        |
 | 20006 | [drupal][link.20006.d]   | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2019][link.20006.p]     | 2012             | STAR          |
 | 20007 | [drupal][link.20007.d]   | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2021][link.20007.p]     | 2015             | STAR          |
+| 20008 | [drupal][link.20008.d]   | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2021][link.20008.p]     | 2013             | STAR          |
 
 <br>
 
@@ -22,7 +23,8 @@
 [link.20004.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/217/data.html
 [link.20005.d]: https://www.phenix.bnl.gov/phenix/WWW/info/data/ppg093_data.html
 [link.20006.d]: https://drupal.star.bnl.gov/STAR/files/starpublications/310/data.html
-[link.20007.d]: https://drupal.star.bnl.gov/STAR/publications
+[link.20007.d]: https://drupal.star.bnl.gov/STAR/publications/longitudinal-double-spin-asymmetry-inclusive-jet-and-dijet-production-polarized-proton-
+[link.20008.d]: https://drupal.star.bnl.gov/STAR/publications
 
 [link.20001.p]: https://doi.org/10.1103/PhysRevLett.97.252001 'DOI'
 [link.20002.p]: https://doi.org/10.1103/PhysRevD.86.032006 'DOI'
@@ -31,6 +33,7 @@
 [link.20005.p]: https://doi.org/10.1103/PhysRevD.84.012006 'DOI'
 [link.20006.p]: https://doi.org/10.1103/PhysRevD.100.052005 'DOI'
 [link.20007.p]: https://doi.org/10.1103/PhysRevD.103.L091103 'DOI'
+[link.20008.p]: https://arxiv.org/abs/2110.11020 'arXiv'
 
 ## observables
 
