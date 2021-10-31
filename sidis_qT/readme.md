@@ -164,7 +164,6 @@
 | 9044  | [link][9044]                 | COMPASS  | h-      | AUTsinphiS-z>0.2 |            | x                    |
 | 10000 | combining 1008 and 1009[^1]  | deuteron | h+, h-  | M_Compass        | compass    | -                    |
 
-[^1]: Nobuo pushed this in April 2020 with some additional columns added.
 
 
 
