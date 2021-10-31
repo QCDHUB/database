@@ -165,6 +165,7 @@
 | 10000 | combining 1008 and 1009[^1]  | deuteron | h+, h-  | M_Compass        | compass    | -                    |
 
 
+[^1]: Nobuo pushed this in April 2020 with some additional columns added.
 
 
 
