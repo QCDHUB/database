@@ -164,6 +164,11 @@
 | 9044  | [link][9044]                 | COMPASS  | h-      | AUTsinphiS-z>0.2 |            | x                    |
 | 10000 | combining 1008 and 1009[^1]  | deuteron | h+, h-  | M_Compass        | compass    | -                    |
 
+[^1]: Nobuo pushed this in April 2020 with some additional columns added.
+
+
+
+
 
 [?]: http://inspirehep.net/
 [M_HERMES_2012]: http://inspirehep.net/record/1208547 and http://hermesmults.appspot.com  Configuration: zxpt-3D (x: 6, z: 6, Php: 7)
@@ -177,11 +182,6 @@
 [Collins_HERMES_2010]: https://inspirehep.net/record/859154
 [Collins_COMPASS_2012]: http://inspirehep.net/record/1115720
 [AUT_COMPASS_2016]: https://inspirehep.net/record/1487909
-
-
-
-
-[^1]: Nobuo pushed this in April 2020 with some additional columns added.
 
 
 
