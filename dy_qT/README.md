@@ -53,19 +53,29 @@
 | 90004 | [link][refD01.96]  | pp->Z/gamma*          |  1/sig dsig/dpT  | D0           |  
 | 90005 | [link][refD0m1.96]  | pp->Z/gamma*          |  1/sig dsig/dpT  | D0           |  
 
+
+Notice: In the fits we should used born level leptons as we use the born level lepton tensor.
+
 [refCMS]: https://inspirehep.net/literature/1753680, https://www.hepdata.net/record/ins1753680
 
-10001-10005: Figures 15 to 19. The measured normalized cross sections in bins of Z pt in |y(Z)| bins, using dressed level leptons. The cross sections are divided by the bin width and then the distributions are normalized to 1. Systematic uncertainties are largely reduced for the normalized cross section measurements.
+10001-10005: Figures 15 to 19. The measured normalized cross sections in bins of Z pt in |y(Z)| bins, using DRESSED level leptons. The cross sections are divided by the bin width and then the distributions are normalized to 1. Systematic uncertainties are largely reduced for the normalized cross section measurements.
 
-10006-10010: Figures 9 to 13. The measured absolute cross sections in bins of Z pt different |y(Z)| bins using dressed level leptons. The cross sections are normalized by the bin width.
+10006-10010: Figures 9 to 13. The measured absolute cross sections in bins of Z pt different |y(Z)| bins using DRESSED level leptons. The cross sections are normalized by the bin width.
+
+10011-10015: Figures 10 to 14. The measured absolute cross sections in bins of Z pt different |y(Z)| bins, using BORN level leptons. The cross sections are normalized by the bin width. The first bin (0-1 GeV) is not shown as large differences were observed in aMC@NLO and POWHEG predictions at Born level.
+
+
+10016-10020:  Auxiliary Figures 16 to 20. The measured normalized cross sections (left) in bins of Z pt in |y(Z)| bins, using BORN level leptons. The first bin (0-1 GeV) is not shown as large differences were observed in aMC@NLO and POWHEG predictions at Born level. The cross sections are divided by the bin width and then the distributions are normalized to 1.
 
 channel: Z/gamma*, 13 teV
 
-The [a[er states that normalized cross sections have smaller errors. 
-
+The paper states that normalized cross sections have smaller errors. 
 
 
 [refCMS8]: https://inspirehep.net/literature/1471281, https://www.hepdata.net/record/ins1471281
+
+The effect of QED final-state radiation (FSR) is implemented by using PYTHIA.
+
 Normalized fiducial differential cross sections of Z0 boson decaying to dimuon at pre-FSR level.
 Normalized fiducial differential cross sections of W+ boson and W- boson decaying to electron plus neutrino and positron plus neutrino respectively at the pre-FSR level.
 Z/gamma* and W, 8 TeV
