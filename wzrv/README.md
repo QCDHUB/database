@@ -45,6 +45,12 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 | 2017  | [link][ref2017]        | p + p     | Asym     | 8.00      | 20           |  LHCb      
 | 2020  | [link][ref2020]        | p + p     | RW       | 0.51      | 25           |  STAR      
 
+## Tables not yet included
+
+| index | ref                    | particles | obs      | RS (TeV)  | pT min (GeV) |  experiment
+| :--:  | :--:                   | :--       | :--:     | :--:      | :--:         |  :--:      
+| 2021  | [link][ref2021]        | p + p     | Asym     | 13.00     | 26           |  CMS       
+
 ## Non-inclusive data tables
 | index | ref                    | particles | obs      | RS (TeV)  | pT min (GeV) |  experiment
 | :--:  | :--:                   | :--       | :--:     | :--:      | :--:         |  :--:      
@@ -76,27 +82,20 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
   * DSA: Double-spin asymmetry
 * Tables outside of ones currently used may not be correct
 * Double spin asymmetries have not been implemented in the code
-* Single spin asymmetris with W+Z have not been implemented in the code
 
 ## Tables used in current analyses
 
 | index | ref                    | particles | obs      | RS (TeV)  | pT cut (GeV) | experiment   | 
 | :--:  | :--:                   | :--       | :--:     | :--:      | :--:         | :--:         | 
 | 1000  | [link][ref1000]        | p + p     | SSA(W)   | 0.51      | 25           | STAR         | 
+| 1020  | [link][ref1020]        | p + p     | SSA(W+Z)  | 0.51      | 30           | PHENIX       | 
+| 1021  | [link][ref1021]        | p + p     | SSA(W+Z)  | 0.51      | 16           | PHENIX       | 
 
 ## Double spin asymmetries
 
 | index | ref                    | particles | obs       | RS (TeV)  | pT cut (GeV) | experiment   | 
 | :--:  | :--:                   | :--       | :--:      | :--:      | :--:         | :--:         | 
 | 1010  | [link][ref1000]        | p + p     | DSA(W)    | 0.51      | 25           | STAR         | 
-
-## Single spin asymmetries (W+Z)
-
-| index | ref                    | particles | obs       | RS (TeV)  | pT cut (GeV) | experiment   | 
-| :--:  | :--:                   | :--       | :--:      | :--:      | :--:         | :--:         | 
-| 1020  | [link][ref1020]        | p + p     | SSA(W+Z)  | 0.51      | 30           | PHENIX       | 
-| 1021  | [link][ref1021]        | p + p     | SSA(W+Z)  | 0.51      | 16           | PHENIX       | 
-
 
 [ref1000]:      https://inspirehep.net/record/1708793 
 [ref1020]:      https://inspirehep.net/literature/1365091
@@ -114,6 +113,7 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 [ref2016]:      https://inspirehep.net/literature/1311488
 [ref2017]:      https://inspirehep.net/literature/1406555
 [ref2020]:      https://inspirehep.net/literature/1829350
+[ref2021]:      https://inspirehep.net/literature/1810913
 
 
 
