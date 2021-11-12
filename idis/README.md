@@ -11,7 +11,7 @@
 ## tables used in current analyses
 
 | index | ref                    | process | target   | obs       | experiment               | notes             |
-| :--:  | :--:                   | :--:    | :--      | :--:      | :--:                     | :--:              |
+| :--:  | :--:                   | :--:    | :--:     | :--:      | :--:                     | :--:              |
 | 10010 | [link][ref10010-10015] | DIS     | proton   | F2        | SLAC                     | [more][com_slac]  |
 | 10011 | [link][ref10010-10015] | DIS     | deuteron | F2        | SLAC                     | [more][com_slac]  |
 | 10016 | [link][ref10016]       | DIS     | proton   | F2        | BCDMS                    | [more][com_BCDMS] |
@@ -35,7 +35,7 @@
 ## tables with reduced cross section 
 
 | index | ref                    | process | target   | obs       | experiment | notes             |
-| :--:  | :--:                   | :--:    | :--      | :--:      | :--:       | :--:              |
+| :--:  | :--:                   | :--:    | :--:     | :--:      | :--:       | :--:              |
 | 10022 | [link][ref10020]       | DIS     | proton   | sigma red | NMC        | [more][com_NMCsp] |
 | 10040 | [link][ref10020]       | DIS     | deuteron | sigma red | NMC        | [more][com_NMCsp] | 
 | 10014 | [link][ref10010-10015] | DIS     | proton   | sigma red | SLAC       | [more][com_sigma] | 
@@ -49,7 +49,7 @@
 ## other tables
 
 | index | ref                    | process | target   | obs              | experiment               | notes             |
-| :--:  | :--:                   | :--:    | :--      | :--:             | :--:                     | :--:              |
+| :--:  | :--:                   | :--:    | :--:     | :--:             | :--:                     | :--:              |
 | 10022 | [link][ref10020]       | DIS     | proton   | sigma red        | NMC                      | [more][com_NMCsp] |
 | 10023 | [link][ref10021]       | DIS     | d/p      | sigma red        | NMC                      | [more][?]         |
 | 10024 | [link][ref10020]       | DIS     | proton   | R                | NMC                      | [more][?]         |
@@ -67,7 +67,7 @@
  
 ## heavy quark tables
 | index | ref                    | process | target   | obs              | experiment            | notes             |
-| :--:  | :--:                   | :--:    | :--      | :--:             | :--:                  | :--:              |
+| :--:  | :--:                   | :--:    | :--:     | :--:             | :--:                  | :--:              |
 | 10037 |                        | DIS     | proton   | sigcc_r          | HERA I and II         |                   | 
 | 10038 |                        | DIS     | proton   | sigbb_r          | HERA I and II         |                   | 
 
