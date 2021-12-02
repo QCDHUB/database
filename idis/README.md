@@ -71,6 +71,13 @@
 | 10037 |                        | DIS     | proton   | sigcc_r          | HERA I and II         |                   | 
 | 10038 |                        | DIS     | proton   | sigbb_r          | HERA I and II         |                   | 
 
+## parity violating DIS tables
+| index | ref                    | process | target   | obs              | experiment            | notes             |
+| :--:  | :--:                   | :--:    | :--:     | :--:             | :--:                  | :--:              |
+| 10060 | [link][ref10060]       | PVDIS   | deuteron | A_PV_e           | JLab                  |                   | 
+| 10061 | [link][ref10061]       | PVDIS   | deuteron | A_PV_e           | SLAC                  |                   | 
+
+
 [ref10001-10004]: http://inspirehep.net/record/820503?ln=en
 [ref10005-10009]: http://inspirehep.net/record/894309
 [ref10010-10015]: https://inspirehep.net/literature/319089
@@ -82,6 +89,8 @@
 [ref10033]: https://inspirehep.net/record/1280957?ln=en
 [ref10041]: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.103.202301
 [ref10050-10051]: https://inspirehep.net/literature/1858035
+[ref10060]: https://inspirehep.net/literature/1280371
+[ref10061]: https://inspirehep.net/literature/141711
 
 [com10001]:  comments/jl00106.md
 [com10005]:  comments/HERMES_DIS.md
