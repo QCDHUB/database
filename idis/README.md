@@ -74,8 +74,9 @@
 ## parity violating DIS tables
 | index | ref                    | process | target   | obs              | experiment            | notes             |
 | :--:  | :--:                   | :--:    | :--:     | :--:             | :--:                  | :--:              |
-| 10060 | [link][ref10060]       | PVDIS   | deuteron | A_PV_e           | JLab                  |                   | 
-| 10061 | [link][ref10061]       | PVDIS   | deuteron | A_PV_e           | SLAC                  |                   | 
+| 10054 | [link][ref10054]       | PVDIS   | proton   | A_PV_e           | SLAC                  |                   | 
+| 10055 | [link][ref10054]       | PVDIS   | deuteron | A_PV_e           | SLAC                  |                   | 
+| 10056 | [link][ref10056]       | PVDIS   | deuteron | A_PV_e           | JLab                  |                   |
 
 
 [ref10001-10004]: http://inspirehep.net/record/820503?ln=en
@@ -89,8 +90,8 @@
 [ref10033]: https://inspirehep.net/record/1280957?ln=en
 [ref10041]: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.103.202301
 [ref10050-10051]: https://inspirehep.net/literature/1858035
-[ref10060]: https://inspirehep.net/literature/1280371
-[ref10061]: https://inspirehep.net/literature/141711
+[ref10054]: https://inspirehep.net/literature/141711
+[ref10056]: https://inspirehep.net/literature/1280371
 
 [com10001]:  comments/jl00106.md
 [com10005]:  comments/HERMES_DIS.md
