@@ -11,7 +11,7 @@
 ## tables used in current analyses
 
 | index | ref                    | process | target   | obs       | experiment               | notes             |
-| :--:  | :--:                   | :--:    | :--      | :--:      | :--:                     | :--:              |
+| :--:  | :--:                   | :--:    | :--:     | :--:      | :--:                     | :--:              |
 | 10010 | [link][ref10010-10015] | DIS     | proton   | F2        | SLAC                     | [more][com_slac]  |
 | 10011 | [link][ref10010-10015] | DIS     | deuteron | F2        | SLAC                     | [more][com_slac]  |
 | 10016 | [link][ref10016]       | DIS     | proton   | F2        | BCDMS                    | [more][com_BCDMS] |
@@ -25,17 +25,17 @@
 | 10030 | [link][ref10026]       | DIS     | proton   | sigma red | HERA II NC e-            | [more][com_HERA2] |
 | 10031 | [link][ref10026]       | DIS     | proton   | sigma red | HERA II CC e+            | [more][com_HERA2] |
 | 10032 | [link][ref10026]       | DIS     | proton   | sigma red | HERA II CC e-            | [more][com_HERA2] |
-| 10002 | [link][ref10001-10004] | DIS     | deuteron | F2        | JLab Hall C (E00-106)    | [more][com10001]  |
-| 10003 | [link][ref10001-10004] | DIS     | proton   | sigma red | JLab Hall C (E00-106)    | [more][com10001]  |
+| 10002 | [link][ref10001-10004] | DIS     | deuteron | F2        | JLab Hall C (E00-116)    | [more][com10001]  |
+| 10003 | [link][ref10001-10004] | DIS     | proton   | sigma red | JLab Hall C (E00-116)    | [more][com10001]  |
 | 10033 | [link][ref10033]       | DIS     | n/d      | F2        | BONUS                    | [more][com_BONUS] |
-| 10041 | [link][ref10041]       | DIS     | h/d      | F2        | JLab Hall C (E00-106)    |                   | 
+| 10041 | [link][ref10041]       | DIS     | h/d      | F2        | JLab Hall C (E03-103)    |                   | 
 | 10050 | [link][ref10050-10051] | DIS     | d/p      | F2        | MARATHON                 |                   | 
 | 10051 | [link][ref10050-10051] | DIS     | h/t      | F2        | MARATHON                 |                   |
 
 ## tables with reduced cross section 
 
 | index | ref                    | process | target   | obs       | experiment | notes             |
-| :--:  | :--:                   | :--:    | :--      | :--:      | :--:       | :--:              |
+| :--:  | :--:                   | :--:    | :--:     | :--:      | :--:       | :--:              |
 | 10022 | [link][ref10020]       | DIS     | proton   | sigma red | NMC        | [more][com_NMCsp] |
 | 10040 | [link][ref10020]       | DIS     | deuteron | sigma red | NMC        | [more][com_NMCsp] | 
 | 10014 | [link][ref10010-10015] | DIS     | proton   | sigma red | SLAC       | [more][com_sigma] | 
@@ -49,7 +49,7 @@
 ## other tables
 
 | index | ref                    | process | target   | obs              | experiment               | notes             |
-| :--:  | :--:                   | :--:    | :--      | :--:             | :--:                     | :--:              |
+| :--:  | :--:                   | :--:    | :--:     | :--:             | :--:                     | :--:              |
 | 10022 | [link][ref10020]       | DIS     | proton   | sigma red        | NMC                      | [more][com_NMCsp] |
 | 10023 | [link][ref10021]       | DIS     | d/p      | sigma red        | NMC                      | [more][?]         |
 | 10024 | [link][ref10020]       | DIS     | proton   | R                | NMC                      | [more][?]         |
@@ -67,9 +67,17 @@
  
 ## heavy quark tables
 | index | ref                    | process | target   | obs              | experiment            | notes             |
-| :--:  | :--:                   | :--:    | :--      | :--:             | :--:                  | :--:              |
+| :--:  | :--:                   | :--:    | :--:     | :--:             | :--:                  | :--:              |
 | 10037 |                        | DIS     | proton   | sigcc_r          | HERA I and II         |                   | 
 | 10038 |                        | DIS     | proton   | sigbb_r          | HERA I and II         |                   | 
+
+## parity violating DIS tables
+| index | ref                    | process | target   | obs              | experiment            | notes             |
+| :--:  | :--:                   | :--:    | :--:     | :--:             | :--:                  | :--:              |
+| 10054 | [link][ref10054]       | PVDIS   | proton   | A_PV_e           | SLAC                  |                   | 
+| 10055 | [link][ref10054]       | PVDIS   | deuteron | A_PV_e           | SLAC                  |                   | 
+| 10056 | [link][ref10056]       | PVDIS   | deuteron | A_PV_e           | JLab                  |                   |
+
 
 [ref10001-10004]: http://inspirehep.net/record/820503?ln=en
 [ref10005-10009]: http://inspirehep.net/record/894309
@@ -82,6 +90,8 @@
 [ref10033]: https://inspirehep.net/record/1280957?ln=en
 [ref10041]: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.103.202301
 [ref10050-10051]: https://inspirehep.net/literature/1858035
+[ref10054]: https://inspirehep.net/literature/141711
+[ref10056]: https://inspirehep.net/literature/1280371
 
 [com10001]:  comments/jl00106.md
 [com10005]:  comments/HERMES_DIS.md
