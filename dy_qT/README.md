@@ -28,6 +28,11 @@
 | 10008 | [link][refCMS]   | pp->Z/gamma*           |       dsig/dpT  | CMS           |  
 | 10009 | [link][refCMS]   | pp->Z/gamma*           |       dsig/dpT  | CMS           |  
 | 10010 | [link][refCMS]   | pp->Z/gamma*           |       dsig/dpT  | CMS           |  
+| 10011 | [link][refCMS]   | pp->Z/gamma*           |       dsig/dpT  | CMS           |  
+| 10012 | [link][refCMS]   | pp->Z/gamma*           |       dsig/dpT  | CMS           |  
+| 10013 | [link][refCMS]   | pp->Z/gamma*           |       dsig/dpT  | CMS           |  
+| 10014 | [link][refCMS]   | pp->Z/gamma*           |       dsig/dpT  | CMS           |  
+| 10015 | [link][refCMS]   | pp->Z/gamma*           |       dsig/dpT  | CMS           |  
 | 20001 | [link][refCMS8]  | pp->Z/gamma*->mu+mi-   | 1/sig dsig/dpT  | CMS           |  
 | 20002 | [link][refCMS8]  | pp->W->e nu           | 1/sig dsig/dpT  | CMS           |  
 | 20003 | [link][refCMS8]  | pp->W->mu nu          | 1/sig dsig/dpT  | CMS           |  
@@ -62,7 +67,7 @@ Notice: In the fits we should used born level leptons as we use the born level l
 
 10006-10010: Figures 9 to 13. The measured absolute cross sections in bins of Z pt different |y(Z)| bins using DRESSED level leptons. The cross sections are normalized by the bin width.
 
-10011-10015: Figures 10 to 14. The measured absolute cross sections in bins of Z pt different |y(Z)| bins, using BORN level leptons. The cross sections are normalized by the bin width. The first bin (0-1 GeV) is not shown as large differences were observed in aMC@NLO and POWHEG predictions at Born level.
+10011-10015: Auxiliary Figures 10 to 14. The measured absolute cross sections in bins of Z pt different |y(Z)| bins, using BORN level leptons. The cross sections are normalized by the bin width. The first bin (0-1 GeV) is not shown as large differences were observed in aMC@NLO and POWHEG predictions at Born level.
 
 
 10016-10020:  Auxiliary Figures 16 to 20. The measured normalized cross sections (left) in bins of Z pt in |y(Z)| bins, using BORN level leptons. The first bin (0-1 GeV) is not shown as large differences were observed in aMC@NLO and POWHEG predictions at Born level. The cross sections are divided by the bin width and then the distributions are normalized to 1.
