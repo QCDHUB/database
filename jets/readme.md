@@ -2,12 +2,12 @@
 
 ## data tables
 
-| index | data                     | normalization | collision | algorithm            |paper in                 | data recorded in      | collaboration |
-| ----- | -----                    | -----         | -----     | -----                |-----                    | -----                 | -----         |
-| 10001 | [HEP Data][link.10001.d] | yes           | `ppb`     | cone                 |[2008][link.10001.p]     | 2004 to 2005 (run II) | D0            |
-| 10002 | [HEP Data][link.10002.d] | yes           | `ppb`     | <i>k<sub>T</sub></i> |[2007][link.10002.p]     | 2002 to 2006 (run II) | CDF           |
-| 10003 | [drupal][link.10003.d]   | yes           | `pp`      | cone                 |[2006][link.10003.p]     | 2003                  | STAR          |
-| 10004 | [drupal][link.10004.d]   | yes           | `pp`      | cone                 |[2006][link.10004.p]     | 2004                  | STAR          |
+| index | data                     | normalization | collision | algorithm            | paper in             | data recorded in      | collaboration |
+| ----- | -----                    | -----         | -----     | -----                | -----                | -----                 | -----         |
+| 10001 | [HEP Data][link.10001.d] | yes           | `ppb`     | cone                 | [2008][link.10001.p] | 2004 to 2005 (run II) | D0            |
+| 10002 | [HEP Data][link.10002.d] | yes           | `ppb`     | <i>k<sub>T</sub></i> | [2007][link.10002.p] | 2002 to 2006 (run II) | CDF           |
+| 10003 | [drupal][link.10003.d]   | yes           | `pp`      | cone                 | [2006][link.10003.p] | 2003                  | STAR          |
+| 10004 | [drupal][link.10004.d]   | yes           | `pp`      | cone                 | [2006][link.10004.p] | 2004                  | STAR          |
 
 <br/>
 
@@ -36,8 +36,7 @@
 - `idx`: indices
 - `col`: collaboration
 - `particles-in`: `pp` for proton proton collision and `ppb` for proton anti proton collision
-- `RS`: $\sqrt{s}$ in GeV
-- `RS`: <math><mroot>s</mroot></math> in GeV
+- `RS`: center-of-mass energy in GeV
 - `pt-min`: minimum <i>p<sub>T</sub></i> in GeV
 - `pt-max`: maximum <i>p<sub>T</sub></i> in GeV
 - `pT`: average <i>p<sub>T</sub></i> in GeV
@@ -48,7 +47,7 @@
 - `eta-max`: maximum <i>&eta;</i>
 - `cone-radius`: radius used in Jet algorithm
 - `obs`: observable[^1]
-- `units`: `pb` for pico barn and `nb` for nano barn[^2]
+- `units`: `pb` for pico-barn and `nb` for nano-barn[^2]
 - `value`: experimental values of observable
 - `plot-factor`: multiplier for separating <i>&eta;</i> bins in plots
 
@@ -58,15 +57,14 @@
 
 ## uncertainties and corrections
 
-When either the systematic or statistical uncertainties have a positive and negative and are different in magnitude, only the one with a larger magnitude is written in the data file.
+When any type of uncertainty has a positive and negative values that are different in magnitude, only the one with larger magnitude will be used[^3].
 
-- `_c` means correlated and and `_u` means uncorrelated
-
-- `%` means the uncertainty or normalization or other types of corrections is a percentage
-
+- `_c` means "correlated" and and `_u` means "uncorrelated"
+- `%` means the uncertainty, normalization or any other type of correction is a percentage
 - `norm` is reserved for normalization
-
 - `parton-to-hadron` is the correction from parton level calculation to hadron level, it is 1 plus the relative correction
+
+[^3]: This is to make sure that we do not underestimate uncertainties.
 
 ## CDF
 - We have examined carefully CJ15, the correlated systematic uncertainties are added in quadrature.

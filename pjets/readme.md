@@ -2,16 +2,16 @@
 
 ## data tables
 
-| index | data                     | normalization | collision | algorithm                 | paper in                 | data recorded in | collaboration |
-| ----- | -----                    | -----         | -----     | -----                     | -----                    | -----            | -----         |
-| 20001 | [drupal][link.20001.d]   | no            | `pp`      | cone                      | [2006][link.20001.p]     | 2003 and 2004    | STAR          |
-| 20002 | [drupal][link.20002.d]   | yes           | `pp`      | cone                      | [2012][link.20002.p]     | 2005             | STAR          |
-| 20003 | [drupal][link.20003.d]   | yes           | `pp`      | cone                      | [2012][link.20003.p]     | 2006             | STAR          |
-| 20004 | [drupal][link.20004.d]   | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2015][link.20004.p]     | 2009             | STAR          |
-| 20005 | [phenix][link.20005.d]   | yes           | `pp`      | cone                      | [2011][link.20005.p]     | 2005             | PHENIX        |
-| 20006 | [drupal][link.20006.d]   | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2019][link.20006.p]     | 2012             | STAR          |
-| 20007 | [drupal][link.20007.d]   | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2021][link.20007.p]     | 2015             | STAR          |
-| 20008 | [drupal][link.20008.d]   | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2021][link.20008.p]     | 2013             | STAR          |
+| index | data                   | normalization | collision | algorithm                 | paper in             | data recorded in | collaboration |
+| ----- | -----                  | -----         | -----     | -----                     | -----                | -----            | -----         |
+| 20001 | [drupal][link.20001.d] | no            | `pp`      | cone                      | [2006][link.20001.p] | 2003 and 2004    | STAR          |
+| 20002 | [drupal][link.20002.d] | yes           | `pp`      | cone                      | [2012][link.20002.p] | 2005             | STAR          |
+| 20003 | [drupal][link.20003.d] | yes           | `pp`      | cone                      | [2012][link.20003.p] | 2006             | STAR          |
+| 20004 | [drupal][link.20004.d] | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2015][link.20004.p] | 2009             | STAR          |
+| 20005 | [phenix][link.20005.d] | yes           | `pp`      | cone                      | [2011][link.20005.p] | 2005             | PHENIX        |
+| 20006 | [drupal][link.20006.d] | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2019][link.20006.p] | 2012             | STAR          |
+| 20007 | [drupal][link.20007.d] | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2021][link.20007.p] | 2015             | STAR          |
+| 20008 | [drupal][link.20008.d] | yes           | `pp`      | anti-<i>k<sub>T</sub></i> | [2021][link.20008.p] | 2013             | STAR          |
 
 <br>
 
@@ -44,7 +44,7 @@
 - `idx`: indices
 - `col`: collaboration
 - `particles-in`: `pp` for proton proton collision and `ppb` for proton anti proton collision
-- `RS`: $\sqrt{s}$ in GeV
+- `RS`: center-of-mass energy in GeV
 - `pt-min`: minimum <i>p<sub>T</sub></i> in GeV
 - `pt-max`: maximum <i>p<sub>T</sub></i> in GeV
 - `pT`: average <i>p<sub>T</sub></i> in GeV
@@ -55,7 +55,7 @@
 - `eta-max`: maximum <i>&eta;</i>
 - `cone-radius`: radius used in Jet algorithm
 - `obs`: observable[^1]
-- `units`: `pb` for pico barn and `nb` for nano barn[^2]
+- `units`: `pb` for pico-barn and `nb` for nano-barn[^2]
 - `value`: experimental values of observable
 
 [^1]: `<` and `>` can only be used as a pair to represent averaging
@@ -65,12 +65,14 @@
 
 ## uncertainties and corrections
 
-When either the systematic or statistical uncertainties have a positive and negative and are different in magnitude, only the one with a larger magnitude is written in the data file.
+When any type of uncertainty has a positive and negative values that are different in magnitude, only the one with larger magnitude will be used[^3].
 
-- `_c` means correlated and and `_u` means uncorrelated uncertainties
-- `%` means the uncertainty or normalization is a percentage
+- `_c` means "correlated" and and `_u` means "uncorrelated"
+- `%` means the uncertainty, normalization or any other type of correction is a percentage
 - `norm` is reserved for normalization
 - `parton-to-hadron` is the correction from parton level calculation to hadron level, it is 1 plus a relative correction
+
+[^3]: This is to make sure that we do not underestimate uncertainties.
 
 ## STAR 2019 paper on 2012 data
 According to the paper, part of the systematic uncertainties in STAR 2012 data (2019 paper) are uncorrelated.
