@@ -41,8 +41,8 @@ This repo contains data on semi-inclusive polarized inclusive deep inelastic sca
 [refHERMES]:   https://inspirehep.net/literature/654756
 [refCOMPASSp]: https://inspirehep.net/literature/862410
 [refCOMPASSd]: https://inspirehep.net/literature/820721
-[refHERMESh]:  https://inspirehep.net/literature/
-[refSMC]:      https://inspirehep.net/literature/
+[refHERMESh]:  https://inspirehep.net/literature/502312
+[refSMC]:      https://inspirehep.net/literature/451092
 
 
 
