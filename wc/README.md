@@ -14,10 +14,9 @@ To be filled
 | :--:    | :--:                   | :--       | :--:     | :--:      | :--:      | :--:      | :--:      | :--:      |  :--:      
 | ATLAS7Wp| [link][refATLAS7]      | p + p     | sig      | 7.00      | > 25      | > 8       | > 20      | > 25      |  ATLAS       
 | ATLAS7Wm| [link][refATLAS7]      | p + p     | sig      | 7.00      | > 25      | > 8       | > 20      | > 25      |  ATLAS    
-| CMS7Wp  | [link][refCMS7]        | p + p     | sig      | 7.00      | > 25      | N/A       | > 25      |  N/A      |  CMS     
-| CMS7Wm  | [link][refCMS7]        | p + p     | sig      | 7.00      | > 25      | N/A       | > 25      |  N/A      |  CMS       
-| CMS13Wp | [link][refCMS13]       | p + p     | sig      | 13.00     | > 5       | N/A       | > 26      |  N/A      |  CMS       
-| CMS13Wm | [link][refCMS13]       | p + p     | sig      | 13.00     | > 5       | N/A       | > 26      |  N/A      |  CMS  
+| CMS7WpWm_add  | [link][refCMS7] (tab6)      | p + p     | Wp+Wm      | 7.00      | > 25      | N/A       | > 25      |  N/A      |  CMS     
+| CMS7WpWm_ratio  | [link][refCMS7] (tab7)       | p + p     | Wp/Wm      | 7.00      | > 25      | N/A       | > 25      |  N/A      |  CMS       
+| CMS13WpWm_add | [link][refCMS13]       | p + p     | Wp+Wm      | 13.00     | > 5       | N/A       | > 26      |  N/A      |  CMS
 
 [refATLAS7]:     https://inspirehep.net/literature/1282447
 [refCMS7]:       https://inspirehep.net/literature/1256938
