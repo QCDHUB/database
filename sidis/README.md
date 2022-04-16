@@ -1,13 +1,3 @@
-
-- 1007  proton   , mult , pi+ , HERMES, Q2-z
-- 1008  proton   , mult , pi- , HERMES, Q2-z
-- 1009  deuteron , mult , pi+ , HERMES, Q2-z
-- 1010  deuteron , mult , pi- , HERMES, Q2-z
-- 2007  proton   , mult , K+ , HERMES, Q2-z
-- 2008  proton   , mult , K- , HERMES, Q2-z
-- 2009  deuteron , mult , K+ , HERMES, Q2-z
-- 2010  deuteron , mult , K- , HERMES, Q2-z
-
 # Semi-Inclusive DIS
 
 This repo contains data on semi-inclusive deep inelastic scattering
