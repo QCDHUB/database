@@ -1,10 +1,10 @@
 # Polarized DIS
 
-This repo contains data on semi-inclusive polarized inclusive deep inelastic scattering
+This repo contains data on semi-inclusive polarized deep inelastic scattering
 
 ## Notes
 
-* Targets: proton (p), deuteorn (d), helium (h)
+* Targets: proton (p), deuteron (d), helium (h)
 
 ## Tables used in current analyses
 | index | ref                 | target   | obs  | hadron |  experiment      | Notes                             |
