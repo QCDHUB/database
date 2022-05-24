@@ -87,7 +87,7 @@
 [TPC84]:     https://inspirehep.net/literature/195994
 [TPC86]:     https://inspirehep.net/literature/241108
 [TPC88]:     https://inspirehep.net/literature/262143
-[HRS87]:     https://journals.aps.org/prd/abstract/10.1103/PhysRevD.35.2639
+[HRS87]:     https://inspirehep.net/literature/215848
 [TOPAZ95]:   https://inspirehep.net/literature/381900
 [SLD04]:     https://inspirehep.net/literature/630327
 [ALEPH95]:   https://inspirehep.net/literature/382179
