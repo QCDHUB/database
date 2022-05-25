@@ -62,22 +62,22 @@
 | 2030  | [link][ARGUS89]  | SIA     | kaon   | 9.98  | ARGUS       |              |
 | 2031  | [link][DELPHI98] | SIA     | kaon   | 91.2  | DELPHI      |'95 (no pions)|
 | 2032  |                  | SIA     | kaon   | 10.52 | BABAR       | conventional |
-| 4000  |                  | SIA     | hadron | 91.2  | ALEPH       |              |
-| 4001  |                  | SIA     | hadron | 91.2  | DELPHI      |              |
-| 4002  |                  | SIA     | hadron | 91.28 | SLD         |              |
+| 4000  | [link][ALEPH95]  | SIA     | hadron | 91.2  | ALEPH       |              |
+| 4001  | [link][DELPHI98] | SIA     | hadron | 91.2  | DELPHI      |              |
+| 4002  | [link][SLD04]    | SIA     | hadron | 91.28 | SLD         |              |
 | 4003  |                  | SIA     | hadron | 12    | TASSO       |              |
-| 4004  |                  | SIA     | hadron | 29    | TPC         |              |
-| 4005  |                  | SIA     | hadron | 91.2  | OPAL(b)     |              |
-| 4006  |                  | SIA     | hadron | 91.2  | OPAL(c)     |              |
-| 4007  |                  | SIA     | hadron | 91.2  | OPAL        |              |
+| 4004  | [link][TPC88]    | SIA     | hadron | 29    | TPC         |              |
+| 4005  | [link][OPAL00]   | SIA     | hadron | 91.2  | OPAL(b)     |              |
+| 4006  | [link][OPAL00]   | SIA     | hadron | 91.2  | OPAL(c)     |              |
+| 4007  | [link][OPAL94]   | SIA     | hadron | 91.2  | OPAL        |              |
 | 4008  |                  | SIA     | hadron | 14    | TASSO       |              |
 | 4009  |                  | SIA     | hadron | 22    | TASSO       |              |
 | 4010  |                  | SIA     | hadron | 30    | TASSO       |              |
-| 4011  |                  | SIA     | hadron | 35    | TASSO       |              |
-| 4012  |                  | SIA     | hadron | 44    | TASSO       |              |
-| 4013  |                  | SIA     | hadron | 91.2  | DELPHI(b)   |              |
-| 4014  |                  | SIA     | hadron | 91.28 | SLD(c)      |              |
-| 4015  |                  | SIA     | hadron | 91.28 | SLD(b)      |              |
+| 4011  | [link][TASSO89]  | SIA     | hadron | 35    | TASSO       |              |
+| 4012  | [link][TASSO89]  | SIA     | hadron | 44    | TASSO       |              |
+| 4013  | [link][DELPHI98] | SIA     | hadron | 91.2  | DELPHI(b)   |              |
+| 4014  | [link][SLD04]    | SIA     | hadron | 91.28 | SLD(c)      |              |
+| 4015  | [link][SLD04]    | SIA     | hadron | 91.28 | SLD(b)      |              |
 
 30XX: pythia
 
