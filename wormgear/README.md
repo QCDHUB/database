@@ -14,8 +14,8 @@
 | 10002 | [link][refHERMES]      | SIDIS   | A_LTcos(phi_h-phi_S)  | proton   | pi-     | HERMES             |                   |
 | 10010 | [link][refCOMPASS]     | SIDIS   | A_LTcos(phi_h-phi_S)  | proton   | h+      | COMPASS            |                   |
 | 10011 | [link][refCOMPASS]     | SIDIS   | A_LTcos(phi_h-phi_S)  | proton   | h-      | COMPASS            |                   |
-| 10020 | [link][refJLab]        | SIDIS   | A_LTcos(phi_h-phi_S)  | proton   | pi+     | JLab               |                   |
-| 10021 | [link][refJLab]        | SIDIS   | A_LTcos(phi_h-phi_S)  | proton   | pi-     | JLab               |                   |
+| 10020 | [link][refJLab]        | SIDIS   | A_LTcos(phi_h-phi_S)  | neutron  | pi+     | JLab               |                   |
+| 10021 | [link][refJLab]        | SIDIS   | A_LTcos(phi_h-phi_S)  | neutron  | pi-     | JLab               |                   |
 
 
 
