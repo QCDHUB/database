@@ -13,14 +13,11 @@
 
 <br/>
 
-1. file `sigma_inelastic.npy` stores the [nucleon-nucleon inelastic cross section][link.sigma_inelastic] <i>&sigma;<sub>NN</sub></i>[^1]
-2. datasets start with:
+1. datasets start with:
     - <b>1</b> for &pi;<sup>&pm;</sup> production
     - <b>2</b> for <i>K</i><sup>&pm;</sup> production
-3. datasets 10005 and 10006 (20005 and 20006 as well) are taken from the same paper
-4. the observables in 10005 and 20005 are the ratio of the cross sections at 13 TeV to those at 7 TeV
-
-[^1]: See table II in the reference for more details.
+2. datasets 10005 and 10006 (20005 and 20006 as well) are taken from the same paper
+3. the observables in 10005 and 20005 are the ratio of the cross sections at 13 TeV to those at 7 TeV
 
 [link.10001.d]: https://www.hepdata.net/record/ins1276299 'HEPData'
 [link.10002.d]: https://www.hepdata.net/record/ins1684320 'HEPData'
@@ -34,15 +31,19 @@
 [link.10004.p]: https://doi.org/10.1140/epjc/s10052-020-8125-1 'DOI'
 [link.10005.p]: https://doi.org/10.1140/epjc/s10052-020-08690-5 'DOI'
 
-[link.sigma_inelastic]: https://doi.org/10.1103/PhysRevC.97.054910 'DOI'
-
 ## observables
 
 - d<sup>2</sup><i>N</i> / (<i>N</i> <sub>inel</sub> d<i>p<sub>T</sub></i> d<i>y</i>)
 - d<sup>2</sup><i>N</i> / (2 &pi; <i>p<sub>T</sub></i> <i>N</i> <sub>inel</sub> d<i>p<sub>T</sub></i> d<i>y</i>)
 - d<sup>2</sup><i>N</i> / (<i>N</i> <sub>vis</sub> d<i>p<sub>T</sub></i> d<i>y</i>)
 
-where "inel" means inelastic cross section and "vis" means visible cross section.
+where "inel" means inelastic cross section[^1] and "vis" means visible cross section[^2].
+
+[^1]: See table II in the [reference][link.sigma_inelastic] for the values.
+[^2]: See section 2 in the [reference][link.sigma_visible] for the values at 13 TeV.
+
+[link.sigma_inelastic]: https://doi.org/10.1103/PhysRevC.97.054910 'DOI'
+[link.sigma_visible]: https://cds.cern.ch/record/2160174
 
 ## headers
 
@@ -61,18 +62,18 @@ where "inel" means inelastic cross section and "vis" means visible cross section
     - `dN/N_inel-dy-dpT` for d<sup>2</sup><i>N</i> / (<i>N</i> <sub>inel</sub> d<i>p<sub>T</sub></i> d<i>y</i>)
     - `dN/2-pi-pT-N_inel-dy-dpT` for d<sup>2</sup><i>N</i> / (2 &pi; <i>p<sub>T</sub></i> <i>N</i> <sub>inel</sub> d<i>p<sub>T</sub></i> d<i>y</i>)
     - `dN/N_vis-dy-dpT` for d<sup>2</sup><i>N</i> / (<i>N</i> <sub>vis</sub> d<i>p<sub>T</sub></i> d<i>y</i>)
-- `unit`: unit of <b>theoretical calculation</b>[^2], `pb` for pico-barn, `nb` for nano-barn and `mb` for milli-barn[^3]
+- `unit`: unit of <b>theoretical calculation</b>[^3], `pb` for pico-barn, `nb` for nano-barn and `mb` for milli-barn[^4]
 - `value`: experimental values of the observable
 
-[^2]: <b>NOT</b> for experimental data! Actually these experiments usually provide events counts, which does not have a unit of "barn".
-[^3]: Values of `units` have to be the same for the whole dataset, because the numeric unit conversion factor is only based on the first entry.
+[^3]: <b>NOT</b> for experimental data! Actually these experiments usually provide events counts, which does not have a unit of "barn".
+[^4]: Values of `units` have to be the same for the whole dataset, because the numeric unit conversion factor is only based on the first entry.
 
 ## uncertainties and corrections
 
-When any type of uncertainty has a positive and negative values that are different in magnitude, only the one with larger magnitude will be used[^4].
+When any type of uncertainty has a positive and negative values that are different in magnitude, only the one with larger magnitude will be used[^5].
 
 - `_c` means "correlated" and and `_u` means "uncorrelated"
 - `%` means the uncertainty, normalization or any other type of correction is a percentage
 - `norm` is reserved for normalization
 
-[^4]: Make sure that we do not underestimate uncertainties.
+[^5]: Make sure that we do not underestimate uncertainties.
