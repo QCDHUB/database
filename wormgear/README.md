@@ -19,9 +19,9 @@
 
 
 
-[refHERMES]:  http://inspirehep.net/literature/
-[refCOMPASS]: http://inspirehep.net/literature/
-[refJLab]:    http://inspirehep.net/literature/
+[refHERMES]:  http://inspirehep.net/literature/1806922
+[refCOMPASS]: http://inspirehep.net/literature/1487909
+[refJLab]:    http://inspirehep.net/literature/921786
 
 
 

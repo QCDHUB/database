@@ -9,6 +9,7 @@
 | 10772 | Ed<sup>3</sup>sigma/dp<sup>3</sup> | H2     | E=800 GeV         | E772      | [link][ref10772tab] | [link][refE772] | has erratum correction |
 | 18660 | Ed<sup>3</sup>sigma/dp<sup>3</sup> | p      | E=800 GeV         | E866      |                     | [link][refE866] | unpublished PhD thesis |
 | 10209 | dsigma/dp<sub>T</sub><sup>2</sup>  | H2     | rS=62 GeV         | R209      | [link][ref10209tab] | [link][refR209] | taken from a plot      |
+| 11772 | ratios                             | R/H2   | E=800 GeV         | E772      | [link][refE772ratios] | [link][refE772ratios] |                 |
 
 
 [ref12881tab]: http://hepdata.cedar.ac.uk/review-cgi/drell1/p_N_mu/fnal_288/pt_200
@@ -26,4 +27,7 @@
 
 [ref10209tab]: http://hepdata.cedar.ac.uk/review-cgi/drell1/p_p_mu/cern_r209/pt_62
 [refR209]: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.48.302
+
+
+[refE772ratios]: https://p25ext.lanl.gov/e866/papers/papers.html, https://p25ext.lanl.gov/e866/papers/e772dy/dypt.txt, https://inspirehep.net/literature/303588
 
