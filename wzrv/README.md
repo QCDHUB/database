@@ -85,9 +85,9 @@ Example process:  p + p --> W<sup>-</sup> --> e<sup>-</sup> + &nu;
 
 ## Tables used in current analyses
 
-| index | ref                    | particles | obs      | RS (TeV)  | pT cut (GeV) | experiment   | 
-| :--:  | :--:                   | :--       | :--:     | :--:      | :--:         | :--:         | 
-| 1000  | [link][ref1000]        | p + p     | SSA(W)   | 0.51      | 25           | STAR         | 
+| index | ref                    | particles | obs       | RS (TeV)  | pT cut (GeV) | experiment   | 
+| :--:  | :--:                   | :--       | :--:      | :--:      | :--:         | :--:         | 
+| 1000  | [link][ref1000]        | p + p     | SSA(W)    | 0.51      | 25           | STAR         | 
 | 1020  | [link][ref1020]        | p + p     | SSA(W+Z)  | 0.51      | 30           | PHENIX       | 
 | 1021  | [link][ref1021]        | p + p     | SSA(W+Z)  | 0.51      | 16           | PHENIX       | 
 
