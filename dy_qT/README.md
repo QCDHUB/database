@@ -57,7 +57,7 @@
 | 90003 | [link][refD01.8]  | pp->Z/gamma*          |   dsig/dpT  | D0          |  
 | 90004 | [link][refD01.96]  | pp->Z/gamma*          |  1/sig dsig/dpT  | D0           |  
 | 90005 | [link][refD0m1.96]  | pp->Z/gamma*          |  1/sig dsig/dpT  | D0           |  
-
+| 90006 | [link][refCDF1.8W]  | pp->W          |   dsig/dpT  | CDF           |  
 
 Notice: In the fits we should used born level leptons as we use the born level lepton tensor.
 
@@ -113,3 +113,5 @@ TODO: there is also data in dsigma/dpT we need to decide if we collect and use i
 [refD01.96]: https://inspirehep.net/literature/769689, https://www.hepdata.net/record/ins769689
 
 [refD0m1.96]: https://inspirehep.net/literature/856972, https://www.hepdata.net/record/ins856972
+
+[refCDF1.8W]: https://inspirehep.net/literature/314225, https://www.hepdata.net/record/ins314225
