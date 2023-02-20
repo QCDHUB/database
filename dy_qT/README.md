@@ -58,7 +58,7 @@
 | 90004 | [link][refD01.96]  | pp->Z/gamma*          |  1/sig dsig/dpT  | D0           |  
 | 90005 | [link][refD0m1.96]  | pp->Z/gamma*          |  1/sig dsig/dpT  | D0           |  
 | 90006 | [link][refCDF1.8W]  | pp->W          |   dsig/dpT  | CDF           |  
-| 90007 | [link][refD01.8W]  | pp->W          |   dsig/dpT  | D0           |  
+| 90007 | [link][refD01.8W]  | pp->W          |  1/sig dsig/dpT  | D0           |  
 
 Notice: In the fits we should used born level leptons as we use the born level lepton tensor.
 
