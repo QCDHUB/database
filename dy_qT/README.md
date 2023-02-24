@@ -84,6 +84,7 @@
 | 90006 | [link][refCDF1.8W] | [link][refCDF1.8Wtab] | pp->W                 |        dsig/dpT | CDF           |  
 | 90007 | [link][refD01.8W]  | [link][refD01.8Wtab]  | pp->W                 |         1/sig dsig/dpT | D0            |  
 | 80002 | [link][refSTAR]  | [link][refSTARtab]  | pp->Z/gamma*          |  dsig/dpT | STAR        |  
+| 70113 | [link][refATLAS13]  | [link][refATLAS13tab]  | pp->Z/gamma*          |        dsig/dpT | ATLAS         |
 
 Notice: In the fits we should used born level leptons as we use the born level lepton tensor.
 
@@ -154,30 +155,34 @@ The measured normalized combined (electron and muon channels) cross section (1/S
 
 70107-70112 Bins in mll, integrated over rapidity, data here are only for combination of electron and muon channels at Born level. More data in source if needed
 
+<ins>ATLAS 13</ins>
+[refATLAS13]: https://inspirehep.net/literature/1768911
+[refATLAS13tab]:https://www.hepdata.net/record/ins1768911
+
+<ins>PHENIX</ins>
 [refPHENIX]: https://inspirehep.net/literature/1672015
 [refPHENIXtab]: ...tobeadded...
-
+<ins>STAR</ins>
 [refSTAR]: STAR preliminary
 [refSTARtab]: ...tobeadded...
-
+<ins>CDF 1.8</ins>
 [refCDF1.8]: https://inspirehep.net/literature/505738
 [refCDF1.8tab]: https://www.hepdata.net/record/ins505738
-
+<ins>CDF 1.96</ins>
 [refCDF1.96]: https://inspirehep.net/literature/1124333
 [refCDF1.96tab]: https://www.hepdata.net/record/ins1124333
-
+<ins>D0 1.8</ins>
 [refD01.8]: https://inspirehep.net/literature/503361
 [refD01.8tab]: https://www.hepdata.net/record/ins503361
-
+<ins>D0 1.96</ins>
 [refD01.96]: https://inspirehep.net/literature/769689
 [refD01.96tab]: https://www.hepdata.net/record/ins769689
-
+<ins>D0 1.96m</ins>
 [refD0m1.96]: https://inspirehep.net/literature/856972
 [refD0m1.96tab]: https://www.hepdata.net/record/ins856972
-
-
+<ins>CDF 1.8W</ins>
 [refCDF1.8W]: https://inspirehep.net/literature/314225
 [refCDF1.8Wtab]: https://www.hepdata.net/record/ins314225
-
+<ins>D0 1.8W</ins>
 [refD01.8W]: https://inspirehep.net/literature/467749
 [refD01.8Wtab]: https://www.hepdata.net/record/ins467749
