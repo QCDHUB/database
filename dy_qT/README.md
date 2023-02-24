@@ -83,6 +83,7 @@
 | 90005 | [link][refD0m1.96] | [link][refD0m1.96tab] | pp->Z/gamma*          |  1/sig dsig/dpT | D0            |  
 | 90006 | [link][refCDF1.8W] | [link][refCDF1.8Wtab] | pp->W                 |        dsig/dpT | CDF           |  
 | 90007 | [link][refD01.8W]  | [link][refD01.8Wtab]  | pp->W                 |         1/sig dsig/dpT | D0            |  
+| 80002 | [link][refSTAR]  | [link][refSTARtab]  | pp->Z/gamma*          |  dsig/dpT | STAR        |  
 
 Notice: In the fits we should used born level leptons as we use the born level lepton tensor.
 
@@ -155,6 +156,9 @@ The measured normalized combined (electron and muon channels) cross section (1/S
 
 [refPHENIX]: https://inspirehep.net/literature/1672015
 [refPHENIXtab]: ...tobeadded...
+
+[refSTAR]: STAR preliminary
+[refSTARtab]: ...tobeadded...
 
 [refCDF1.8]: https://inspirehep.net/literature/505738
 [refCDF1.8tab]: https://www.hepdata.net/record/ins505738
